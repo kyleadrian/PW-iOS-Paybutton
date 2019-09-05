@@ -1,0 +1,1877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0390F8A43D7C2D21A25D6E1903BAE18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		0A82805D79F4BBBB798C60335F1AA141 /* Pods-PayButton-PayButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E96CE4C911469014F0E2F1995EBA02A /* Pods-PayButton-PayButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1DEB4CF286891C9BA3F13C541D541E /* UIProgressView+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A827D8C5B6E951D1933E954F8B2E0 /* UIProgressView+MPAFNetworking.m */; };
+		0E3C8F28A8C632459A423CFEE6FF1F4C /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D55E4175C9B50DEC046CFCFE181BC4C /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D8C5F0B354F908924A0DC25F21DBCE /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6E52E24F35FA4AB4755DF259CA8A59 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11DE3CCA9845C8F5E553F90F817A620B /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C6BD8F7EEECDF658F22A749BB766DF /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1243E7A133EEEA6AAF93663EC90BAB0D /* MPAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9608B5AE73012EA62FD9F8AE430AA2 /* MPAFURLSessionManager.m */; };
+		12ECB1CE1D09976447436018F795B2CB /* MPAFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAE6002B54296ABF5B0F6FBBCDC8BB0 /* MPAFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		157D4E9D025A440A63BADA2E10D71E56 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B33B947899E6581DC66005BCF3E6E621 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B6F4075781D944A604A14DCC76C432 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7656E1A073AF7D073852D48F1B74ABEA /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E18B7A161B84A673CC5B8A2CD40BFD /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7C7A2B6369FAF6CF132C1A1714C6AB /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214C9D8E4F0892715A600C60968A95A0 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2763B406E5CB69ADF46542867521FA /* DDFileLogger+Buffering.m */; };
+		233BF8063A8EF484B7A5CEDA1A8BFA81 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3129266E94DE229F5F0A88F07282FAC /* DDOSLogger.m */; };
+		23C09770EDECA17A0795F929792098AA /* UIButton+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BAA85C87D3CF3003364876C1E2CD2 /* UIButton+MPAFNetworking.m */; };
+		28BAEDFA6194B42F80E15A834E768D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		2AE2838C40310CFCA1897CC9386C3FDA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EB5B938802F986D305D37865A72F7F /* Security.framework */; };
+		2B22DC93AC32FEE098B8292BBDB3C0E0 /* UIWebView+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 001B65173F23088A771AA60BC9AC9FBC /* UIWebView+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B72D090953D90794A246E5D442B3CA1 /* UIActivityIndicatorView+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D192A07A2B614EA7848B6E6E3F40F6 /* UIActivityIndicatorView+MPAFNetworking.m */; };
+		312EEF9B1077C0041F2D778BDCFA9D9E /* UIRefreshControl+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2154B47CDEE236A3B3608ED2F9DABAAF /* UIRefreshControl+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374A775EDE8ECB712C339B4AD4D190CB /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC0F0D3AB372632062DF85748732C06 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378020660BE6CB7CD87A33F0CD4E01ED /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5316AC06933EF260FB65462C16686E1C /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C1AA60FBA6487DCFD3BC0D0932EB47 /* MPAFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E47FACC245D4F5B9617DE4F79F9BCF3 /* MPAFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE4B8C7A951D2E6C132A3F836AF4593 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B185E13846D8536A05B93A575D2205D8 /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D39CC0203768D01B61FFE1D30AB37B5 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98F971EE04BB784E3096AC7CB29996 /* DDMultiFormatter.m */; };
+		3F1F621145B04A49F8D42E936DAFBBE2 /* MPAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D3762E7F8569EE1211D00BB008E3E529 /* MPAFURLResponseSerialization.m */; };
+		3F48F1C78F9ACF790CFB3D240A60B5B3 /* MPAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EDEC70ADE8F04B14C49651DBB64E1 /* MPAFHTTPRequestOperation.m */; };
+		456D247B8C548E4593C41E179CA24EA0 /* Pods-PayButtonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7CE10E0AE6115513A3F7E0F6033136 /* Pods-PayButtonUITests-dummy.m */; };
+		47F64E9A36CBFEC9652F1B73DEFD2111 /* MPAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 650417CFF08B8C544565AA89003D814F /* MPAFHTTPSessionManager.m */; };
+		4AD87CF185EC02C1DDF81313499969EF /* MPAFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898AEBE7DF9DABCD46C23E2885DF095A /* MPAFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F6F12F02BDC8A74FF276777D24052D7 /* Pods-PayButtonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D03B44195180A91A908AB9381C08EDC0 /* Pods-PayButtonTests-dummy.m */; };
+		536C7FE7BA776E0A441F23637212806B /* MPAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75BE4C5234DE4739C947ED70CAA308 /* MPAFNetworkReachabilityManager.m */; };
+		5495278C7D5F971F08F53324E869ED08 /* Pods-PayButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F89BFA13D4608C7975FCC89AFB93E5F /* Pods-PayButton-dummy.m */; };
+		58954C6565D69A0B454291D880FFB4CA /* MPAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 476D34A5AE8D1DEC4B7CD4F1599BD327 /* MPAFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B1E4B75C289A2E0884AE9B9CCC2424 /* Pods-PayButtonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BE26B03944CD0C4E8D264C2C283D07 /* Pods-PayButtonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C362BF4BA980E7E043C0526706AB288 /* MPAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 483BF0C4BBF5ACB74E9E1C913B369538 /* MPAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E09280A6BE889B5A4F5C749072FBE31 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E078D48B0F5A092B16A568AAB5741 /* DDContextFilterLogFormatter.m */; };
+		60764489C47359ECB424ABDBED09F7C5 /* Lockbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B27AC8D2BA27A96B719B67B3EA52568 /* Lockbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628DBE12476874868723C6F90F792DD6 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 57483374D16F9B5E852B79E590599312 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A674D1F5F80D110F90519D0DA0549C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D25B76AAA34DD11D43763775E2E15F0 /* DDASLLogger.m */; };
+		6646C112513B7255E53E64AD0F952911 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375CAF75C683A88CBD6F95F8B6E9CAB /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B07672DF1C6BFB6F93981F5BF9D1A7 /* Pods-PayButton-PayButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C8AE6519713499EC734740D4B48E7 /* Pods-PayButton-PayButton-dummy.m */; };
+		680F2B7C688D5AA95F9269941BC68DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */; };
+		68132E39AEA340FC49AF5DAB8B4C784D /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 692876D665710D956314DB778724B6C3 /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6852834514081F0C72268E6A12442200 /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = AD87831F1FC4842FEEE89420C68E53A6 /* DDLoggerNames.m */; };
+		68F61AC4E26AF6133B0D335D32706BD4 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E3555B783A109094FFABE6DD12944D /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A13C978D99C6CFAE28E09C39719B22 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2FE670779B9F6B4400FBAE7CD7A218 /* DDDispatchQueueLogFormatter.m */; };
+		73DA30191811F6B82CCA00399CDD3A75 /* MPAFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288964745D5B5FC16B8F3BC89868977 /* MPAFHTTPRequestOperationManager.m */; };
+		756C7F4E042A83328213A2AFA4C7618F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		7ED7F2DE945D9231D5DF9E8EBFAD8958 /* MPAFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE0F2DD6712DC3F1293139F62183124 /* MPAFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FCD1C1F5011C0EBFDB420B8658413B /* MPAFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D70F9655FA1A6701706096BAB54AD229 /* MPAFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84672970BD4D898928A9BD41F002D0C2 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E1EAC952F073DB70DCAC0086FAE507 /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8541478994271DFE45565FDDD159DF02 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA197A8C883C54BAC42499C508D5A1 /* DDFileLogger.m */; };
+		85A855A26F5D3EB59B0D3B26521D6576 /* UIWebView+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EDFB377F2D58148ECD0A5FE46C4E6F /* UIWebView+MPAFNetworking.m */; };
+		8A34AB0D2E8A8206FEDA71DEF04E0520 /* MPAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7551A32C7C7923088749448255D1BA /* MPAFSecurityPolicy.m */; };
+		8A5E346D814C7375DB0C1EFA7293A56E /* UIImageView+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C861D7301F06D614C0AE53B953FB6C /* UIImageView+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8CC32B744BBA675ED934300D6B2A17 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5044867A45D80529EF9A71C00B78F /* DDTTYLogger.m */; };
+		8AE0A999D12F218A4503BB3849E875E0 /* MPAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D611FFC5C8AEFE44ECA93C79B5D8932 /* MPAFURLConnectionOperation.m */; };
+		8DAAD402250CD2B3724FF0B0818CB9D1 /* UIAlertView+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A891955CA6C2E1C633EDDBEDBEC732 /* UIAlertView+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906BCF9DB14803DA30903D98053F203C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EB5B938802F986D305D37865A72F7F /* Security.framework */; };
+		9552557C76B19AAF9DCE83F5B8E367BB /* UIActivityIndicatorView+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DD960F50F53EA02B11D15E2D65CAAA60 /* UIActivityIndicatorView+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9570A2D6A8A66F080525E70128459FDF /* UIImageView+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC8C954B974AEA0997AC80B6150A35 /* UIImageView+MPAFNetworking.m */; };
+		96714614E955E916ED8ABC131A7D90A2 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A739F25E7AC1A42B63E577569BFC452 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CDE1FCF591A944C8B08046AFCC968A /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C871D444C23B06134D36F8681E182452 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7ECC9678F747BF6BC68CEAAF5C2C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		9CA4E56609CDE602AEE0B561BA79348B /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5595A3EE5FC8E481658F3FA3FB96B829 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7D3B9808329DCFB87E1B1316F8FDB9 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E84519AF7CBC793609DBA4EAC51FC5 /* DDLog.m */; };
+		9FD39DAE99F8876269AF46DEB78E92DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		A72A835E93967EB4F2AC921F72BE8984 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C5D0F387C5B4C48AED429A0086C31E /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D7698617256A0AC526F3CE38F6ACDC /* MPAFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BD08BDE237DE9E498185ADF7F85590 /* MPAFNetworking-dummy.m */; };
+		B6CE8E10420E8975A549E56727579A97 /* MPAFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1E182F9CBE14633B2B4372382F1F72 /* MPAFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E5C93E0FA7B8635DCD9C6D85E55C2E /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CF142AF84986E6F9A44C25B5FFBC /* CLIColor.m */; };
+		BAE88A0997C8FCC514E51B2594DE3A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		BBEADF5AB31A9630AC7830D2BFE3C276 /* Pods-PayButtonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22786354FC1015E8867D6672FBCA1100 /* Pods-PayButtonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0667B8E05FCDC269C2DD4A876DF4101 /* MPAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B3D3C99AC0C9A4B24645AD2121065C /* MPAFURLRequestSerialization.m */; };
+		C2322FD7A26404062E47763810EBED75 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C12EE0AB586A0188D710DF6942D0F82 /* DDAbstractDatabaseLogger.m */; };
+		C37D50825DF941F53B74876CA8959CAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */; };
+		C43E5306D13A5B13874FD36CDFCCC82F /* Lockbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F803BBECFC0485F3D4FCEC704D29EB5C /* Lockbox.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8D153E5963D06050B9DF50703B0971B /* UIProgressView+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D41B8A08AAF89B32CE7C70E8EF53E7D /* UIProgressView+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC90A629D60A5E442A7A5F883DED0A2B /* MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF61D167DB16C1493A9618110130363 /* MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5825395E81DC3994131C36B1EF5FC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */; };
+		CE5C2F18EEBC2E8ADA36CC2338DE58CA /* UIKit+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A01C07E5DAE76DFE8BF39D6C0A77AA4 /* UIKit+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62DA7DC53D110CA2199756B9C2D71F0 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 79741AA6787FD2374630F744B3BA817B /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65F7137282178E1C77DD475C996F04E /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FF42000D19CC79F5B8EBAE5DAEE43 /* DDASLLogCapture.m */; };
+		D79BECC5D46B204DA29E14C2D53B49C7 /* MPAFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 103D9ED4E82DE23296227A104ECA732A /* MPAFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC093B0E3B1B2B94746FB6162B395D5D /* Lockbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3229B040B1878811965F0C815C0A7DE /* Lockbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16CF5DCE7766A9A9C953572E48A432F /* Pods-PayButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F57E14537CF7B4CD9F3BD8F1BE1E23C4 /* Pods-PayButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E330CE71E431992E894CB881A62A005F /* UIAlertView+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC585465628264620585E668C174B774 /* UIAlertView+MPAFNetworking.m */; };
+		E412A844A4C89BBE626C47B837667606 /* MPAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F239C4D51F7FDC55B2869051EA71B /* MPAFNetworkActivityIndicatorManager.m */; };
+		E5CBE83F1EB43E5FCB4116BDD44E95BD /* MPAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2CC0A495F5F9B300A6E017229670FD /* MPAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71FF10989B918933D0E77E93882A7E8 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67588EBE315E64FD1FA6B2530DB653FD /* CocoaLumberjack-dummy.m */; };
+		E866A840997CB9EADC4622C2A4A40C54 /* MPAFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4343195EE7EED71DFFFD4ABAA8AC67 /* MPAFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD475476EC74F1009E59F4B899F3DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
+		F3ED588FE6D046F199BDB197FDBD37AB /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 35811AFE3FF22A45F49BE526BBABE104 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD96069E8F539EF533C5BD28B36DD96 /* UIButton+MPAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B395E56B2226A657874D5C940E63A2D /* UIButton+MPAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4B2C91CAF8972747546F6ED7EA185D /* UIRefreshControl+MPAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA1B0EAD28458B63A275932DB02EFE /* UIRefreshControl+MPAFNetworking.m */; };
+		FDEB2389E0522E1F3A0F62E54E78FB8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */; };
+		FE0864F1925635757B35D59F30AC4359 /* Lockbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D09AD38B66787A832BC8F1E7F13A3AC /* Lockbox-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F3FE85A481A729BE71C4EF28449F711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88296F325EF755DE56B04F36838899A4;
+			remoteInfo = "Pods-PayButton";
+		};
+		5F11537940817BF5798FA661AC1B0283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0D6A7269ACD9621CF3FB7F75236BEA;
+			remoteInfo = CocoaLumberjack;
+		};
+		9A911B730975C0486F784565F2262689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E3088F632DB5338B77B9AB2FDEDFED;
+			remoteInfo = Lockbox;
+		};
+		D15BC7BFD96EB090E20193476E5C987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88296F325EF755DE56B04F36838899A4;
+			remoteInfo = "Pods-PayButton";
+		};
+		E7DCA511097A9FE58CB402B8842FFE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08916E0161DD54ED433F8AB0822BF591;
+			remoteInfo = MPAFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B65173F23088A771AA60BC9AC9FBC /* UIWebView+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+MPAFNetworking.h"; sourceTree = "<group>"; };
+		0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		050D2D300C9BDF1A871F9FBCF45B2AF6 /* Pods-PayButton-PayButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayButton-PayButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		069E078D48B0F5A092B16A568AAB5741 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		0773AEA165D42993F08F7EEFB259DC73 /* Pods-PayButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A01C07E5DAE76DFE8BF39D6C0A77AA4 /* UIKit+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIKit+MPAFNetworking.h"; sourceTree = "<group>"; };
+		0A739F25E7AC1A42B63E577569BFC452 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		0D25B76AAA34DD11D43763775E2E15F0 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		0DB2EDDCB40FFF6D1705F398FB869E00 /* Pods-PayButtonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayButtonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DC0F0D3AB372632062DF85748732C06 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		103D9ED4E82DE23296227A104ECA732A /* MPAFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFHTTPRequestOperationManager.h; path = AFNetworking/MPAFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		12C6780597F057BFAFC81C059078E66A /* Pods-PayButtonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButtonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		160EDEC70ADE8F04B14C49651DBB64E1 /* MPAFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFHTTPRequestOperation.m; path = AFNetworking/MPAFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		1B6C8AE6519713499EC734740D4B48E7 /* Pods-PayButton-PayButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayButton-PayButton-dummy.m"; sourceTree = "<group>"; };
+		1D09AD38B66787A832BC8F1E7F13A3AC /* Lockbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lockbox-dummy.m"; sourceTree = "<group>"; };
+		2154B47CDEE236A3B3608ED2F9DABAAF /* UIRefreshControl+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+MPAFNetworking.h"; sourceTree = "<group>"; };
+		22786354FC1015E8867D6672FBCA1100 /* Pods-PayButtonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayButtonUITests-umbrella.h"; sourceTree = "<group>"; };
+		231505C7008E111DDEF45D3461C9EF76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287DF783CDE4A0756FC5F1B335F3B460 /* Pods-PayButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayButton.modulemap"; sourceTree = "<group>"; };
+		28D312F6EA054B5E4FE0A6CDDE5DE94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299F5EDE59A531E1B47C162B4A9FAD3D /* Pods-PayButtonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayButtonTests.modulemap"; sourceTree = "<group>"; };
+		2E41115B8B4F7AF0E0EB05B38CAB8F1B /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		33D192A07A2B614EA7848B6E6E3F40F6 /* UIActivityIndicatorView+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+MPAFNetworking.m"; sourceTree = "<group>"; };
+		33DEC19731DE6BF03C1A97A06EF91BFA /* Pods-PayButton-PayButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayButton-PayButton.modulemap"; sourceTree = "<group>"; };
+		35811AFE3FF22A45F49BE526BBABE104 /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Classes/CLI/CLIColor.h; sourceTree = "<group>"; };
+		36EF6203397C88CDC523D1D0A13C4CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B3D3C99AC0C9A4B24645AD2121065C /* MPAFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFURLRequestSerialization.m; path = AFNetworking/MPAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		397BAA85C87D3CF3003364876C1E2CD2 /* UIButton+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIButton+MPAFNetworking.m"; sourceTree = "<group>"; };
+		3D55E4175C9B50DEC046CFCFE181BC4C /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		3D611FFC5C8AEFE44ECA93C79B5D8932 /* MPAFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFURLConnectionOperation.m; path = AFNetworking/MPAFURLConnectionOperation.m; sourceTree = "<group>"; };
+		42496339EBB35C939EAF9F727658B5BA /* Pods-PayButtonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayButtonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4375CAF75C683A88CBD6F95F8B6E9CAB /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		440D8F1C63A2A84B4CB50B54E5A8CD60 /* Pods-PayButtonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayButtonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		476D34A5AE8D1DEC4B7CD4F1599BD327 /* MPAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/MPAFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		483BF0C4BBF5ACB74E9E1C913B369538 /* MPAFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFURLConnectionOperation.h; path = AFNetworking/MPAFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4856A9BE57C8953B4A863C696F9BF09C /* Pods-PayButtonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButtonTests-resources.sh"; sourceTree = "<group>"; };
+		4BD78424C41375E73BC3EFE9992E01AF /* Pods_PayButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayButton.framework; path = "Pods-PayButton.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C75BE4C5234DE4739C947ED70CAA308 /* MPAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFNetworkReachabilityManager.m; path = AFNetworking/MPAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4CFC55BF5DFFAF7B6018062DB082EDE5 /* mpos_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_core.framework; sourceTree = "<group>"; };
+		4D41B8A08AAF89B32CE7C70E8EF53E7D /* UIProgressView+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+MPAFNetworking.h"; sourceTree = "<group>"; };
+		4E47FACC245D4F5B9617DE4F79F9BCF3 /* MPAFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFURLSessionManager.h; path = AFNetworking/MPAFURLSessionManager.h; sourceTree = "<group>"; };
+		4E7C7A2B6369FAF6CF132C1A1714C6AB /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		5119129898EF0145504136601F8CF56D /* Lockbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lockbox-prefix.pch"; sourceTree = "<group>"; };
+		51AC8C954B974AEA0997AC80B6150A35 /* UIImageView+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+MPAFNetworking.m"; sourceTree = "<group>"; };
+		51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		527C7285F4C57936C1229B8D388D0E67 /* Pods-PayButtonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayButtonUITests.modulemap"; sourceTree = "<group>"; };
+		5316AC06933EF260FB65462C16686E1C /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		5595A3EE5FC8E481658F3FA3FB96B829 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		56809424F6BE45F978810706E11985E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572184F5DB2466756C97835E143EC015 /* mpos_ui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_ui.framework; sourceTree = "<group>"; };
+		57483374D16F9B5E852B79E590599312 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		580F4C46BD35573FA3B6AB5F22DE440C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5944CCE3AEC58844905A9519203C623E /* mpos_comlinks_tcp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_comlinks_tcp.framework; sourceTree = "<group>"; };
+		5A98F971EE04BB784E3096AC7CB29996 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		5BAA1B0EAD28458B63A275932DB02EFE /* UIRefreshControl+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+MPAFNetworking.m"; sourceTree = "<group>"; };
+		5BC37B5385C06A3D549474D6B529C8CE /* MPAFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPAFNetworking.xcconfig; sourceTree = "<group>"; };
+		5C4FF42000D19CC79F5B8EBAE5DAEE43 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		5E1E182F9CBE14633B2B4372382F1F72 /* MPAFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFSecurityPolicy.h; path = AFNetworking/MPAFSecurityPolicy.h; sourceTree = "<group>"; };
+		5E6E52E24F35FA4AB4755DF259CA8A59 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		61BD08BDE237DE9E498185ADF7F85590 /* MPAFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPAFNetworking-dummy.m"; sourceTree = "<group>"; };
+		62EA197A8C883C54BAC42499C508D5A1 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		64508B87359C14A64AC98CD0A0C51E84 /* Pods-PayButtonUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButtonUITests-resources.sh"; sourceTree = "<group>"; };
+		650417CFF08B8C544565AA89003D814F /* MPAFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFHTTPSessionManager.m; path = AFNetworking/MPAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		66BE26B03944CD0C4E8D264C2C283D07 /* Pods-PayButtonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayButtonTests-umbrella.h"; sourceTree = "<group>"; };
+		66EB5B938802F986D305D37865A72F7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		67588EBE315E64FD1FA6B2530DB653FD /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		684E7B7AD84CF411BB22584E3742D652 /* Pods_PayButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayButtonUITests.framework; path = "Pods-PayButtonUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692876D665710D956314DB778724B6C3 /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Classes/DDLoggerNames.h; sourceTree = "<group>"; };
+		6B63CF142AF84986E6F9A44C25B5FFBC /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Classes/CLI/CLIColor.m; sourceTree = "<group>"; };
+		7412CCBF6D10B378D73C3D1DA6C6A2A1 /* mpos_accessories_miura_shuttle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_accessories_miura_shuttle.framework; sourceTree = "<group>"; };
+		75435A4BBFDABFB3E300921FD4B21C79 /* mpos_ui_resources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = mpos_ui_resources.bundle; sourceTree = "<group>"; };
+		7656E1A073AF7D073852D48F1B74ABEA /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		79741AA6787FD2374630F744B3BA817B /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
+		79C0D8515776201B0B858E4A4664A0E5 /* Pods-PayButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B395E56B2226A657874D5C940E63A2D /* UIButton+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIButton+MPAFNetworking.h"; sourceTree = "<group>"; };
+		7C12EE0AB586A0188D710DF6942D0F82 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		7F89BFA13D4608C7975FCC89AFB93E5F /* Pods-PayButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayButton-dummy.m"; sourceTree = "<group>"; };
+		8201E83CAD684A7EB6CEFB0626BB7F08 /* Lockbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lockbox.modulemap; sourceTree = "<group>"; };
+		8233476C2CF0E614636DEC547A14329C /* Pods-PayButton-PayButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButton-PayButton-resources.sh"; sourceTree = "<group>"; };
+		8288964745D5B5FC16B8F3BC89868977 /* MPAFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFHTTPRequestOperationManager.m; path = AFNetworking/MPAFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		82902B85896D6829ACDEFEF811A9EE26 /* Pods-PayButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82C6BD8F7EEECDF658F22A749BB766DF /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Classes/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
+		84C861D7301F06D614C0AE53B953FB6C /* UIImageView+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+MPAFNetworking.h"; sourceTree = "<group>"; };
+		85B5014AE23943D51B53DB39449A89FF /* Pods_PayButton_PayButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayButton_PayButton.framework; path = "Pods-PayButton-PayButton.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		898AEBE7DF9DABCD46C23E2885DF095A /* MPAFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPAFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8D7551A32C7C7923088749448255D1BA /* MPAFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFSecurityPolicy.m; path = AFNetworking/MPAFSecurityPolicy.m; sourceTree = "<group>"; };
+		9187E5CC575911DDB8B328F66AE4482C /* Lockbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lockbox.framework; path = Lockbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CD506A7CAB49F7A62FFB532F156D36 /* Lockbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lockbox.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9494C13A846ACC4B0196D265F21A0D43 /* Pods-PayButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButton-frameworks.sh"; sourceTree = "<group>"; };
+		98E54EEA414278897D6783530F8D5D0D /* mpos_core_resources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = mpos_core_resources.bundle; sourceTree = "<group>"; };
+		9A7E349EDC632D0A95AC8DA38510EC3F /* Pods-PayButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButton.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2763B406E5CB69ADF46542867521FA /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Classes/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		9B27AC8D2BA27A96B719B67B3EA52568 /* Lockbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Lockbox.h; sourceTree = "<group>"; };
+		9B7CE10E0AE6115513A3F7E0F6033136 /* Pods-PayButtonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayButtonUITests-dummy.m"; sourceTree = "<group>"; };
+		9E96CE4C911469014F0E2F1995EBA02A /* Pods-PayButton-PayButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayButton-PayButton-umbrella.h"; sourceTree = "<group>"; };
+		A3129266E94DE229F5F0A88F07282FAC /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
+		A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A4E84519AF7CBC793609DBA4EAC51FC5 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		A5B5044867A45D80529EF9A71C00B78F /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		A70F239C4D51F7FDC55B2869051EA71B /* MPAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/MPAFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A8784BB8AEC5E3D0FD9E085024D07084 /* Pods_PayButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayButtonTests.framework; path = "Pods-PayButtonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAE6002B54296ABF5B0F6FBBCDC8BB0 /* MPAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFNetworkReachabilityManager.h; path = AFNetworking/MPAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AD87831F1FC4842FEEE89420C68E53A6 /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Classes/DDLoggerNames.m; sourceTree = "<group>"; };
+		AE1287CD568CA71813A9571D1077FDFC /* Pods-PayButtonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayButtonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFD61CF696181712B1EECB24CDA12354 /* Pods-PayButton-PayButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayButton-PayButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		B185E13846D8536A05B93A575D2205D8 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
+		B1E1EAC952F073DB70DCAC0086FAE507 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Classes/Extensions/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
+		B3229B040B1878811965F0C815C0A7DE /* Lockbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lockbox-umbrella.h"; sourceTree = "<group>"; };
+		B33B947899E6581DC66005BCF3E6E621 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		B78DD5BEF6DBBEAC219BF14A8B7BF417 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF6DE40C0B5A7C70918B80555E80ED4 /* MPAFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPAFNetworking.modulemap; sourceTree = "<group>"; };
+		BC2FE670779B9F6B4400FBAE7CD7A218 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		BD2CC0A495F5F9B300A6E017229670FD /* MPAFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFHTTPRequestOperation.h; path = AFNetworking/MPAFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		BF49F6E3EED9B4798ECE17B39EE34A33 /* Pods-PayButton-PayButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButton-PayButton.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C55B6DC0D0ADC057D2B6B52E738879 /* Pods-PayButton-PayButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButton-PayButton.release.xcconfig"; sourceTree = "<group>"; };
+		C157B072D03F8D6C41245AAB1B50C99D /* Pods-PayButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButton.release.xcconfig"; sourceTree = "<group>"; };
+		C871D444C23B06134D36F8681E182452 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		C8AC4FB92AB5FEE546FC668A6938D541 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		CAB9F8B832C935D966C88BDD3A897449 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC585465628264620585E668C174B774 /* UIAlertView+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+MPAFNetworking.m"; sourceTree = "<group>"; };
+		CFA16ADC315610518A0B991E5206867C /* MPAFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPAFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		D03B44195180A91A908AB9381C08EDC0 /* Pods-PayButtonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayButtonTests-dummy.m"; sourceTree = "<group>"; };
+		D3762E7F8569EE1211D00BB008E3E529 /* MPAFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFURLResponseSerialization.m; path = AFNetworking/MPAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D4C5D0F387C5B4C48AED429A0086C31E /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		D6E3555B783A109094FFABE6DD12944D /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		D70F9655FA1A6701706096BAB54AD229 /* MPAFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFHTTPSessionManager.h; path = AFNetworking/MPAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D71489AD34932C59FCE79EA9D8AECFEC /* Pods-PayButtonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButtonTests-frameworks.sh"; sourceTree = "<group>"; };
+		D8395C82D56C3BFA2D36E405AA273825 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		D89D359A8A8C1DC3B0166BAA82752250 /* mpos_comlinks_externalaccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_comlinks_externalaccessory.framework; sourceTree = "<group>"; };
+		D8CDAFAAA9B34CEE8E9CD2D69A0C064D /* Pods-PayButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButton-resources.sh"; sourceTree = "<group>"; };
+		D8EDFB377F2D58148ECD0A5FE46C4E6F /* UIWebView+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+MPAFNetworking.m"; sourceTree = "<group>"; };
+		DBBCD1103745512C95141627AB2ED546 /* Pods-PayButton-PayButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayButton-PayButton-frameworks.sh"; sourceTree = "<group>"; };
+		DD960F50F53EA02B11D15E2D65CAAA60 /* UIActivityIndicatorView+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+MPAFNetworking.h"; sourceTree = "<group>"; };
+		DDE0F2DD6712DC3F1293139F62183124 /* MPAFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFURLRequestSerialization.h; path = AFNetworking/MPAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		E362B2766F8C1900DE5C0BB980273ADE /* Pods-PayButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB8E3F15B4DDE113137FF4EBBAA4142E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF61D167DB16C1493A9618110130363 /* MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFNetworking.h; path = AFNetworking/MPAFNetworking.h; sourceTree = "<group>"; };
+		EEEC7DAC213178066875C68DEE9052A1 /* Pods-PayButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		F09EA8A03C3A853BBC616AE54D0E430B /* Pods-PayButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F16A827D8C5B6E951D1933E954F8B2E0 /* UIProgressView+MPAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+MPAFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+MPAFNetworking.m"; sourceTree = "<group>"; };
+		F57E14537CF7B4CD9F3BD8F1BE1E23C4 /* Pods-PayButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayButton-umbrella.h"; sourceTree = "<group>"; };
+		F7A891955CA6C2E1C633EDDBEDBEC732 /* UIAlertView+MPAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+MPAFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+MPAFNetworking.h"; sourceTree = "<group>"; };
+		F803BBECFC0485F3D4FCEC704D29EB5C /* Lockbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Lockbox.m; sourceTree = "<group>"; };
+		FA4FA1FD63494AC6DFF4FF485815E93F /* MPAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MPAFNetworking.framework; path = MPAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4343195EE7EED71DFFFD4ABAA8AC67 /* MPAFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAFURLResponseSerialization.h; path = AFNetworking/MPAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FC9608B5AE73012EA62FD9F8AE430AA2 /* MPAFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAFURLSessionManager.m; path = AFNetworking/MPAFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594C18921C475DBEE137A9EBBD5C575C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0390F8A43D7C2D21A25D6E1903BAE18F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A601E9AD659815B1F3CEF8A503B8DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BAEDFA6194B42F80E15A834E768D80 /* Foundation.framework in Frameworks */,
+				906BCF9DB14803DA30903D98053F203C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF4A96C1F5C215769A342FCEF5F622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD39DAE99F8876269AF46DEB78E92DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE555ED69F0CAC2A79FE340B98424E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C7F4E042A83328213A2AFA4C7618F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D807D8DF44246C74ABF19F393E86DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D50825DF941F53B74876CA8959CAD /* CoreGraphics.framework in Frameworks */,
+				9A7ECC9678F747BF6BC68CEAAF5C2C55 /* Foundation.framework in Frameworks */,
+				FDEB2389E0522E1F3A0F62E54E78FB8C /* MobileCoreServices.framework in Frameworks */,
+				2AE2838C40310CFCA1897CC9386C3FDA /* Security.framework in Frameworks */,
+				CD5825395E81DC3994131C36B1EF5FC7 /* SystemConfiguration.framework in Frameworks */,
+				680F2B7C688D5AA95F9269941BC68DD2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED473CEFF5FC45E8B84A9FF0A4C32DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE88A0997C8FCC514E51B2594DE3A85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD34A284685A35CFDB9784B9E0B1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD475476EC74F1009E59F4B899F3DCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F22FF21B60CF0C3366AAAF1D0CCA2E /* payworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF29D802D7E46D7393A2F0A670D11D0 /* mpos */,
+			);
+			name = payworks;
+			path = payworks;
+			sourceTree = "<group>";
+		};
+		063EBBEB2F298426B1E131C9D19FEF13 /* Pods-PayButton-PayButton */ = {
+			isa = PBXGroup;
+			children = (
+				56809424F6BE45F978810706E11985E1 /* Info.plist */,
+				33DEC19731DE6BF03C1A97A06EF91BFA /* Pods-PayButton-PayButton.modulemap */,
+				050D2D300C9BDF1A871F9FBCF45B2AF6 /* Pods-PayButton-PayButton-acknowledgements.markdown */,
+				AFD61CF696181712B1EECB24CDA12354 /* Pods-PayButton-PayButton-acknowledgements.plist */,
+				1B6C8AE6519713499EC734740D4B48E7 /* Pods-PayButton-PayButton-dummy.m */,
+				DBBCD1103745512C95141627AB2ED546 /* Pods-PayButton-PayButton-frameworks.sh */,
+				8233476C2CF0E614636DEC547A14329C /* Pods-PayButton-PayButton-resources.sh */,
+				9E96CE4C911469014F0E2F1995EBA02A /* Pods-PayButton-PayButton-umbrella.h */,
+				BF49F6E3EED9B4798ECE17B39EE34A33 /* Pods-PayButton-PayButton.debug.xcconfig */,
+				C0C55B6DC0D0ADC057D2B6B52E738879 /* Pods-PayButton-PayButton.release.xcconfig */,
+			);
+			name = "Pods-PayButton-PayButton";
+			path = "Target Support Files/Pods-PayButton-PayButton";
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE2CE3B81E4A1287EFFD440F4CCD3AE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		133717FC8B43B0301FFE6E14CD34AF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89D359A8A8C1DC3B0166BAA82752250 /* mpos_comlinks_externalaccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F287AF9BDDEC3B68A8DA11DEB04EC82 /* comlinks */ = {
+			isa = PBXGroup;
+			children = (
+				C12E5E2E51CBBCCA9C83F61296EA1A71 /* externalaccessory */,
+				2333B2BEDD16CF6DE4AC6F9B2225C084 /* tcp */,
+			);
+			name = comlinks;
+			sourceTree = "<group>";
+		};
+		2333B2BEDD16CF6DE4AC6F9B2225C084 /* tcp */ = {
+			isa = PBXGroup;
+			children = (
+				B2A5144227B7730D678F5806B8F60CE5 /* Frameworks */,
+			);
+			name = tcp;
+			sourceTree = "<group>";
+		};
+		3D1C8B388EDCDC2ED8ACEE4F721FBE40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8395C82D56C3BFA2D36E405AA273825 /* CocoaLumberjack.modulemap */,
+				2E41115B8B4F7AF0E0EB05B38CAB8F1B /* CocoaLumberjack.xcconfig */,
+				67588EBE315E64FD1FA6B2530DB653FD /* CocoaLumberjack-dummy.m */,
+				C8AC4FB92AB5FEE546FC668A6938D541 /* CocoaLumberjack-prefix.pch */,
+				B185E13846D8536A05B93A575D2205D8 /* CocoaLumberjack-umbrella.h */,
+				36EF6203397C88CDC523D1D0A13C4CC2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		3F2BBBD86FB7FAEF0CE2EC62270DCD27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CFC55BF5DFFAF7B6018062DB082EDE5 /* mpos_core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47345FC0E78A17E616A7E239E4B4739B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				231505C7008E111DDEF45D3461C9EF76 /* Info.plist */,
+				BBF6DE40C0B5A7C70918B80555E80ED4 /* MPAFNetworking.modulemap */,
+				5BC37B5385C06A3D549474D6B529C8CE /* MPAFNetworking.xcconfig */,
+				61BD08BDE237DE9E498185ADF7F85590 /* MPAFNetworking-dummy.m */,
+				CFA16ADC315610518A0B991E5206867C /* MPAFNetworking-prefix.pch */,
+				898AEBE7DF9DABCD46C23E2885DF095A /* MPAFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPAFNetworking";
+			sourceTree = "<group>";
+		};
+		62AD7CA657303A6B60024ED019CC7E37 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				35811AFE3FF22A45F49BE526BBABE104 /* CLIColor.h */,
+				6B63CF142AF84986E6F9A44C25B5FFBC /* CLIColor.m */,
+				3D55E4175C9B50DEC046CFCFE181BC4C /* CocoaLumberjack.h */,
+				C871D444C23B06134D36F8681E182452 /* DDAbstractDatabaseLogger.h */,
+				7C12EE0AB586A0188D710DF6942D0F82 /* DDAbstractDatabaseLogger.m */,
+				4375CAF75C683A88CBD6F95F8B6E9CAB /* DDASLLogCapture.h */,
+				5C4FF42000D19CC79F5B8EBAE5DAEE43 /* DDASLLogCapture.m */,
+				4E7C7A2B6369FAF6CF132C1A1714C6AB /* DDASLLogger.h */,
+				0D25B76AAA34DD11D43763775E2E15F0 /* DDASLLogger.m */,
+				7656E1A073AF7D073852D48F1B74ABEA /* DDAssertMacros.h */,
+				D4C5D0F387C5B4C48AED429A0086C31E /* DDContextFilterLogFormatter.h */,
+				069E078D48B0F5A092B16A568AAB5741 /* DDContextFilterLogFormatter.m */,
+				0A739F25E7AC1A42B63E577569BFC452 /* DDDispatchQueueLogFormatter.h */,
+				BC2FE670779B9F6B4400FBAE7CD7A218 /* DDDispatchQueueLogFormatter.m */,
+				B33B947899E6581DC66005BCF3E6E621 /* DDFileLogger.h */,
+				62EA197A8C883C54BAC42499C508D5A1 /* DDFileLogger.m */,
+				B1E1EAC952F073DB70DCAC0086FAE507 /* DDFileLogger+Buffering.h */,
+				9B2763B406E5CB69ADF46542867521FA /* DDFileLogger+Buffering.m */,
+				82C6BD8F7EEECDF658F22A749BB766DF /* DDFileLogger+Internal.h */,
+				D6E3555B783A109094FFABE6DD12944D /* DDLegacyMacros.h */,
+				57483374D16F9B5E852B79E590599312 /* DDLog.h */,
+				A4E84519AF7CBC793609DBA4EAC51FC5 /* DDLog.m */,
+				0DC0F0D3AB372632062DF85748732C06 /* DDLog+LOGV.h */,
+				692876D665710D956314DB778724B6C3 /* DDLoggerNames.h */,
+				AD87831F1FC4842FEEE89420C68E53A6 /* DDLoggerNames.m */,
+				5595A3EE5FC8E481658F3FA3FB96B829 /* DDLogMacros.h */,
+				5316AC06933EF260FB65462C16686E1C /* DDMultiFormatter.h */,
+				5A98F971EE04BB784E3096AC7CB29996 /* DDMultiFormatter.m */,
+				79741AA6787FD2374630F744B3BA817B /* DDOSLogger.h */,
+				A3129266E94DE229F5F0A88F07282FAC /* DDOSLogger.m */,
+				5E6E52E24F35FA4AB4755DF259CA8A59 /* DDTTYLogger.h */,
+				A5B5044867A45D80529EF9A71C00B78F /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		74EF9260DFCC10A648A5C1278C23DB17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACACB4C2A3AE17F960FBE0553A3341BF /* CocoaLumberjack */,
+				9D5F0CB8F6FFA2660B62D46C3F65A184 /* Lockbox */,
+				8C6D0F29D6756AAB3EAE23C61FD0B697 /* MPAFNetworking */,
+				01F22FF21B60CF0C3366AAAF1D0CCA2E /* payworks */,
+				A54981F8790BD15F98F0645DABFD3FDD /* payworks.paybutton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76BFDF5F6D7D95ACBFF6586D48D68CEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75435A4BBFDABFB3E300921FD4B21C79 /* mpos_ui_resources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C1315FBD1148E43BF271686E9D5B183 /* Pods-PayButton */ = {
+			isa = PBXGroup;
+			children = (
+				580F4C46BD35573FA3B6AB5F22DE440C /* Info.plist */,
+				287DF783CDE4A0756FC5F1B335F3B460 /* Pods-PayButton.modulemap */,
+				82902B85896D6829ACDEFEF811A9EE26 /* Pods-PayButton-acknowledgements.markdown */,
+				EEEC7DAC213178066875C68DEE9052A1 /* Pods-PayButton-acknowledgements.plist */,
+				7F89BFA13D4608C7975FCC89AFB93E5F /* Pods-PayButton-dummy.m */,
+				9494C13A846ACC4B0196D265F21A0D43 /* Pods-PayButton-frameworks.sh */,
+				D8CDAFAAA9B34CEE8E9CD2D69A0C064D /* Pods-PayButton-resources.sh */,
+				F57E14537CF7B4CD9F3BD8F1BE1E23C4 /* Pods-PayButton-umbrella.h */,
+				9A7E349EDC632D0A95AC8DA38510EC3F /* Pods-PayButton.debug.xcconfig */,
+				C157B072D03F8D6C41245AAB1B50C99D /* Pods-PayButton.release.xcconfig */,
+			);
+			name = "Pods-PayButton";
+			path = "Target Support Files/Pods-PayButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				74EF9260DFCC10A648A5C1278C23DB17 /* Pods */,
+				F4C9593BF5A95D851A17F7E19EAA1082 /* Products */,
+				9B3ECFDE74A928916296898CE31CCD7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C12002C958F7B85EFA9B4E68C90789B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BBBD86FB7FAEF0CE2EC62270DCD27 /* Frameworks */,
+				A257FE9A5508E130FD0A8D833609DAAF /* Resources */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		8C6D0F29D6756AAB3EAE23C61FD0B697 /* MPAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				ECF61D167DB16C1493A9618110130363 /* MPAFNetworking.h */,
+				C450FDE2227FD2539BC97CEE5B6D21A1 /* NSURLConnection */,
+				EE23BFA3348D6945B9AC39C956E6E408 /* NSURLSession */,
+				FAC3207E02E2A45890440BE6E31F5CE7 /* Reachability */,
+				AFFFB7DA2603F7A8AB1A9A0800F75FB8 /* Security */,
+				A79CDF9F2113D85DB7C2F64664BD9A5F /* Serialization */,
+				47345FC0E78A17E616A7E239E4B4739B /* Support Files */,
+				8EBB45137F54DAB046A2AD2DB51F98A1 /* UIKit */,
+			);
+			name = MPAFNetworking;
+			path = MPAFNetworking;
+			sourceTree = "<group>";
+		};
+		8E9BE32CF4738CE17EE960D84EC226CA /* Pods-PayButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB9F8B832C935D966C88BDD3A897449 /* Info.plist */,
+				527C7285F4C57936C1229B8D388D0E67 /* Pods-PayButtonUITests.modulemap */,
+				0DB2EDDCB40FFF6D1705F398FB869E00 /* Pods-PayButtonUITests-acknowledgements.markdown */,
+				440D8F1C63A2A84B4CB50B54E5A8CD60 /* Pods-PayButtonUITests-acknowledgements.plist */,
+				9B7CE10E0AE6115513A3F7E0F6033136 /* Pods-PayButtonUITests-dummy.m */,
+				12C6780597F057BFAFC81C059078E66A /* Pods-PayButtonUITests-frameworks.sh */,
+				64508B87359C14A64AC98CD0A0C51E84 /* Pods-PayButtonUITests-resources.sh */,
+				22786354FC1015E8867D6672FBCA1100 /* Pods-PayButtonUITests-umbrella.h */,
+				0773AEA165D42993F08F7EEFB259DC73 /* Pods-PayButtonUITests.debug.xcconfig */,
+				E362B2766F8C1900DE5C0BB980273ADE /* Pods-PayButtonUITests.release.xcconfig */,
+			);
+			name = "Pods-PayButtonUITests";
+			path = "Target Support Files/Pods-PayButtonUITests";
+			sourceTree = "<group>";
+		};
+		8EBB45137F54DAB046A2AD2DB51F98A1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				476D34A5AE8D1DEC4B7CD4F1599BD327 /* MPAFNetworkActivityIndicatorManager.h */,
+				A70F239C4D51F7FDC55B2869051EA71B /* MPAFNetworkActivityIndicatorManager.m */,
+				DD960F50F53EA02B11D15E2D65CAAA60 /* UIActivityIndicatorView+MPAFNetworking.h */,
+				33D192A07A2B614EA7848B6E6E3F40F6 /* UIActivityIndicatorView+MPAFNetworking.m */,
+				F7A891955CA6C2E1C633EDDBEDBEC732 /* UIAlertView+MPAFNetworking.h */,
+				CC585465628264620585E668C174B774 /* UIAlertView+MPAFNetworking.m */,
+				7B395E56B2226A657874D5C940E63A2D /* UIButton+MPAFNetworking.h */,
+				397BAA85C87D3CF3003364876C1E2CD2 /* UIButton+MPAFNetworking.m */,
+				84C861D7301F06D614C0AE53B953FB6C /* UIImageView+MPAFNetworking.h */,
+				51AC8C954B974AEA0997AC80B6150A35 /* UIImageView+MPAFNetworking.m */,
+				0A01C07E5DAE76DFE8BF39D6C0A77AA4 /* UIKit+MPAFNetworking.h */,
+				4D41B8A08AAF89B32CE7C70E8EF53E7D /* UIProgressView+MPAFNetworking.h */,
+				F16A827D8C5B6E951D1933E954F8B2E0 /* UIProgressView+MPAFNetworking.m */,
+				2154B47CDEE236A3B3608ED2F9DABAAF /* UIRefreshControl+MPAFNetworking.h */,
+				5BAA1B0EAD28458B63A275932DB02EFE /* UIRefreshControl+MPAFNetworking.m */,
+				001B65173F23088A771AA60BC9AC9FBC /* UIWebView+MPAFNetworking.h */,
+				D8EDFB377F2D58148ECD0A5FE46C4E6F /* UIWebView+MPAFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		9B36DE3658793E99C85300B183D0F1C9 /* accessories */ = {
+			isa = PBXGroup;
+			children = (
+				C9216069A2ED287A2CA8AA1653214A89 /* miura */,
+			);
+			name = accessories;
+			sourceTree = "<group>";
+		};
+		9B3ECFDE74A928916296898CE31CCD7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C1315FBD1148E43BF271686E9D5B183 /* Pods-PayButton */,
+				063EBBEB2F298426B1E131C9D19FEF13 /* Pods-PayButton-PayButton */,
+				EF7E31B0A01AD33EC6263A6BE69009D1 /* Pods-PayButtonTests */,
+				8E9BE32CF4738CE17EE960D84EC226CA /* Pods-PayButtonUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9D5F0CB8F6FFA2660B62D46C3F65A184 /* Lockbox */ = {
+			isa = PBXGroup;
+			children = (
+				9B27AC8D2BA27A96B719B67B3EA52568 /* Lockbox.h */,
+				F803BBECFC0485F3D4FCEC704D29EB5C /* Lockbox.m */,
+				DDC0F5A834DAD35E2ECE8B5CCBE76956 /* Support Files */,
+			);
+			name = Lockbox;
+			path = Lockbox;
+			sourceTree = "<group>";
+		};
+		A257FE9A5508E130FD0A8D833609DAAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98E54EEA414278897D6783530F8D5D0D /* mpos_core_resources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A54981F8790BD15F98F0645DABFD3FDD /* payworks.paybutton */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A6221ABD1BEF90FF6A5DD56C0982A /* Frameworks */,
+				76BFDF5F6D7D95ACBFF6586D48D68CEB /* Resources */,
+			);
+			name = payworks.paybutton;
+			path = payworks.paybutton;
+			sourceTree = "<group>";
+		};
+		A79CDF9F2113D85DB7C2F64664BD9A5F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0F2DD6712DC3F1293139F62183124 /* MPAFURLRequestSerialization.h */,
+				37B3D3C99AC0C9A4B24645AD2121065C /* MPAFURLRequestSerialization.m */,
+				FB4343195EE7EED71DFFFD4ABAA8AC67 /* MPAFURLResponseSerialization.h */,
+				D3762E7F8569EE1211D00BB008E3E529 /* MPAFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		ACACB4C2A3AE17F960FBE0553A3341BF /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				62AD7CA657303A6B60024ED019CC7E37 /* Core */,
+				3D1C8B388EDCDC2ED8ACEE4F721FBE40 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		AF8A6221ABD1BEF90FF6A5DD56C0982A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572184F5DB2466756C97835E143EC015 /* mpos_ui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFFFB7DA2603F7A8AB1A9A0800F75FB8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				5E1E182F9CBE14633B2B4372382F1F72 /* MPAFSecurityPolicy.h */,
+				8D7551A32C7C7923088749448255D1BA /* MPAFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		B2A5144227B7730D678F5806B8F60CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5944CCE3AEC58844905A9519203C623E /* mpos_comlinks_tcp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12E5E2E51CBBCCA9C83F61296EA1A71 /* externalaccessory */ = {
+			isa = PBXGroup;
+			children = (
+				133717FC8B43B0301FFE6E14CD34AF03 /* Frameworks */,
+			);
+			name = externalaccessory;
+			sourceTree = "<group>";
+		};
+		C450FDE2227FD2539BC97CEE5B6D21A1 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				BD2CC0A495F5F9B300A6E017229670FD /* MPAFHTTPRequestOperation.h */,
+				160EDEC70ADE8F04B14C49651DBB64E1 /* MPAFHTTPRequestOperation.m */,
+				103D9ED4E82DE23296227A104ECA732A /* MPAFHTTPRequestOperationManager.h */,
+				8288964745D5B5FC16B8F3BC89868977 /* MPAFHTTPRequestOperationManager.m */,
+				483BF0C4BBF5ACB74E9E1C913B369538 /* MPAFURLConnectionOperation.h */,
+				3D611FFC5C8AEFE44ECA93C79B5D8932 /* MPAFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		C9216069A2ED287A2CA8AA1653214A89 /* miura */ = {
+			isa = PBXGroup;
+			children = (
+				F7C415AB5498419E728150D5E6472B8E /* Frameworks */,
+			);
+			name = miura;
+			sourceTree = "<group>";
+		};
+		DDC0F5A834DAD35E2ECE8B5CCBE76956 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8E3F15B4DDE113137FF4EBBAA4142E /* Info.plist */,
+				8201E83CAD684A7EB6CEFB0626BB7F08 /* Lockbox.modulemap */,
+				92CD506A7CAB49F7A62FFB532F156D36 /* Lockbox.xcconfig */,
+				1D09AD38B66787A832BC8F1E7F13A3AC /* Lockbox-dummy.m */,
+				5119129898EF0145504136601F8CF56D /* Lockbox-prefix.pch */,
+				B3229B040B1878811965F0C815C0A7DE /* Lockbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Lockbox";
+			sourceTree = "<group>";
+		};
+		EE23BFA3348D6945B9AC39C956E6E408 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D70F9655FA1A6701706096BAB54AD229 /* MPAFHTTPSessionManager.h */,
+				650417CFF08B8C544565AA89003D814F /* MPAFHTTPSessionManager.m */,
+				4E47FACC245D4F5B9617DE4F79F9BCF3 /* MPAFURLSessionManager.h */,
+				FC9608B5AE73012EA62FD9F8AE430AA2 /* MPAFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		EEF29D802D7E46D7393A2F0A670D11D0 /* mpos */ = {
+			isa = PBXGroup;
+			children = (
+				9B36DE3658793E99C85300B183D0F1C9 /* accessories */,
+				1F287AF9BDDEC3B68A8DA11DEB04EC82 /* comlinks */,
+				8C12002C958F7B85EFA9B4E68C90789B /* core */,
+			);
+			name = mpos;
+			sourceTree = "<group>";
+		};
+		EF7E31B0A01AD33EC6263A6BE69009D1 /* Pods-PayButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				28D312F6EA054B5E4FE0A6CDDE5DE94F /* Info.plist */,
+				299F5EDE59A531E1B47C162B4A9FAD3D /* Pods-PayButtonTests.modulemap */,
+				42496339EBB35C939EAF9F727658B5BA /* Pods-PayButtonTests-acknowledgements.markdown */,
+				AE1287CD568CA71813A9571D1077FDFC /* Pods-PayButtonTests-acknowledgements.plist */,
+				D03B44195180A91A908AB9381C08EDC0 /* Pods-PayButtonTests-dummy.m */,
+				D71489AD34932C59FCE79EA9D8AECFEC /* Pods-PayButtonTests-frameworks.sh */,
+				4856A9BE57C8953B4A863C696F9BF09C /* Pods-PayButtonTests-resources.sh */,
+				66BE26B03944CD0C4E8D264C2C283D07 /* Pods-PayButtonTests-umbrella.h */,
+				F09EA8A03C3A853BBC616AE54D0E430B /* Pods-PayButtonTests.debug.xcconfig */,
+				79C0D8515776201B0B858E4A4664A0E5 /* Pods-PayButtonTests.release.xcconfig */,
+			);
+			name = "Pods-PayButtonTests";
+			path = "Target Support Files/Pods-PayButtonTests";
+			sourceTree = "<group>";
+		};
+		F4C9593BF5A95D851A17F7E19EAA1082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78DD5BEF6DBBEAC219BF14A8B7BF417 /* CocoaLumberjack.framework */,
+				9187E5CC575911DDB8B328F66AE4482C /* Lockbox.framework */,
+				FA4FA1FD63494AC6DFF4FF485815E93F /* MPAFNetworking.framework */,
+				4BD78424C41375E73BC3EFE9992E01AF /* Pods_PayButton.framework */,
+				85B5014AE23943D51B53DB39449A89FF /* Pods_PayButton_PayButton.framework */,
+				A8784BB8AEC5E3D0FD9E085024D07084 /* Pods_PayButtonTests.framework */,
+				684E7B7AD84CF411BB22584E3742D652 /* Pods_PayButtonUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C415AB5498419E728150D5E6472B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7412CCBF6D10B378D73C3D1DA6C6A2A1 /* mpos_accessories_miura_shuttle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC3207E02E2A45890440BE6E31F5CE7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AAAE6002B54296ABF5B0F6FBBCDC8BB0 /* MPAFNetworkReachabilityManager.h */,
+				4C75BE4C5234DE4739C947ED70CAA308 /* MPAFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		FBE2CE3B81E4A1287EFFD440F4CCD3AE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */,
+				0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */,
+				DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */,
+				66EB5B938802F986D305D37865A72F7F /* Security.framework */,
+				A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */,
+				51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		186EE34895115C14F57FB6943EFB3AFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ED588FE6D046F199BDB197FDBD37AB /* CLIColor.h in Headers */,
+				3CE4B8C7A951D2E6C132A3F836AF4593 /* CocoaLumberjack-umbrella.h in Headers */,
+				0E3C8F28A8C632459A423CFEE6FF1F4C /* CocoaLumberjack.h in Headers */,
+				99CDE1FCF591A944C8B08046AFCC968A /* DDAbstractDatabaseLogger.h in Headers */,
+				6646C112513B7255E53E64AD0F952911 /* DDASLLogCapture.h in Headers */,
+				16E18B7A161B84A673CC5B8A2CD40BFD /* DDASLLogger.h in Headers */,
+				15B6F4075781D944A604A14DCC76C432 /* DDAssertMacros.h in Headers */,
+				A72A835E93967EB4F2AC921F72BE8984 /* DDContextFilterLogFormatter.h in Headers */,
+				96714614E955E916ED8ABC131A7D90A2 /* DDDispatchQueueLogFormatter.h in Headers */,
+				84672970BD4D898928A9BD41F002D0C2 /* DDFileLogger+Buffering.h in Headers */,
+				11DE3CCA9845C8F5E553F90F817A620B /* DDFileLogger+Internal.h in Headers */,
+				157D4E9D025A440A63BADA2E10D71E56 /* DDFileLogger.h in Headers */,
+				68F61AC4E26AF6133B0D335D32706BD4 /* DDLegacyMacros.h in Headers */,
+				374A775EDE8ECB712C339B4AD4D190CB /* DDLog+LOGV.h in Headers */,
+				628DBE12476874868723C6F90F792DD6 /* DDLog.h in Headers */,
+				68132E39AEA340FC49AF5DAB8B4C784D /* DDLoggerNames.h in Headers */,
+				9CA4E56609CDE602AEE0B561BA79348B /* DDLogMacros.h in Headers */,
+				378020660BE6CB7CD87A33F0CD4E01ED /* DDMultiFormatter.h in Headers */,
+				D62DA7DC53D110CA2199756B9C2D71F0 /* DDOSLogger.h in Headers */,
+				10D8C5F0B354F908924A0DC25F21DBCE /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346C5A9920A3E1EDCAC1BF67893F2896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B1E4B75C289A2E0884AE9B9CCC2424 /* Pods-PayButtonTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532C37C2C92F4AB775DABA1B4FF60FFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC093B0E3B1B2B94746FB6162B395D5D /* Lockbox-umbrella.h in Headers */,
+				60764489C47359ECB424ABDBED09F7C5 /* Lockbox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55EA988F7E02C60B9D81D7AD24DAA93D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A82805D79F4BBBB798C60335F1AA141 /* Pods-PayButton-PayButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDEB296415417F4907CFD5043927252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16CF5DCE7766A9A9C953572E48A432F /* Pods-PayButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD168DF25F826A1EA7AEAB08DF4E27C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEADF5AB31A9630AC7830D2BFE3C276 /* Pods-PayButtonUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CAE6856966D760FC42FF8F4F931034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CBE83F1EB43E5FCB4116BDD44E95BD /* MPAFHTTPRequestOperation.h in Headers */,
+				D79BECC5D46B204DA29E14C2D53B49C7 /* MPAFHTTPRequestOperationManager.h in Headers */,
+				83FCD1C1F5011C0EBFDB420B8658413B /* MPAFHTTPSessionManager.h in Headers */,
+				58954C6565D69A0B454291D880FFB4CA /* MPAFNetworkActivityIndicatorManager.h in Headers */,
+				4AD87CF185EC02C1DDF81313499969EF /* MPAFNetworking-umbrella.h in Headers */,
+				CC90A629D60A5E442A7A5F883DED0A2B /* MPAFNetworking.h in Headers */,
+				12ECB1CE1D09976447436018F795B2CB /* MPAFNetworkReachabilityManager.h in Headers */,
+				B6CE8E10420E8975A549E56727579A97 /* MPAFSecurityPolicy.h in Headers */,
+				5C362BF4BA980E7E043C0526706AB288 /* MPAFURLConnectionOperation.h in Headers */,
+				7ED7F2DE945D9231D5DF9E8EBFAD8958 /* MPAFURLRequestSerialization.h in Headers */,
+				E866A840997CB9EADC4622C2A4A40C54 /* MPAFURLResponseSerialization.h in Headers */,
+				39C1AA60FBA6487DCFD3BC0D0932EB47 /* MPAFURLSessionManager.h in Headers */,
+				9552557C76B19AAF9DCE83F5B8E367BB /* UIActivityIndicatorView+MPAFNetworking.h in Headers */,
+				8DAAD402250CD2B3724FF0B0818CB9D1 /* UIAlertView+MPAFNetworking.h in Headers */,
+				FAD96069E8F539EF533C5BD28B36DD96 /* UIButton+MPAFNetworking.h in Headers */,
+				8A5E346D814C7375DB0C1EFA7293A56E /* UIImageView+MPAFNetworking.h in Headers */,
+				CE5C2F18EEBC2E8ADA36CC2338DE58CA /* UIKit+MPAFNetworking.h in Headers */,
+				C8D153E5963D06050B9DF50703B0971B /* UIProgressView+MPAFNetworking.h in Headers */,
+				312EEF9B1077C0041F2D778BDCFA9D9E /* UIRefreshControl+MPAFNetworking.h in Headers */,
+				2B22DC93AC32FEE098B8292BBDB3C0E0 /* UIWebView+MPAFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08916E0161DD54ED433F8AB0822BF591 /* MPAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F7135820BB2A58CEAF2C32B75D308A /* Build configuration list for PBXNativeTarget "MPAFNetworking" */;
+			buildPhases = (
+				D3F6A4D5BEA86CE4B11DC7C205EC8CF8 /* Sources */,
+				D807D8DF44246C74ABF19F393E86DD48 /* Frameworks */,
+				F9CAE6856966D760FC42FF8F4F931034 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPAFNetworking;
+			productName = MPAFNetworking;
+			productReference = FA4FA1FD63494AC6DFF4FF485815E93F /* MPAFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E0D6A7269ACD9621CF3FB7F75236BEA /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74D09E74FD732D54C38C90162569B1B /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				FC2EDACD01745CDAE211488665A5C79A /* Sources */,
+				CDF4A96C1F5C215769A342FCEF5F622C /* Frameworks */,
+				186EE34895115C14F57FB6943EFB3AFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = B78DD5BEF6DBBEAC219BF14A8B7BF417 /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88296F325EF755DE56B04F36838899A4 /* Pods-PayButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75D54B710E05FC07A39D00407A9AB4A /* Build configuration list for PBXNativeTarget "Pods-PayButton" */;
+			buildPhases = (
+				1BB07D983D1C8FAD7D774F25DC59A614 /* Sources */,
+				ED473CEFF5FC45E8B84A9FF0A4C32DE8 /* Frameworks */,
+				8CDEB296415417F4907CFD5043927252 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PayButton";
+			productName = "Pods-PayButton";
+			productReference = 4BD78424C41375E73BC3EFE9992E01AF /* Pods_PayButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A90B72A405263C2189EC48069F81411 /* Pods-PayButton-PayButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7033AFB27FFB4BA5B58FE5568040F7D1 /* Build configuration list for PBXNativeTarget "Pods-PayButton-PayButton" */;
+			buildPhases = (
+				EB6C7487C14DE3CE7B4E941C05669DB4 /* Sources */,
+				FCD34A284685A35CFDB9784B9E0B1325 /* Frameworks */,
+				55EA988F7E02C60B9D81D7AD24DAA93D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44891848480111D915974634756BE5B9 /* PBXTargetDependency */,
+				B53E5FBA9A57A2FE93F2A8D437064318 /* PBXTargetDependency */,
+				EA7CC55A9AA88B6E7A0A7B674FBE77AC /* PBXTargetDependency */,
+			);
+			name = "Pods-PayButton-PayButton";
+			productName = "Pods-PayButton-PayButton";
+			productReference = 85B5014AE23943D51B53DB39449A89FF /* Pods_PayButton_PayButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3AFD230CFCC0D3387B093C646E7ED38 /* Pods-PayButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC93B0BAD4A82C5E86578601DE87BB1 /* Build configuration list for PBXNativeTarget "Pods-PayButtonTests" */;
+			buildPhases = (
+				AF841365D29BDCA7088AD58ED0CFA475 /* Sources */,
+				594C18921C475DBEE137A9EBBD5C575C /* Frameworks */,
+				346C5A9920A3E1EDCAC1BF67893F2896 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7206ECF3FB613DB0D0208EC5D4D5BC7B /* PBXTargetDependency */,
+			);
+			name = "Pods-PayButtonTests";
+			productName = "Pods-PayButtonTests";
+			productReference = A8784BB8AEC5E3D0FD9E085024D07084 /* Pods_PayButtonTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB44A018DF90698CB3109A643A401E5F /* Pods-PayButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E251D4B1897053F2AE0AA0176C9591 /* Build configuration list for PBXNativeTarget "Pods-PayButtonUITests" */;
+			buildPhases = (
+				5345C7E82B20C6C0D1A1EF33F219ABCF /* Sources */,
+				CE555ED69F0CAC2A79FE340B98424E8A /* Frameworks */,
+				DFD168DF25F826A1EA7AEAB08DF4E27C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6667AEEA51CBB3221F70A1C92A0254EC /* PBXTargetDependency */,
+			);
+			name = "Pods-PayButtonUITests";
+			productName = "Pods-PayButtonUITests";
+			productReference = 684E7B7AD84CF411BB22584E3742D652 /* Pods_PayButtonUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3E3088F632DB5338B77B9AB2FDEDFED /* Lockbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D476C23A76D17D819A88311F5A52869 /* Build configuration list for PBXNativeTarget "Lockbox" */;
+			buildPhases = (
+				28F52A9F767301FB9ECCE28C27C37C6A /* Sources */,
+				6A601E9AD659815B1F3CEF8A503B8DC7 /* Frameworks */,
+				532C37C2C92F4AB775DABA1B4FF60FFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lockbox;
+			productName = Lockbox;
+			productReference = 9187E5CC575911DDB8B328F66AE4482C /* Lockbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F4C9593BF5A95D851A17F7E19EAA1082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E0D6A7269ACD9621CF3FB7F75236BEA /* CocoaLumberjack */,
+				D3E3088F632DB5338B77B9AB2FDEDFED /* Lockbox */,
+				08916E0161DD54ED433F8AB0822BF591 /* MPAFNetworking */,
+				88296F325EF755DE56B04F36838899A4 /* Pods-PayButton */,
+				8A90B72A405263C2189EC48069F81411 /* Pods-PayButton-PayButton */,
+				A3AFD230CFCC0D3387B093C646E7ED38 /* Pods-PayButtonTests */,
+				CB44A018DF90698CB3109A643A401E5F /* Pods-PayButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BB07D983D1C8FAD7D774F25DC59A614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5495278C7D5F971F08F53324E869ED08 /* Pods-PayButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F52A9F767301FB9ECCE28C27C37C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0864F1925635757B35D59F30AC4359 /* Lockbox-dummy.m in Sources */,
+				C43E5306D13A5B13874FD36CDFCCC82F /* Lockbox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5345C7E82B20C6C0D1A1EF33F219ABCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456D247B8C548E4593C41E179CA24EA0 /* Pods-PayButtonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF841365D29BDCA7088AD58ED0CFA475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6F12F02BDC8A74FF276777D24052D7 /* Pods-PayButtonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F6A4D5BEA86CE4B11DC7C205EC8CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48F1C78F9ACF790CFB3D240A60B5B3 /* MPAFHTTPRequestOperation.m in Sources */,
+				73DA30191811F6B82CCA00399CDD3A75 /* MPAFHTTPRequestOperationManager.m in Sources */,
+				47F64E9A36CBFEC9652F1B73DEFD2111 /* MPAFHTTPSessionManager.m in Sources */,
+				E412A844A4C89BBE626C47B837667606 /* MPAFNetworkActivityIndicatorManager.m in Sources */,
+				B2D7698617256A0AC526F3CE38F6ACDC /* MPAFNetworking-dummy.m in Sources */,
+				536C7FE7BA776E0A441F23637212806B /* MPAFNetworkReachabilityManager.m in Sources */,
+				8A34AB0D2E8A8206FEDA71DEF04E0520 /* MPAFSecurityPolicy.m in Sources */,
+				8AE0A999D12F218A4503BB3849E875E0 /* MPAFURLConnectionOperation.m in Sources */,
+				C0667B8E05FCDC269C2DD4A876DF4101 /* MPAFURLRequestSerialization.m in Sources */,
+				3F1F621145B04A49F8D42E936DAFBBE2 /* MPAFURLResponseSerialization.m in Sources */,
+				1243E7A133EEEA6AAF93663EC90BAB0D /* MPAFURLSessionManager.m in Sources */,
+				2B72D090953D90794A246E5D442B3CA1 /* UIActivityIndicatorView+MPAFNetworking.m in Sources */,
+				E330CE71E431992E894CB881A62A005F /* UIAlertView+MPAFNetworking.m in Sources */,
+				23C09770EDECA17A0795F929792098AA /* UIButton+MPAFNetworking.m in Sources */,
+				9570A2D6A8A66F080525E70128459FDF /* UIImageView+MPAFNetworking.m in Sources */,
+				0B1DEB4CF286891C9BA3F13C541D541E /* UIProgressView+MPAFNetworking.m in Sources */,
+				FC4B2C91CAF8972747546F6ED7EA185D /* UIRefreshControl+MPAFNetworking.m in Sources */,
+				85A855A26F5D3EB59B0D3B26521D6576 /* UIWebView+MPAFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C7487C14DE3CE7B4E941C05669DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B07672DF1C6BFB6F93981F5BF9D1A7 /* Pods-PayButton-PayButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EDACD01745CDAE211488665A5C79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E5C93E0FA7B8635DCD9C6D85E55C2E /* CLIColor.m in Sources */,
+				E71FF10989B918933D0E77E93882A7E8 /* CocoaLumberjack-dummy.m in Sources */,
+				C2322FD7A26404062E47763810EBED75 /* DDAbstractDatabaseLogger.m in Sources */,
+				D65F7137282178E1C77DD475C996F04E /* DDASLLogCapture.m in Sources */,
+				64A674D1F5F80D110F90519D0DA0549C /* DDASLLogger.m in Sources */,
+				5E09280A6BE889B5A4F5C749072FBE31 /* DDContextFilterLogFormatter.m in Sources */,
+				70A13C978D99C6CFAE28E09C39719B22 /* DDDispatchQueueLogFormatter.m in Sources */,
+				214C9D8E4F0892715A600C60968A95A0 /* DDFileLogger+Buffering.m in Sources */,
+				8541478994271DFE45565FDDD159DF02 /* DDFileLogger.m in Sources */,
+				9F7D3B9808329DCFB87E1B1316F8FDB9 /* DDLog.m in Sources */,
+				6852834514081F0C72268E6A12442200 /* DDLoggerNames.m in Sources */,
+				3D39CC0203768D01B61FFE1D30AB37B5 /* DDMultiFormatter.m in Sources */,
+				233BF8063A8EF484B7A5CEDA1A8BFA81 /* DDOSLogger.m in Sources */,
+				8A8CC32B744BBA675ED934300D6B2A17 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44891848480111D915974634756BE5B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 7E0D6A7269ACD9621CF3FB7F75236BEA /* CocoaLumberjack */;
+			targetProxy = 5F11537940817BF5798FA661AC1B0283 /* PBXContainerItemProxy */;
+		};
+		6667AEEA51CBB3221F70A1C92A0254EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayButton";
+			target = 88296F325EF755DE56B04F36838899A4 /* Pods-PayButton */;
+			targetProxy = 1F3FE85A481A729BE71C4EF28449F711 /* PBXContainerItemProxy */;
+		};
+		7206ECF3FB613DB0D0208EC5D4D5BC7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayButton";
+			target = 88296F325EF755DE56B04F36838899A4 /* Pods-PayButton */;
+			targetProxy = D15BC7BFD96EB090E20193476E5C987A /* PBXContainerItemProxy */;
+		};
+		B53E5FBA9A57A2FE93F2A8D437064318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lockbox;
+			target = D3E3088F632DB5338B77B9AB2FDEDFED /* Lockbox */;
+			targetProxy = 9A911B730975C0486F784565F2262689 /* PBXContainerItemProxy */;
+		};
+		EA7CC55A9AA88B6E7A0A7B674FBE77AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPAFNetworking;
+			target = 08916E0161DD54ED433F8AB0822BF591 /* MPAFNetworking */;
+			targetProxy = E7DCA511097A9FE58CB402B8842FFE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0237E284D3926577AFE418F86900E005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C157B072D03F8D6C41245AAB1B50C99D /* Pods-PayButton.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButton/Pods-PayButton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1309AD99C026FBA73227C100072D3E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC37B5385C06A3D549474D6B529C8CE /* MPAFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPAFNetworking/MPAFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPAFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPAFNetworking/MPAFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = MPAFNetworking;
+				PRODUCT_NAME = MPAFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157DAAF1DEF78BEA16211A4C0BDE72F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0773AEA165D42993F08F7EEFB259DC73 /* Pods-PayButtonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButtonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButtonUITests/Pods-PayButtonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BC3D144E29E1FCAAA5491419C26CC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C55B6DC0D0ADC057D2B6B52E738879 /* Pods-PayButton-PayButton.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButton-PayButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButton-PayButton/Pods-PayButton-PayButton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48251EBEE33A29E8837FA3C72F87570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7E349EDC632D0A95AC8DA38510EC3F /* Pods-PayButton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButton/Pods-PayButton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F61E1580D95F627D79F9C8668778B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC37B5385C06A3D549474D6B529C8CE /* MPAFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MPAFNetworking/MPAFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPAFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPAFNetworking/MPAFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = MPAFNetworking;
+				PRODUCT_NAME = MPAFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B533881B5A6DA4DF044AAAB8EAD513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E41115B8B4F7AF0E0EB05B38CAB8F1B /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70F83814DD27C226B76F70EA43E73F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E362B2766F8C1900DE5C0BB980273ADE /* Pods-PayButtonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButtonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButtonUITests/Pods-PayButtonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BFBEDF04ACB62241CC0AD8751F5F2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E41115B8B4F7AF0E0EB05B38CAB8F1B /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91EA99895A6E959E7FA934DD87FC3F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09EA8A03C3A853BBC616AE54D0E430B /* Pods-PayButtonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButtonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButtonTests/Pods-PayButtonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		985EEE926106D45E4E0020D4D3E8030C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C0D8515776201B0B858E4A4664A0E5 /* Pods-PayButtonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButtonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButtonTests/Pods-PayButtonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDC35B4EF20CA7E8A1A9FD333F737D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CD506A7CAB49F7A62FFB532F156D36 /* Lockbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lockbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Lockbox/Lockbox.modulemap";
+				PRODUCT_MODULE_NAME = Lockbox;
+				PRODUCT_NAME = Lockbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE7C7BCE3622B8599FFDC5953995A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF49F6E3EED9B4798ECE17B39EE34A33 /* Pods-PayButton-PayButton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayButton-PayButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayButton-PayButton/Pods-PayButton-PayButton.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC62EBAE420C3F35D39985F01671F2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CD506A7CAB49F7A62FFB532F156D36 /* Lockbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lockbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Lockbox/Lockbox.modulemap";
+				PRODUCT_MODULE_NAME = Lockbox;
+				PRODUCT_NAME = Lockbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC93B0BAD4A82C5E86578601DE87BB1 /* Build configuration list for PBXNativeTarget "Pods-PayButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EA99895A6E959E7FA934DD87FC3F72 /* Debug */,
+				985EEE926106D45E4E0020D4D3E8030C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D476C23A76D17D819A88311F5A52869 /* Build configuration list for PBXNativeTarget "Lockbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC35B4EF20CA7E8A1A9FD333F737D8C /* Debug */,
+				DC62EBAE420C3F35D39985F01671F2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7033AFB27FFB4BA5B58FE5568040F7D1 /* Build configuration list for PBXNativeTarget "Pods-PayButton-PayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE7C7BCE3622B8599FFDC5953995A31 /* Debug */,
+				1BC3D144E29E1FCAAA5491419C26CC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F7135820BB2A58CEAF2C32B75D308A /* Build configuration list for PBXNativeTarget "MPAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1309AD99C026FBA73227C100072D3E4C /* Debug */,
+				4F61E1580D95F627D79F9C8668778B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75D54B710E05FC07A39D00407A9AB4A /* Build configuration list for PBXNativeTarget "Pods-PayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48251EBEE33A29E8837FA3C72F87570E /* Debug */,
+				0237E284D3926577AFE418F86900E005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74D09E74FD732D54C38C90162569B1B /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B533881B5A6DA4DF044AAAB8EAD513 /* Debug */,
+				7BFBEDF04ACB62241CC0AD8751F5F2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E251D4B1897053F2AE0AA0176C9591 /* Build configuration list for PBXNativeTarget "Pods-PayButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157DAAF1DEF78BEA16211A4C0BDE72F7 /* Debug */,
+				70F83814DD27C226B76F70EA43E73F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

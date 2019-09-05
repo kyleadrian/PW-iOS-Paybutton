@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "lv_LV", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Lūdzu, izvēlieties savu kontu", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Apstrādā maksājumu...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Apstrādā atmaksu...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Svītrkodu skeneris", 
+            "aktīvs"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Mēģiniet citu karti", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Mēģiniet citu karti", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Ievietojiet, velciet vai", 
+            "mēģiniet citu karti"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Apstrādā maksājumu...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Apstrādā atmaksu...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Kļūda", 
+            ""
+        ], 
+        "Idle": [
+            "Lūdzu, uzgaidiet...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Ievietojiet karti"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Ievietojiet vai novelciet karti"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$summa$ Ievietojiet vai novelciet karti", 
+            "[OK] NFC"
+        ], 
+        "PINIncorrect": [
+            "Ievadiet PIN (nepareizs)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Ievadiet PIN (pēdējais mēģinājums)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "Ievadiet PIN", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Dodiet karti"
+        ], 
+        "ProcessingTransaction": [
+            "Apstrādā maksājumu...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Apstrādā atmaksu...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Nepieciešama identifikācija", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Nepieciešams paraksts", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Nepieciešams paraksts"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Pieslēdzas", 
+            "karšu lasītājam"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Pieslēdzas", 
+            "karšu lasītājam"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Atvienojas no", 
+            "karšu lasītāja"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Lieto", 
+            "atjauninājumus"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Meklē lasītāju", 
+            "Lūdzu, ieslēdziet lasītāju"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Pieslēdzas", 
+            "printerim"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Meklē printeri", 
+            "Lūdzu, ieslēdziet printeri"
+        ], 
+        "ProviderAborted": [
+            "Maksājums pārtraukts", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Atmaksa pārtraukta", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Maksājums apstiprināts", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Atmaksa apstiprināta", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Maksājums pieņemts", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Atmaksa pieņemta", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Maksājums noraidīts", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Atmaksa noraidīta", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Maksājums neizdevās", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Atmaksa neizdevās", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Maksājums nav pārliecinošs", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Atmaksa nav pārliecinoša", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Pabeigts", 
+            ""
+        ], 
+        "Aborted": [
+            "Pārtraukts", 
+            ""
+        ], 
+        "Failed": [
+            "Neizdevās", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Maksājums", 
+            "nav atmaksājams"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Vaicā", 
+            "darījumu"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Reģistrē", 
+            "darījumu"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Konfigurē savienojumu", 
+            "Lūdzu, uzgaidiet..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Drukā...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Drukā...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Drukāšana pārtraukta", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Drukāšana neizdevās", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Nolasa karti...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Izņemiet karti"
+        ], 
+        "RemoveCard": [
+            "Izņemiet karti", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Novelciet karti"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Novelciet karti"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Novelciet karti", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Pārtrauc maksājumu...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Pārtrauc atmaksu...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Atjaunina...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Atjaunina konfig.", 
+            "Lūdzu, uzgaidiet..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Atjaunina aparātprogrammatūru", 
+            "Lūdzu, uzgaidiet..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Atjaunina programmatūru", 
+            "Lūdzu, uzgaidiet..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Ģenerē atslēgas", 
+            "Lūdzu, uzgaidiet..."
+        ], 
+        "CardNotSupported": [
+            "Karte netiek atbalstīta!", 
+            "Mēģiniet citu vai nospiediet atcelt"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Vai pievienot dzeramnaudu?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Vaicā dzeramnaudu...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Dodiet tikai vienu karti", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Nepieciešams paraksts", 
+            "Izņemiet karti"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Nepieciešama identifikācija", 
+            "Izņemiet karti"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Apstrādā maksājumu...", 
+            "Izņemiet karti"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Apstrādā atmaksu...", 
+            "Izņemiet karti"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Laipni lūdzam", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Gaida apstiprinājumu...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Confirm Amount"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

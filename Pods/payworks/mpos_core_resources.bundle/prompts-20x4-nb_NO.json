@@ -1,0 +1,617 @@
+{
+    "info": {
+        "columns": 20, 
+        "locale": "nb_NO", 
+        "rows": 4
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "", 
+            "Velg", 
+            "din konto", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "", 
+            "Prosesserer", 
+            "betaling...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "", 
+            "Prosesserer", 
+            "refusjon...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "", 
+            "Strekkodeskanner", 
+            "aktiv", 
+            ""
+        ], 
+        "ScanCode": [
+            "", 
+            "$amount$", 
+            "Scan code", 
+            ""
+        ], 
+        "DccCurrencySelectionTitle": [
+            "", 
+            "Select", 
+            "currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "", 
+            "Card balance", 
+            "$balance$", 
+            ""
+        ], 
+        "CardNotSupportedMagstripe": [
+            "", 
+            "", 
+            "Forsøk et annet kort", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "", 
+            "", 
+            "Forsøk et annet kort", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "", 
+            "Sett inn, dra eller", 
+            "forsøk et annet kort", 
+            ""
+        ], 
+        "CompletedWithStatus": [
+            "", 
+            "$reason1$", 
+            "$reason2$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "", 
+            "Prosesserer", 
+            "betaling...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "", 
+            "Prosesserer", 
+            "refusjon...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "", 
+            "", 
+            "Feil", 
+            ""
+        ], 
+        "Idle": [
+            "", 
+            "", 
+            "Vennligst vent...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "", 
+            "Sett inn kort", 
+            ""
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "", 
+            "Sett inn eller", 
+            "dra kort"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$", 
+            "Sett inn eller", 
+            "dra kort", 
+            " for NFC"
+        ], 
+        "PINIncorrect": [
+            "", 
+            "Legg inn PIN", 
+            "$digits$", 
+            "(PIN feil)"
+        ], 
+        "PINLastTry": [
+            "", 
+            "Legg inn PIN", 
+            "$digits$", 
+            "(siste forsøk)"
+        ], 
+        "PINOk": [
+            "", 
+            "", 
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "", 
+            "Legg inn PIN", 
+            "$digits$", 
+            ""
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "", 
+            "Presenter kort", 
+            ""
+        ], 
+        "ProcessingTransaction": [
+            "", 
+            "Prosesserer", 
+            "betaling...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "", 
+            "Prosesserer", 
+            "refusjon...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "", 
+            "Processing", 
+            "void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "", 
+            "Processing", 
+            "activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "", 
+            "Processing", 
+            "inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "", 
+            "Processing", 
+            "cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "", 
+            "Identifisering", 
+            "nødvendig", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "", 
+            "Signatur", 
+            "nødvendig", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "$reason2$", 
+            "Signatur", 
+            "nødvendig"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            ""
+        ], 
+        "ProviderAccessoryConnecting": [
+            ""
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            ""
+        ], 
+        "ProviderAccessoryUpdating": [
+            ""
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            ""
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            ""
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            ""
+        ], 
+        "ProviderAborted": [
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            ""
+        ], 
+        "ProviderApproved": [
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            ""
+        ], 
+        "ProviderApproved.REFUND": [
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            ""
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderApproved.CASHOUT": [
+            ""
+        ], 
+        "ProviderAccepted": [
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            ""
+        ], 
+        "ProviderDeclined": [
+            ""
+        ], 
+        "ProviderDeclined.REFUND": [
+            ""
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            ""
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            ""
+        ], 
+        "ProviderFailed": [
+            ""
+        ], 
+        "ProviderFailed.REFUND": [
+            ""
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            ""
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            ""
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderFailed.CASHOUT": [
+            ""
+        ], 
+        "ProviderInconclusive": [
+            ""
+        ], 
+        "ProviderInconclusive.REFUND": [
+            ""
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            ""
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            ""
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            ""
+        ], 
+        "Completed": [
+            ""
+        ], 
+        "Aborted": [
+            ""
+        ], 
+        "Failed": [
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            ""
+        ], 
+        "ProviderTransactionQuerying": [
+            ""
+        ], 
+        "ProviderTransactionRegistering": [
+            ""
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            ""
+        ], 
+        "ProviderComponentPrinterSending": [
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            ""
+        ], 
+        "ReadingEmvCard": [
+            "", 
+            "", 
+            "Leser kort...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "$reason2$", 
+            "", 
+            "Ta ut kort"
+        ], 
+        "RemoveCard": [
+            "", 
+            "", 
+            "Ta ut kort", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "", 
+            "Dra kort", 
+            ""
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check Balance", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "", 
+            "", 
+            "Dra kort", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "", 
+            "Avbryte", 
+            "betaling...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "", 
+            "Avbryte", 
+            "refusjon...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "", 
+            "Aborting", 
+            "verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "", 
+            "Aborting", 
+            "activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "", 
+            "Aborting", 
+            "inquiry...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "", 
+            "Aborting", 
+            "cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "", 
+            "", 
+            "Oppdaterer...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Oppdaterer konfig.", 
+            "", 
+            "", 
+            "Vennligst vent..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Oppdaterer fastvare", 
+            "", 
+            "", 
+            "Vennligst vent..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Genererer nøkler", 
+            "", 
+            "", 
+            "Vennligst vent..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Oppdaterer ", 
+            "programvare", 
+            "", 
+            "Vennligst vent..."
+        ], 
+        "CardNotSupported": [
+            "Kortet støttes", 
+            "ikke! Forsøk", 
+            "et annet eller", 
+            "trykk kanseller"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "", 
+            "Legg til tips?", 
+            "[X] Nei     [OK] Ja"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "", 
+            "Presenter kun", 
+            "ett kort", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Signatur", 
+            "nødvendig", 
+            "", 
+            "Ta ut kort"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Identifisering", 
+            "nødvendig", 
+            "", 
+            "Ta ut kort"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Prosesserer", 
+            "betaling...", 
+            "", 
+            "Ta ut kort"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Prosesserer", 
+            "refusjon...", 
+            "", 
+            "Ta ut kort"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing", 
+            "verification...", 
+            "", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "", 
+            "", 
+            "Velkommen", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?", 
+            "", 
+            " [X] No     [OK] Yes"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?", 
+            "", 
+            " [X] No     [OK] Yes"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?", 
+            "", 
+            " [X] No     [OK] Yes"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?", 
+            "", 
+            " [X] No     [OK] Yes"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?", 
+            "", 
+            " [X] No     [OK] Yes"
+        ], 
+        "AskingForCardDataInput": [
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Bekreft beløpet", 
+            " ", 
+            "[X] Nei     [OK] Ja"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$", 
+            "unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$", 
+            "not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

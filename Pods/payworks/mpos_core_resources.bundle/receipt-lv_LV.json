@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "lv_LV"
+    }, 
+    "labels": {
+        "Date": "Datums", 
+        "Time": "Laiks", 
+        "Status": "Statuss", 
+        "AmountAndCurrency": "Summa", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Informācija", 
+        "Subject": "Apraksts", 
+        "TransactionType": "Veids", 
+        "ReceiptType": "Kvīts veids", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Ievades režīms", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Karte", 
+        "PaymentDetailsMaskedAccount": "Konts", 
+        "PaymentDetailsCustomerVerification": "Pārbaude", 
+        "PaymentDetailsAccountSequenceNumber": "Kartes numurs", 
+        "ClearingDetailsTransactionIdentifier": "Darījums", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Sākotn. darījums", 
+        "ClearingDetailsAuthorizationCode": "Autorizācija", 
+        "ClearingDetailsMerchantId": "Tirgotāja ID", 
+        "ClearingDetailsTerminalId": "Termināļa ID", 
+        "MerchantDetailsPublicName": "Nosaukums", 
+        "MerchantDetailsAddress": "Adrese", 
+        "MerchantDetailsZip": "Pasta indekss", 
+        "MerchantDetailsCity": "Pilsēta", 
+        "MerchantDetailsCountry": "Valsts", 
+        "MerchantDetailsContact": "Kontaktpersona", 
+        "MerchantDetailsAdditionalInformation": "Papildu informācija", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Tirgotāja kvīts", 
+            "CUSTOMER": "Kartes īp. kvīts"
+        }, 
+        "StatusText": {
+            "APPROVED": "Saglabāt kvīti!", 
+            "ACCEPTED": "Saglabāt kvīti!", 
+            "DECLINED": "Autor. noraidīta", 
+            "ABORTED": "Darījums atcelts", 
+            "ERROR": "Nederīgs darīj.", 
+            "ALL_MATCH": "Viss sakrīt.", 
+            "CVV_ONLY": "Tikai CVV sakrīt", 
+            "ADDRESS_ONLY": "Tikai ad. sakrīt", 
+            "NO_MATCHES": "Nav datu sakrit.", 
+            "NOT_CHECKED": "Dati nav pārb.", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Mikroshēma", 
+            "MAGSTRIPE": "Magnētiskā josla", 
+            "CONTACTLESS": "Bezkontakta", 
+            "MAGSTRIPE_AS_FALLBACK": "Magnētiskā josla", 
+            "MANUAL": "Pielāgots", 
+            "MANUAL_AS_FALLBACK": "Pielāgots", 
+            "NFC_ICC": "Bezkontakta", 
+            "NFC_MAGSTRIPE": "Bezkontakta", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Maksājums", 
+            "REFUND": "Atmaksa", 
+            "CHARGE_UNCAPTURED": "Iepriekšēja autorizācija", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Nav", 
+            "PIN": "PIN", 
+            "SIGNATURE": "Paraksts", 
+            "PIN_AND_SIGNATURE": "PIN un paraksts", 
+            "SHOPPER_DEVICE": "Klienta ierīce", 
+            "CARD_SECURITY_CODE": "Kartes dr. k. pārb.", 
+            "UNKNOWN": "Nezināms", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN un paraksts", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN un paraksts", 
+            "PIN_ONLINE": "PIN", 
+            "CUSTOMER_DEVICE": "Klienta ierīce"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Saglabāt kvīti!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "LŪDZU, IESKAITIET KONTĀ ŠO SUMMU", 
+            "CHARGE": "LŪDZU, ATSKAITIET NO KONTA ŠO S."
+        }
+    }
+}

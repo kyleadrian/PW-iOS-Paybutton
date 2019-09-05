@@ -1,0 +1,6 @@
+framework module Pods_PayButton_PayButton {
+  umbrella header "Pods-PayButton-PayButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

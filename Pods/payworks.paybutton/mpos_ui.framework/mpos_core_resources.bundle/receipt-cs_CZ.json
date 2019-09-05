@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "cs_CZ"
+    }, 
+    "labels": {
+        "Date": "Datum", 
+        "Time": "Čas", 
+        "Status": "Stav", 
+        "AmountAndCurrency": "Částka", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Informace", 
+        "Subject": "Popis", 
+        "TransactionType": "Typ", 
+        "ReceiptType": "Typ stvrzenky", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Režim zadávání", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Karta", 
+        "PaymentDetailsMaskedAccount": "Účet", 
+        "PaymentDetailsCustomerVerification": "Ověření", 
+        "PaymentDetailsAccountSequenceNumber": "Číslo karty", 
+        "ClearingDetailsTransactionIdentifier": "Transakce", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Pův. transakce", 
+        "ClearingDetailsAuthorizationCode": "Autorizace", 
+        "ClearingDetailsMerchantId": "ID obchodníka", 
+        "ClearingDetailsTerminalId": "ID terminálu", 
+        "MerchantDetailsPublicName": "Jméno", 
+        "MerchantDetailsAddress": "Adresa", 
+        "MerchantDetailsZip": "PSČ", 
+        "MerchantDetailsCity": "Město", 
+        "MerchantDetailsCountry": "Země", 
+        "MerchantDetailsContact": "Kontakt", 
+        "MerchantDetailsAdditionalInformation": "Dodatečné informace", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Stvrz. pro obch.", 
+            "CUSTOMER": "Stvrz. pro zák."
+        }, 
+        "StatusText": {
+            "APPROVED": "Uschovat.", 
+            "ACCEPTED": "Uschovat.", 
+            "DECLINED": "Autorizace odm.", 
+            "ABORTED": "Trans. zrušena.", 
+            "ERROR": "Neplatná trans.", 
+            "ALL_MATCH": "Kompletní shoda.", 
+            "CVV_ONLY": "Jen shoda CVV.", 
+            "ADDRESS_ONLY": "Jen shoda adr.", 
+            "NO_MATCHES": "Nic se neshoduje", 
+            "NOT_CHECKED": "Data bez kontr.", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Čip", 
+            "MAGSTRIPE": "Magn. proužek", 
+            "CONTACTLESS": "Bezkontaktní", 
+            "MAGSTRIPE_AS_FALLBACK": "Magn. proužek", 
+            "MANUAL": "Ruční", 
+            "MANUAL_AS_FALLBACK": "Ruční", 
+            "NFC_ICC": "Bezkontaktní", 
+            "NFC_MAGSTRIPE": "Bezkontaktní", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Platba", 
+            "REFUND": "Vrácení peněz", 
+            "CHARGE_UNCAPTURED": "Předběžná autorizace", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Žádný", 
+            "PIN": "PIN", 
+            "SIGNATURE": "Podpis", 
+            "PIN_AND_SIGNATURE": "PIN a podpis", 
+            "SHOPPER_DEVICE": "Přístroj zák.", 
+            "CARD_SECURITY_CODE": "Bezp. kód ověřen", 
+            "UNKNOWN": "Neznámý", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN a podpis", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN a podpis", 
+            "PIN_ONLINE": "PIN", 
+            "CUSTOMER_DEVICE": "Zákaznický přístroj"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Uschovat!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "PŘIPSAT ČÁSTKU NA ÚČET", 
+            "CHARGE": "STRHNOUT ČÁSTKU Z ÚČTU"
+        }
+    }
+}

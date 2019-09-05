@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "da_DK"
+    }, 
+    "labels": {
+        "Date": "Dato", 
+        "Time": "Klokkeslæt", 
+        "Status": "Status", 
+        "AmountAndCurrency": "Beløb", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Information", 
+        "Subject": "Beskrivelse", 
+        "TransactionType": "Art", 
+        "ReceiptType": "Kvitteringstype", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Posteringsmodus", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Kort", 
+        "PaymentDetailsMaskedAccount": "Konto", 
+        "PaymentDetailsCustomerVerification": "Verificering", 
+        "PaymentDetailsAccountSequenceNumber": "Kortnummer", 
+        "ClearingDetailsTransactionIdentifier": "Transaktion", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Original TX", 
+        "ClearingDetailsAuthorizationCode": "Autorisation", 
+        "ClearingDetailsMerchantId": "Forhandler-ID", 
+        "ClearingDetailsTerminalId": "Terminal-ID", 
+        "MerchantDetailsPublicName": "Navn", 
+        "MerchantDetailsAddress": "Adresse", 
+        "MerchantDetailsZip": "Postnummer", 
+        "MerchantDetailsCity": "By", 
+        "MerchantDetailsCountry": "Land", 
+        "MerchantDetailsContact": "Kontakt", 
+        "MerchantDetailsAdditionalInformation": "Yderligere information", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Forhandlerkvit.", 
+            "CUSTOMER": "Kortholderkvit."
+        }, 
+        "StatusText": {
+            "APPROVED": "Gem kvittering!", 
+            "ACCEPTED": "Gem kvittering!", 
+            "DECLINED": "Autoris. afvist.", 
+            "ABORTED": "Transakt. annul.", 
+            "ERROR": "Ugyldig transak.", 
+            "ALL_MATCH": "Alt matcher.", 
+            "CVV_ONLY": "Kun CVV-match", 
+            "ADDRESS_ONLY": "Kun adres.match.", 
+            "NO_MATCHES": "Ingen datamatch.", 
+            "NOT_CHECKED": "Data ej kontrol.", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Chip", 
+            "MAGSTRIPE": "Magnetstribe", 
+            "CONTACTLESS": "Kontaktløs", 
+            "MAGSTRIPE_AS_FALLBACK": "Magnetstribe", 
+            "MANUAL": "Manuel", 
+            "MANUAL_AS_FALLBACK": "Manuel", 
+            "NFC_ICC": "Kontaktløs", 
+            "NFC_MAGSTRIPE": "Kontaktløs", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Betaling", 
+            "REFUND": "Tilbagebetaling", 
+            "CHARGE_UNCAPTURED": "Præ-autorisation", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Ingen", 
+            "PIN": "PIN", 
+            "SIGNATURE": "Underskrift", 
+            "PIN_AND_SIGNATURE": "PIN og underskr.", 
+            "SHOPPER_DEVICE": "Kundeudstyr", 
+            "CARD_SECURITY_CODE": "Kort. sik-kode veri.", 
+            "UNKNOWN": "Ukendt", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN og underskrift", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN og underskrift", 
+            "PIN_ONLINE": "PIN", 
+            "CUSTOMER_DEVICE": "Kundeudstyr"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Gem kvittering!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "KRED. MIN KONTO M. VIST SAM. SUM", 
+            "CHARGE": "DEB. MIN KONTO M. VIST SAM. SUM"
+        }
+    }
+}

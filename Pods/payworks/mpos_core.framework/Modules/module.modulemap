@@ -1,0 +1,14 @@
+//
+//  module.modulemap
+//  mpos.core
+//
+//  Created by Juliano Rotta on 29.01.18.
+//  Copyright © 2018 payworks GmbH. All rights reserved.
+//
+
+framework module mpos_core {
+    umbrella header "umbrella-header.h"
+    
+    export *
+    module * { export * }
+}

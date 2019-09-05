@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "da_DK", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Parameter mangler"
+        ], 
+        "ParameterInvalid": [
+            "Parameter ugyldig"
+        ], 
+        "AccessoryNotFound": [
+            "Udstyr ikke fundet"
+        ], 
+        "AccessoryNotConnected": [
+            "Udstyr ikke forbundet"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Udstyr allerede forbundet"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Udstyr allerede afbrudt"
+        ], 
+        "AccessoryBusy": [
+            "Udstyr optaget"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Udstyr ikke godkendt"
+        ], 
+        "AccessoryDeactivated": [
+            "Udstyr deaktiveret"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Udstyr skal opdateres"
+        ], 
+        "AccessoryBatteryLow": [
+            "Batteri lav"
+        ], 
+        "AccessoryTampered": [
+            "Udstyr manipuleret"
+        ], 
+        "AccessoryError": [
+            "Udstyrsfejl"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Udstyrskomponent ikke fundet"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "Printer optaget"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Lidt eller intet papir i printer"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Printerdæksel er åbent"
+        ], 
+        "TransactionSessionNotFound": [
+            "Transaktionssession ikke fundet"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Transaktionsreference ikke fundet"
+        ], 
+        "TransactionInvalid": [
+            "Transaktion ugyldig"
+        ], 
+        "TransactionBusy": [
+            "Transaktion optaget"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "Transakt. kan ikke længere blive afbrudt"
+        ], 
+        "TransactionDeclined": [
+            "Transaktion afvist"
+        ], 
+        "TransactionAborted": [
+            "Transaktion afbrudt"
+        ], 
+        "TransactionError": [
+            "Transaktionsfejl"
+        ], 
+        "TransactionActionError": [
+            "Transaktion handlingsfejl"
+        ], 
+        "ServerTimeout": [
+            "Server-timeout"
+        ], 
+        "ServerUnavailable": [
+            "Kontroller din internetforbindelse"
+        ], 
+        "ServerGatewayUnavailable": [
+            "Erhverver-/udstederbank ikke tilgængelig"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Gateway-autentifikation mislykkedes"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Gateway-verificering mislykkedes"
+        ], 
+        "ServerInvalidResponse": [
+            "Ugyldigt svar fra server"
+        ], 
+        "ServerError": [
+            "Serverfejl"
+        ], 
+        "SDKResourcesNotFound": [
+            "Ressourcer ikke fundet"
+        ], 
+        "SDKResourcesModified": [
+            "Ressourcer modificeret"
+        ], 
+        "SDKConfigurationMissing": [
+            "Konfiguration mangler"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Egenskab ikke aktiveret"
+        ], 
+        "InternalInconsistency": [
+            "Intern fejl"
+        ], 
+        "ServerUnknownUsername": [
+            "Ingen konto fundet"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Batch forkert. Forestående man. kontrol."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Ingen nuværende transaktioner"
+        ]
+    }
+}

@@ -1,0 +1,523 @@
+{
+    "info": {
+        "columns": 20, 
+        "locale": "cs_CZ", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ABORTED": [
+            "", 
+            "Platba přerušena"
+        ], 
+        "ABORTED.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno."
+        ], 
+        "ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED": [
+            "", 
+            "Platba přerušena"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno."
+        ], 
+        "ABORTED_MERCHANT_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED": [
+            "", 
+            "Platba přerušena"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno."
+        ], 
+        "ABORTED_SHOPPER_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD": [
+            "", 
+            "Platba přerušena"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno."
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT": [
+            "", 
+            "Platba přerušena"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ACCEPTED": [
+            "", 
+            "Platba přijata"
+        ], 
+        "ACCEPTED.REFUND": [
+            "Vrácení peněz", 
+            "přijato"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION": [
+            "", 
+            "Platba přijata"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION.REFUND": [
+            "Vrácení peněz", 
+            "přijato"
+        ], 
+        "APPROVED": [
+            "", 
+            "Platba schválena"
+        ], 
+        "APPROVED_PARTIALLY": [
+            "Partially Approved", 
+            "$amount$"
+        ], 
+        "APPROVED#GIFT_CARD": [
+            "Payment Approved", 
+            "Remaining Balance", 
+            "$balance$", 
+            ""
+        ], 
+        "APPROVED.REFUND": [
+            "Vrácení", 
+            "schváleno"
+        ], 
+        "APPROVED.REFUND#GIFT_CARD": [
+            "", 
+            "Void approved"
+        ], 
+        "APPROVED.VERIFICATION": [
+            "Verification", 
+            "successful"
+        ], 
+        "APPROVED.ACTIVATION": [
+            "", 
+            "Activation approved"
+        ], 
+        "APPROVED.BALANCE_INQUIRY": [
+            "", 
+            "Balance"
+        ], 
+        "APPROVED.CASHOUT": [
+            "", 
+            "Cashout approved"
+        ], 
+        "DECLINED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED.VERIFICATION": [
+            "", 
+            "Cannot validate"
+        ], 
+        "DECLINED.ACTIVATION": [
+            "", 
+            "Activation Declined"
+        ], 
+        "DECLINED.BALANCE_INQUIRY": [
+            "Balance Inquiry", 
+            "Declined"
+        ], 
+        "DECLINED_CARD_EXPIRED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_INVALID_PAN": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_INVALID_SCHEME": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_OR_TERMINAL_DECLINED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_STOLEN": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_USE_ORIGINAL": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_TERMINAL": [
+            "Platba není ", 
+            "možná"
+        ], 
+        "DECLINED_INVALID_TERMINAL_CONFIG": [
+            "Platba není ", 
+            "možná"
+        ], 
+        "DECLINED_INVALID_TERMINAL_SOFTWARE": [
+            "Platba není ", 
+            "možná"
+        ], 
+        "DECLINED_PIN_WRONG": [
+            "Chybný PIN", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PIN_WRONG_TOO_OFTEN": [
+            "Chybný PIN", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_CVN": [
+            "Chybný PIN", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR_EXCEEDS_WITHDRAWAL_COUNT_LIMIT": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR_UNCAPTURED_CHARGES_NOT_SUPPORTED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_SESSION_EXPIRED": [
+            "Platba není ", 
+            "možná"
+        ], 
+        "DECLINED_PROCESSOR_INCONSISTENT_STATE": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_MALFORMED_REQUEST": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_MANIPULATION_SUSPECTED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_BLOCKED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INSUFFICIENT_FUNDS": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_TRANSACTION_FREQUENCY_EXCEEDED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_LOST": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_SCHEME": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_AMOUNT": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_CONFIGURATION": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_DUPLICATE_TRANSACTION": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_WORKFLOW": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR_CARD_EXPIRED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR_REFUND_NOT_POSSIBLE": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_PROCESSOR_TEMPORARILY_BLACKLISTED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_AMOUNT_EXCEEDS_LIMIT": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_MERCHANT_REJECTED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_VERIFICATION_FAILED": [
+            "Declined", 
+            "$reason$"
+        ], 
+        "DECLINED_FRAUD.ACTIVATION": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_FRAUD": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_CARD_ALREADY_ACTIVE": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_INVALID_CLERK": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "DECLINED_RELOAD_LIMIT_EXCEEDED": [
+            "", 
+            "Zamítnuto"
+        ], 
+        "ERROR": [
+            "", 
+            "Chyba při zprac."
+        ], 
+        "ERROR_TRANSACTION_UNABLE_TO_PERSIST": [
+            "Chyba", 
+            "(Storage)"
+        ], 
+        "ERROR_TRANSACTION_PENDING_MANUAL_REVIEW": [
+            "Chyba", 
+            "(Review manually)"
+        ], 
+        "ERROR_APPROVED_OFFLINE": [
+            "Chyba", 
+            "(Terminal approval)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_TYPE": [
+            "Chyba", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_STATUS": [
+            "Chyba", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION": [
+            "Chyba", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_REFUND_AMOUNT": [
+            "Chyba", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_MALFORMED_REQUEST": [
+            "Chyba", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_MALFORMED_REQUEST": [
+            "Chyba", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_FORMAT": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_NONCE": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_SESSION": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_STATUS": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_MISSING_SESSION": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_ERROR": [
+            "Chyba", 
+            "(Connection error)"
+        ], 
+        "ERROR_SESSION_TIMEOUT": [
+            "Chyba", 
+            "(Session timeout)"
+        ], 
+        "ERROR_TERMINAL_ERROR": [
+            "Chyba", 
+            "(Terminal error)"
+        ], 
+        "ERROR_TERMINAL_BATTERY_LOW": [
+            "Chyba (Nabijte ", 
+            "prosím baterii)"
+        ], 
+        "ERROR_SERVER_INVALID_RESPONSE": [
+            "Chyba", 
+            "(Invalid response)"
+        ], 
+        "ERROR_SERVER_UNAVAILABLE": [
+            "Chyba", 
+            "(Server unavailable)"
+        ], 
+        "ERROR_SERVER_TIMEOUT": [
+            "Chyba", 
+            "(Server timeout)"
+        ], 
+        "ERROR_SERVER_AUTHENTICATION_FAILED": [
+            "Chyba", 
+            "(Auth failed)"
+        ], 
+        "ERROR_SERVER_PINNING_FAILED": [
+            "Chyba", 
+            "(Pinning failed)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_DEACTIVATED": [
+            "Chyba", 
+            "(Term. deactivated)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_NOT_ASSIGNED_TO_MERCHANT": [
+            "Chyba", 
+            "(Term. not assigned)"
+        ], 
+        "ERROR_TERMINAL_TIMEOUT": [
+            "Chyba", 
+            "(Terminal timeout)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_UNRESOLVED": [
+            "Chyba", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_RESOLVED": [
+            "Chyba", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_PAYMENT_DETAILS_EXTRACTION_FAILED": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_PAYMENT_DETAILS": [
+            "Chyba", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_CONFIGURATION": [
+            "Chyba", 
+            "(Invalid config)"
+        ], 
+        "ERROR_PROCESSOR_TRANSACTION_ALREADY_IN_PROGRESS": [
+            "Chyba", 
+            "(Transaction)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_NO_RESPONSE": [
+            "Chyba", 
+            "(No response)"
+        ], 
+        "ERROR_SDK_INTERNAL_ERROR": [
+            "Error", 
+            "(Internal)"
+        ], 
+        "NONE": [
+            "", 
+            ""
+        ], 
+        "PENDING": [
+            "Zpracování", 
+            "platby..."
+        ], 
+        "PENDING.REFUND": [
+            "Zprac.", 
+            "vrácení..."
+        ], 
+        "PENDING.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION": [
+            "Zpracování", 
+            "platby..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.REFUND": [
+            "Zprac.", 
+            "vrácení..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION": [
+            "Zpracování", 
+            "platby..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.REFUND": [
+            "Zprac.", 
+            "vrácení..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ]
+    }
+}

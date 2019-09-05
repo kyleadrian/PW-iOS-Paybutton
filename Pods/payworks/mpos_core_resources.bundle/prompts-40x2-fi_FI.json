@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "fi_FI", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Valitse oma tilisi", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Käsitellään maksua…", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Käsitellään palauttaa…", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Viivakoodinlukija", 
+            "käytössä"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Kokeile toista korttia", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Kokeile toista korttia", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Syötä kortti, pyyhkäise tai", 
+            "kokeile toista korttia"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Käsitellään maksua…", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Käsitellään palauttaa…", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Virhe", 
+            ""
+        ], 
+        "Idle": [
+            "Odota...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$ ", 
+            "Syötä kortti"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Syötä kortti tai pyyhkäise"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Syötä kortti tai pyyhkäise", 
+            "[OK] lähimaksaminen"
+        ], 
+        "PINIncorrect": [
+            "Syötä PIN-koodi (väärä) ", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Syötä PIN-koodi (viimeinen yritys) ", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN-koodi OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "Syötä PIN-koodi", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Esitä kortti"
+        ], 
+        "ProcessingTransaction": [
+            "Käsitellään maksua…", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Käsitellään palauttaa…", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Tunnistus vaaditaan", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Allekirjoitus vaaditaan", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Allekirjoitus vaaditaan"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Yhdistetään", 
+            "kortinlukijaan"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Yhdistetään", 
+            "kortinlukijaan"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Disconnecting from", 
+            "card reader"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Suoritetaan", 
+            "päivityksiä"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Haetaan lukijaa", 
+            "Kytke lukija päälle"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Yhdistetään", 
+            "tulostimeen"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Haetaan tulostinta", 
+            "Kytke tulostin päälle"
+        ], 
+        "ProviderAborted": [
+            "Maksu keskeytetty", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Palautus keskeytetty", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Maksu hyväksytty", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Palautus hyväksytty", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Maksu hyväksytty", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Palautus hyväksytty", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Maksu hylätty", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Palautus hylätty", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Maksu epäonnistui", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Palautus epäonnistui", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Maksu epäonnistui", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Palautus epäonnistui", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Valmis", 
+            ""
+        ], 
+        "Aborted": [
+            "Keskeytetty", 
+            ""
+        ], 
+        "Failed": [
+            "Epäonnistui", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Maksua ei voi", 
+            "palauttaa"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Tiedustellaan", 
+            "tapahtumaa"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Rekisteröidään", 
+            "tapahtumaa"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Yhteyden konfigurointi", 
+            "Odota..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Tulostetaan...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Tulostetaan...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Tulostus keskeytetty", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Tulostus epäonnistui", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Luetaan korttia...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Poista kortti"
+        ], 
+        "RemoveCard": [
+            "", 
+            "Poista kortti"
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Pyyhkäise kortti"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Pyyhkäise kortti"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Pyyhkäise kortti", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Keskeytetään maksu...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Keskeytetään palautus...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Päivitetään...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Päivitetään asetuksia", 
+            "Odota..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Päivitetään laitteistoa", 
+            "Odota..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Päivitetään ohjelmistoa", 
+            "Odota..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Luodaan avaimia", 
+            "Odota..."
+        ], 
+        "CardNotSupported": [
+            "Korttia ei tueta! Kokeile toista ", 
+            "korttia tai paina Peruuta"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Lisää TIPPI?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Kysytään TIPPIÄ...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Present one card only", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Allekirjoitus vaaditaan", 
+            "Poista kortti"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Tunnistus vaaditaan", 
+            "Poista kortti"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Käsitellään maksua…", 
+            "Poista kortti"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Käsitellään palauttaa…", 
+            "Poista kortti"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Tervetuloa", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Waiting for approval...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Vahvista summa"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

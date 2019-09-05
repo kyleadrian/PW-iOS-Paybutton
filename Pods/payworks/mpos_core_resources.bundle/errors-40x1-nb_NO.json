@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "nb_NO", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Parameter mangler"
+        ], 
+        "ParameterInvalid": [
+            "Parameter ugyldig"
+        ], 
+        "AccessoryNotFound": [
+            "Utstyr ikke funnet"
+        ], 
+        "AccessoryNotConnected": [
+            "Utstyr ikke tilkoblet"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Utstyr allerede tilkoblet"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Utstyr allerede frakoblet"
+        ], 
+        "AccessoryBusy": [
+            "Utstyr er opptatt"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Utstyr ikke godkjent"
+        ], 
+        "AccessoryDeactivated": [
+            "Utstyr er deaktivert"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Utstyr trenger oppdatering"
+        ], 
+        "AccessoryBatteryLow": [
+            "Batteri lavt"
+        ], 
+        "AccessoryTampered": [
+            "Utstyr tuklet med"
+        ], 
+        "AccessoryError": [
+            "Utstyr feil"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Utstyrskomponent ikke funnet"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "Skriver opptatt"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Skriver har lite eller er tom for papir"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Skriverdekslet er åpent"
+        ], 
+        "TransactionSessionNotFound": [
+            "Transaksjonsøkt ikke funnet"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Transaksjonsreferanse ikke funnet"
+        ], 
+        "TransactionInvalid": [
+            "Transaksjon ugyldig"
+        ], 
+        "TransactionBusy": [
+            "Transaksjon er opptatt"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "Transaksjonen kan ikke lenger avbrytes"
+        ], 
+        "TransactionDeclined": [
+            "Transaksjon avvist"
+        ], 
+        "TransactionAborted": [
+            "Transaksjon avbrutt"
+        ], 
+        "TransactionError": [
+            "Transaksjon feil"
+        ], 
+        "TransactionActionError": [
+            "Transaksjon handlingsfeil"
+        ], 
+        "ServerTimeout": [
+            "Server tidsavbrudd"
+        ], 
+        "ServerUnavailable": [
+            "Sjekk din internett-tilkobling"
+        ], 
+        "ServerGatewayUnavailable": [
+            "akkvisitør/ utstederbank kan ikke nås"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Feil ved autentisering av gateway"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Feil ved verifisering av gateway"
+        ], 
+        "ServerInvalidResponse": [
+            "Ugyldig respons fra server"
+        ], 
+        "ServerError": [
+            "Server feil"
+        ], 
+        "SDKResourcesNotFound": [
+            "Ressurser ikke funnet"
+        ], 
+        "SDKResourcesModified": [
+            "Ressurser endret"
+        ], 
+        "SDKConfigurationMissing": [
+            "Konfigurering mangler"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Funksjon ikke aktivert"
+        ], 
+        "InternalInconsistency": [
+            "Intern feil"
+        ], 
+        "ServerUnknownUsername": [
+            "Ingen konto funnet"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Sats i feil format. Avventer manuell gjennomgang."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Ingen transaksjoner finnes"
+        ]
+    }
+}

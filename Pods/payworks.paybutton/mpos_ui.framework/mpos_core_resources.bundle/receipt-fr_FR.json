@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "fr_FR"
+    }, 
+    "labels": {
+        "Date": "Date", 
+        "Time": "Heure", 
+        "Status": "Statut", 
+        "AmountAndCurrency": "Montant", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Informations", 
+        "Subject": "Description", 
+        "TransactionType": "Type", 
+        "ReceiptType": "Justificatif", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Mode de saisie", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Carte", 
+        "PaymentDetailsMaskedAccount": "Compte", 
+        "PaymentDetailsCustomerVerification": "Vérification", 
+        "PaymentDetailsAccountSequenceNumber": "Numéro de carte", 
+        "ClearingDetailsTransactionIdentifier": "Transaction", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Trx originale", 
+        "ClearingDetailsAuthorizationCode": "Autorisation", 
+        "ClearingDetailsMerchantId": "N° de contrat", 
+        "ClearingDetailsTerminalId": "ID terminal", 
+        "MerchantDetailsPublicName": "Nom", 
+        "MerchantDetailsAddress": "Adresse", 
+        "MerchantDetailsZip": "Code Postal", 
+        "MerchantDetailsCity": "Cité", 
+        "MerchantDetailsCountry": "État", 
+        "MerchantDetailsContact": "Interlocuteur", 
+        "MerchantDetailsAdditionalInformation": "Informations Complémentaires", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Justificatif commerçant", 
+            "CUSTOMER": "Justificatif titulaire"
+        }, 
+        "StatusText": {
+            "APPROVED": "Justificatif à conserver!", 
+            "ACCEPTED": "Justificatif à conserver!", 
+            "DECLINED": "Autorisation refusée", 
+            "ABORTED": "Transaction interrompue", 
+            "ERROR": "Transaction non valide", 
+            "ALL_MATCH": "All match.", 
+            "CVV_ONLY": "CVV Match Only", 
+            "ADDRESS_ONLY": "Address match only.", 
+            "NO_MATCHES": "No data matches.", 
+            "NOT_CHECKED": "Data not checked.", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Puce", 
+            "MAGSTRIPE": "Bande magnétique", 
+            "CONTACTLESS": "Sans contact", 
+            "MAGSTRIPE_AS_FALLBACK": "Bande magnétique", 
+            "MANUAL": "Manuel", 
+            "MANUAL_AS_FALLBACK": "Manuel", 
+            "NFC_ICC": "Sans contact", 
+            "NFC_MAGSTRIPE": "Sans contact", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Paiement", 
+            "REFUND": "Annulation", 
+            "CHARGE_UNCAPTURED": "Pre-Authorization", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Aucune", 
+            "PIN": "PIN", 
+            "SIGNATURE": "Signature", 
+            "PIN_AND_SIGNATURE": "PIN et signature", 
+            "SHOPPER_DEVICE": "Dispositif client", 
+            "CARD_SECURITY_CODE": "Card security code verified.", 
+            "UNKNOWN": "Unknown", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN et signature", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN et signature", 
+            "PIN_ONLINE": "PIN", 
+            "CUSTOMER_DEVICE": "Dispositif client"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Justificatif à conserver!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "PLEASE CREDIT MY ACCOUNT WITH TOTAL SHOWN", 
+            "CHARGE": "PLEASE DEBIT MY ACCOUNT WITH TOTAL SHOWN"
+        }
+    }
+}

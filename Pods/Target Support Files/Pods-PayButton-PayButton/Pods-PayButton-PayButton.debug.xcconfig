@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/Lockbox" "${PODS_CONFIGURATION_BUILD_DIR}/MPAFNetworking" "${PODS_ROOT}/payworks.paybutton" "${PODS_ROOT}/payworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjack.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Lockbox/Lockbox.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MPAFNetworking/MPAFNetworking.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"icucore" -framework "CocoaLumberjack" -framework "ExternalAccessory" -framework "Foundation" -framework "Lockbox" -framework "MPAFNetworking" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "mpos_accessories_miura_shuttle" -framework "mpos_comlinks_externalaccessory" -framework "mpos_comlinks_tcp" -framework "mpos_core" -framework "mpos_ui"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

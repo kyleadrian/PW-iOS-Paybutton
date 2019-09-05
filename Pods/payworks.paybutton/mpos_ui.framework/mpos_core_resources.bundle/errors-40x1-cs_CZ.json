@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "cs_CZ", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Parametr chybí"
+        ], 
+        "ParameterInvalid": [
+            "Parametr neplatný"
+        ], 
+        "AccessoryNotFound": [
+            "Příslušenství nenalezeno"
+        ], 
+        "AccessoryNotConnected": [
+            "Příslušenství nepřipojeno"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Příslušenství již připojeno"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Příslušenství již odpojeno"
+        ], 
+        "AccessoryBusy": [
+            "Příslušenství je zaneprázdněno"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Příslušenství není na seznamu povolených"
+        ], 
+        "AccessoryDeactivated": [
+            "Příslušenství je deaktivováno"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Požaduje se aktualizace příslušenství"
+        ], 
+        "AccessoryBatteryLow": [
+            "Baterie je skoro vybitá"
+        ], 
+        "AccessoryTampered": [
+            "S příslušenstvím někdo manipuloval"
+        ], 
+        "AccessoryError": [
+            "Chyba příslušenství"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Komponenta příslušenství nenalezena"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "Tiskárna zaneprázdněna"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Dochází inkoust nebo došel papír"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Kryt tiskárny je otevřen"
+        ], 
+        "TransactionSessionNotFound": [
+            "Relace transakce nenalezena"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Reference transakce nenalezena"
+        ], 
+        "TransactionInvalid": [
+            "Transakce neplatná"
+        ], 
+        "TransactionBusy": [
+            "Transakce je zaneprázdněná"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "Transakci již nelze přerušit"
+        ], 
+        "TransactionDeclined": [
+            "Transakce zamítnutá"
+        ], 
+        "TransactionAborted": [
+            "Transakce přerušena"
+        ], 
+        "TransactionError": [
+            "Chyba transakce"
+        ], 
+        "TransactionActionError": [
+            "Chyba akce transakce"
+        ], 
+        "ServerTimeout": [
+            "Časový limit serveru vypršel"
+        ], 
+        "ServerUnavailable": [
+            "Ověřte své internetové připojení"
+        ], 
+        "ServerGatewayUnavailable": [
+            "Acquirer or issuer bank not reachable"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Selhala autentikace brány"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Selhalo ověření brány"
+        ], 
+        "ServerInvalidResponse": [
+            "Neplatná odpověď od serveru"
+        ], 
+        "ServerError": [
+            "Chyba serveru"
+        ], 
+        "SDKResourcesNotFound": [
+            "Zdroje nenalezeny"
+        ], 
+        "SDKResourcesModified": [
+            "Zdroje upraveny"
+        ], 
+        "SDKConfigurationMissing": [
+            "Konfigurace chybí"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Funkce není aktivována"
+        ], 
+        "InternalInconsistency": [
+            "Interní chyba"
+        ], 
+        "ServerUnknownUsername": [
+            "Nenalezen účet"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Chyba v dávce. Nutný manuální přezkum."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Žádné existující transakce"
+        ]
+    }
+}

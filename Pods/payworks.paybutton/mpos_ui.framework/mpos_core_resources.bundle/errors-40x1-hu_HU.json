@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "hu_HU", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Hiányzó paraméter"
+        ], 
+        "ParameterInvalid": [
+            "Érvénytelen paraméter"
+        ], 
+        "AccessoryNotFound": [
+            "Nem található az eszköz"
+        ], 
+        "AccessoryNotConnected": [
+            "Nem csatlakoztatták az eszközt"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Az eszközt már csatlakoztatták"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Az eszközt már leválasztották"
+        ], 
+        "AccessoryBusy": [
+            "Az eszköz elfoglalt"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Nem engedélyezték az eszközt"
+        ], 
+        "AccessoryDeactivated": [
+            "Kikapcsolták az eszközt"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Eszközfrissítés szükséges"
+        ], 
+        "AccessoryBatteryLow": [
+            "Alacsony akkumulátortöltöttség"
+        ], 
+        "AccessoryTampered": [
+            "Manipulálták az eszközt"
+        ], 
+        "AccessoryError": [
+            "Eszközhiba"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Nem található a segédeszköz"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "A nyomtató foglalt"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Kifogyott a tinta/papír a nyomtatóból"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Nyitva hagyták a nyomtató fedelét"
+        ], 
+        "TransactionSessionNotFound": [
+            "Nem található a tranzakciós munkamenet"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Nem található a tranzakciós referencia"
+        ], 
+        "TransactionInvalid": [
+            "Érvénytelen tranzakció"
+        ], 
+        "TransactionBusy": [
+            "A tranzakció foglalt"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "A tranzakció már nem szakítható meg"
+        ], 
+        "TransactionDeclined": [
+            "Tranzakció elutasítva"
+        ], 
+        "TransactionAborted": [
+            "A tranzakció megszakadt"
+        ], 
+        "TransactionError": [
+            "Tranzakciós hiba"
+        ], 
+        "TransactionActionError": [
+            "Hiba a tranzakció végrehajtása közben"
+        ], 
+        "ServerTimeout": [
+            "Kiszolgáló időtúllépése"
+        ], 
+        "ServerUnavailable": [
+            "Ellenőrizze az internetkapcsolatot"
+        ], 
+        "ServerGatewayUnavailable": [
+            "Elfogadó vagy kibocsátó bank n. elérhető"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Sikertelen átjáró-hitelesítés"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Sikertelen átjáró-ellenőrzés"
+        ], 
+        "ServerInvalidResponse": [
+            "Érvénytelen válasz a kiszolgálótól"
+        ], 
+        "ServerError": [
+            "Kiszolgáló hiba"
+        ], 
+        "SDKResourcesNotFound": [
+            "Nem találhatók az eszközök"
+        ], 
+        "SDKResourcesModified": [
+            "Módosították az eszközöket"
+        ], 
+        "SDKConfigurationMissing": [
+            "Hiányzó beállítás"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Nem engedélyezték a funkciót"
+        ], 
+        "InternalInconsistency": [
+            "Belső hiba"
+        ], 
+        "ServerUnknownUsername": [
+            "Nem található számla"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Rosszul form. köt. Man. ell. foly.-ban."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Nincs tranzakció"
+        ]
+    }
+}

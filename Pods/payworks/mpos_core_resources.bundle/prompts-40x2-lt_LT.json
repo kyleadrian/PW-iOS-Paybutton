@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "en_US", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Prašome pasirinkti savo sąskaitą", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Apdorojamas mokėjimas...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Apdorojamas grąžinimas...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Brūkšninio kodo skaitytuvas", 
+            "aktyvus"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Bandykite kitą kortelę", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Bandykite kitą kortelę", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Įstatykite, perbraukite arba", 
+            "bandykite kitą kortelę"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Apdorojamas mokėjimas...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Apdorojamas grąžinimas...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Klaida", 
+            ""
+        ], 
+        "Idle": [
+            "Prašome palaukti...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Įdėkite kortelę"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Įdėkite arba perbraukite kortelę"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Įdėkite arba perbraukite", 
+            "kortelę [OK] NFC"
+        ], 
+        "PINIncorrect": [
+            "Įveskite PIN kodą (neteisingas)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Įveskite PIN kodą (paskutinis bandymas)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN KODAS GERAS", 
+            ""
+        ], 
+        "PINStatus": [
+            "Įveskite PIN kodą", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Pateikite kortelę"
+        ], 
+        "ProcessingTransaction": [
+            "Apdorojamas mokėjimas...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Apdorojamas grąžinimas...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Reikalinga identifikacija", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Reikalingas parašas", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Reikalingas parašas"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Jungiamasi prie", 
+            "kortelės skaitytuvo"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Jungiamasi prie", 
+            "kortelės skaitytuvo"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Atsijungiama nuo", 
+            "kortelės skaitytuvo"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Pritaikomi", 
+            "atnaujinimai"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Ieškoma skaitytuvo", 
+            "Prašome įjungti skaitytuvą"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Jungiamasi prie", 
+            "spausdintuvo"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Ieškoma spausdintuvo", 
+            "Prašome įjungti spausdintuvą"
+        ], 
+        "ProviderAborted": [
+            "Mokėjimas nutrauktas", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Grąžinimas nutrauktas", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Mokėjimas patvirtintas", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Grąžinimas patvirtintas", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Mokėjimas priimtas", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Grąžinimas priimtas", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Mokėjimas atmestas", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Grąžinimas atmestas", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Mokėjimas nepavyko", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Grąžinimas nepavyko", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Mokėjimas neužbaigtas", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Grąžinimas neužbaigtas", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Baigta", 
+            ""
+        ], 
+        "Aborted": [
+            "Nutraukta", 
+            ""
+        ], 
+        "Failed": [
+            "Nepavyko", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Mokėjimas", 
+            "negrąžinamas"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Užklausiama", 
+            "operacija"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Registruojama", 
+            "operacija"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Konfigūruojama jungtis", 
+            "Prašome palaukti..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Spausdinama...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Spausdinama...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Spausdinimas nutrauktas", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Spausdinimas nepavyko", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Nuskaitoma kortelė...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Išimkite kortelę"
+        ], 
+        "RemoveCard": [
+            "Išimkite kortelę", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Perbraukite kortelę"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Perbraukite kortelę"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Perbraukite kortelę", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Nutraukiamas mokėjimas...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Nutraukiamas grąžinimas...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Atnaujinama...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Atnaujinama konfigūracija", 
+            "Prašome palaukti..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Atnaujinama gamintojo programinė įranga", 
+            "Prašome palaukti..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Atnaujinama programinė įranga", 
+            "Prašome palaukti..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Generuojami raktai", 
+            "Prašome palaukti..."
+        ], 
+        "CardNotSupported": [
+            "Kortelė nepalaikoma!", 
+            "Bandykite kitą arba spauskite atšaukti"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Pridėti ARBATPINIGIŲ?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Užklausiama ARBATPINIGIŲ...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Pateikite tik vieną kortelę", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Reikalingas parašas", 
+            "Išimkite kortelę"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Reikalinga identifikacija", 
+            "Išimkite kortelę"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Apdorojamas mokėjimas...", 
+            "Išimkite kortelę"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Apdorojamas grąžinimas...", 
+            "Išimkite kortelę"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Sveiki atvykę", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Laukiama patvirtinimo...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Confirm Amount"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

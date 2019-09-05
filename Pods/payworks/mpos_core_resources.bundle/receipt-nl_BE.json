@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "nl_BE"
+    }, 
+    "labels": {
+        "Date": "Datum", 
+        "Time": "Tijdstip", 
+        "Status": "Status", 
+        "AmountAndCurrency": "Bedrag", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Informatie", 
+        "Subject": "Beschrijving", 
+        "TransactionType": "Type", 
+        "ReceiptType": "Betalingsbewijs", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Invoermodus", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Kaart", 
+        "PaymentDetailsMaskedAccount": "Rekening", 
+        "PaymentDetailsCustomerVerification": "Verificatie", 
+        "PaymentDetailsAccountSequenceNumber": "Kaartnummer", 
+        "ClearingDetailsTransactionIdentifier": "Transactie", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Originele Trx", 
+        "ClearingDetailsAuthorizationCode": "Autorisatie", 
+        "ClearingDetailsMerchantId": "Contractnr.", 
+        "ClearingDetailsTerminalId": "Terminal-ID", 
+        "MerchantDetailsPublicName": "Naam", 
+        "MerchantDetailsAddress": "Adres", 
+        "MerchantDetailsZip": "Postcode", 
+        "MerchantDetailsCity": "City", 
+        "MerchantDetailsCountry": "Land", 
+        "MerchantDetailsContact": "Contacten", 
+        "MerchantDetailsAdditionalInformation": "Extra Informatie", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Bewijs handelaar", 
+            "CUSTOMER": "Bewijs klant"
+        }, 
+        "StatusText": {
+            "APPROVED": "Betalingsbewijs bewaren a.u.b.!", 
+            "ACCEPTED": "Betalingsbewijs bewaren a.u.b.!", 
+            "DECLINED": "Autorisatie geweigerd.", 
+            "ABORTED": "Transactie afgebroken.", 
+            "ERROR": "Transactie ongeldig.", 
+            "ALL_MATCH": "All match.", 
+            "CVV_ONLY": "CVV Match Only", 
+            "ADDRESS_ONLY": "Address match only.", 
+            "NO_MATCHES": "No data matches.", 
+            "NOT_CHECKED": "Data not checked.", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Chip", 
+            "MAGSTRIPE": "Magneetstrip", 
+            "CONTACTLESS": "Contactloos", 
+            "MAGSTRIPE_AS_FALLBACK": "Magneetstrip", 
+            "MANUAL": "Manueel", 
+            "MANUAL_AS_FALLBACK": "Manueel", 
+            "NFC_ICC": "Contactloos", 
+            "NFC_MAGSTRIPE": "Contactloos", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Betaling", 
+            "REFUND": "Annulatie", 
+            "CHARGE_UNCAPTURED": "Pre-Authorization", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Geen", 
+            "PIN": "PIN", 
+            "SIGNATURE": "Handtekening", 
+            "PIN_AND_SIGNATURE": "PIN en handtekening", 
+            "SHOPPER_DEVICE": "Apparaat klant", 
+            "CARD_SECURITY_CODE": "Card security code verified.", 
+            "UNKNOWN": "Unknown", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN en handtekening", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN en handtekening", 
+            "PIN_ONLINE": "PIN", 
+            "CUSTOMER_DEVICE": "Apparaat klant"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Betalingsbewijs bewaren a.u.b.!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "PLEASE CREDIT MY ACCOUNT WITH TOTAL SHOWN", 
+            "CHARGE": "PLEASE DEBIT MY ACCOUNT WITH TOTAL SHOWN"
+        }
+    }
+}

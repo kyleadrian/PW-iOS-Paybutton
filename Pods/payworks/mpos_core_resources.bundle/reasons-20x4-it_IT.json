@@ -1,0 +1,523 @@
+{
+    "info": {
+        "columns": 20, 
+        "locale": "it_IT", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ABORTED": [
+            "", 
+            "Pagamento annullato"
+        ], 
+        "ABORTED.REFUND": [
+            "", 
+            "Rimborso annullato"
+        ], 
+        "ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED": [
+            "", 
+            "Pagamento annullato"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.REFUND": [
+            "", 
+            "Rimborso annullato"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED": [
+            "", 
+            "Pagamento annullato"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.REFUND": [
+            "", 
+            "Rimborso annullato"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD": [
+            "", 
+            "Pagamento annullato"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.REFUND": [
+            "", 
+            "Rimborso annullato"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT": [
+            "", 
+            "Pagamento annullato"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.REFUND": [
+            "", 
+            "Rimborso annullato"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ACCEPTED": [
+            "Pagamento", 
+            "accettato"
+        ], 
+        "ACCEPTED.REFUND": [
+            "Rimborso", 
+            "accettato"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION": [
+            "Pagamento", 
+            "accettato"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION.REFUND": [
+            "Rimborso", 
+            "accettato"
+        ], 
+        "APPROVED": [
+            "", 
+            "Pagamento accettato"
+        ], 
+        "APPROVED_PARTIALLY": [
+            "Partially Approved", 
+            "$amount$"
+        ], 
+        "APPROVED#GIFT_CARD": [
+            "Payment Approved", 
+            "Remaining Balance", 
+            "$balance$", 
+            ""
+        ], 
+        "APPROVED.REFUND": [
+            "Rimborso", 
+            "accettato"
+        ], 
+        "APPROVED.REFUND#GIFT_CARD": [
+            "", 
+            "Void approved"
+        ], 
+        "APPROVED.VERIFICATION": [
+            "Verification", 
+            "successful"
+        ], 
+        "APPROVED.ACTIVATION": [
+            "", 
+            "Activation approved"
+        ], 
+        "APPROVED.BALANCE_INQUIRY": [
+            "", 
+            "Balance"
+        ], 
+        "APPROVED.CASHOUT": [
+            "", 
+            "Cashout approved"
+        ], 
+        "DECLINED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED.VERIFICATION": [
+            "", 
+            "Cannot validate"
+        ], 
+        "DECLINED.ACTIVATION": [
+            "", 
+            "Activation Declined"
+        ], 
+        "DECLINED.BALANCE_INQUIRY": [
+            "Balance Inquiry", 
+            "Declined"
+        ], 
+        "DECLINED_CARD_EXPIRED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_INVALID_PAN": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_INVALID_SCHEME": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_OR_TERMINAL_DECLINED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_STOLEN": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_USE_ORIGINAL": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_TERMINAL": [
+            "Pagamento non", 
+            "possibile"
+        ], 
+        "DECLINED_INVALID_TERMINAL_CONFIG": [
+            "Pagamento non", 
+            "possibile"
+        ], 
+        "DECLINED_INVALID_TERMINAL_SOFTWARE": [
+            "Pagamento non", 
+            "possibile"
+        ], 
+        "DECLINED_PIN_WRONG": [
+            "PIN errato", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PIN_WRONG_TOO_OFTEN": [
+            "PIN errato troppe", 
+            "volte, rifiutato"
+        ], 
+        "DECLINED_INVALID_CVN": [
+            "PIN errato", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR_EXCEEDS_WITHDRAWAL_COUNT_LIMIT": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR_UNCAPTURED_CHARGES_NOT_SUPPORTED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_SESSION_EXPIRED": [
+            "Pagamento non", 
+            "possibile"
+        ], 
+        "DECLINED_PROCESSOR_INCONSISTENT_STATE": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_MALFORMED_REQUEST": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_MANIPULATION_SUSPECTED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_BLOCKED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INSUFFICIENT_FUNDS": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_TRANSACTION_FREQUENCY_EXCEEDED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_LOST": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_SCHEME": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_AMOUNT": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_CONFIGURATION": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_DUPLICATE_TRANSACTION": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_WORKFLOW": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR_CARD_EXPIRED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR_REFUND_NOT_POSSIBLE": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_PROCESSOR_TEMPORARILY_BLACKLISTED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_AMOUNT_EXCEEDS_LIMIT": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_MERCHANT_REJECTED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_VERIFICATION_FAILED": [
+            "Declined", 
+            "$reason$"
+        ], 
+        "DECLINED_FRAUD.ACTIVATION": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_FRAUD": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_CARD_ALREADY_ACTIVE": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_INVALID_CLERK": [
+            "", 
+            "Rifiutato"
+        ], 
+        "DECLINED_RELOAD_LIMIT_EXCEEDED": [
+            "", 
+            "Rifiutato"
+        ], 
+        "ERROR": [
+            "", 
+            "Errore"
+        ], 
+        "ERROR_TRANSACTION_UNABLE_TO_PERSIST": [
+            "Error", 
+            "(Storage)"
+        ], 
+        "ERROR_TRANSACTION_PENDING_MANUAL_REVIEW": [
+            "Error", 
+            "(Reviewed manually)"
+        ], 
+        "ERROR_APPROVED_OFFLINE": [
+            "Errore", 
+            "(Terminal approval)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_TYPE": [
+            "Error", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_STATUS": [
+            "Error", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION": [
+            "Error", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_REFUND_AMOUNT": [
+            "Error", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_MALFORMED_REQUEST": [
+            "Errore", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_MALFORMED_REQUEST": [
+            "Errore", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_FORMAT": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_NONCE": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_SESSION": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_STATUS": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_MISSING_SESSION": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_ERROR": [
+            "Errore", 
+            "(Connection error)"
+        ], 
+        "ERROR_SESSION_TIMEOUT": [
+            "Errore", 
+            "(Session timeout)"
+        ], 
+        "ERROR_TERMINAL_ERROR": [
+            "Errore", 
+            "(Terminal error)"
+        ], 
+        "ERROR_TERMINAL_BATTERY_LOW": [
+            "Error", 
+            "(Charge battery)"
+        ], 
+        "ERROR_SERVER_INVALID_RESPONSE": [
+            "Errore", 
+            "(Invalid response)"
+        ], 
+        "ERROR_SERVER_UNAVAILABLE": [
+            "Errore", 
+            "(Server unavailable)"
+        ], 
+        "ERROR_SERVER_TIMEOUT": [
+            "Errore", 
+            "(Server timeout)"
+        ], 
+        "ERROR_SERVER_AUTHENTICATION_FAILED": [
+            "Errore", 
+            "(Auth failed)"
+        ], 
+        "ERROR_SERVER_PINNING_FAILED": [
+            "Errore", 
+            "(Pinning failed)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_DEACTIVATED": [
+            "Errore", 
+            "(Term. deactivated)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_NOT_ASSIGNED_TO_MERCHANT": [
+            "Errore", 
+            "(Term. not assigned)"
+        ], 
+        "ERROR_TERMINAL_TIMEOUT": [
+            "Errore", 
+            "(Terminal timeout)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_UNRESOLVED": [
+            "Errore", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_RESOLVED": [
+            "Errore", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_PAYMENT_DETAILS_EXTRACTION_FAILED": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_PAYMENT_DETAILS": [
+            "Errore", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_CONFIGURATION": [
+            "Errore", 
+            "(Invalid config)"
+        ], 
+        "ERROR_PROCESSOR_TRANSACTION_ALREADY_IN_PROGRESS": [
+            "Errore", 
+            "(Transaction)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_NO_RESPONSE": [
+            "Errore", 
+            "(No response)"
+        ], 
+        "ERROR_SDK_INTERNAL_ERROR": [
+            "Error", 
+            "(Internal)"
+        ], 
+        "NONE": [
+            "", 
+            ""
+        ], 
+        "PENDING": [
+            "Elaborazione", 
+            "pagamento..."
+        ], 
+        "PENDING.REFUND": [
+            "Elaborazione", 
+            "rimborso..."
+        ], 
+        "PENDING.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION": [
+            "Elaborazione", 
+            "pagamento..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.REFUND": [
+            "Elaborazione", 
+            "rimborso..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION": [
+            "Elaborazione", 
+            "pagamento..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.REFUND": [
+            "Elaborazione", 
+            "rimborso..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ]
+    }
+}

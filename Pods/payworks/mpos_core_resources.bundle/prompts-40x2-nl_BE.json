@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "nl_BE", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Kaart selecteren", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Betaling wordt verwerkt...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Terugbetaling wordt verwerkt...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Barcodescanner", 
+            "actief"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "", 
+            "Gebruik andere kaart"
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "", 
+            "Gebruik andere kaart"
+        ], 
+        "CardNotSupportedNfc": [
+            "Ingeven, schuiven of", 
+            "andere kaart"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Betaling wordt verwerkt...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Terugbetaling wordt verwerkt...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Fout", 
+            ""
+        ], 
+        "Idle": [
+            "Wacht alsjeblieft...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Kaart insteken"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Kaart ingeven of schuiven"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Kaart ingeven of", 
+            "schuiven, [OK] voor NFC"
+        ], 
+        "PINIncorrect": [
+            "PIN invoeren (verkeerde PIN)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "PIN invoeren (laatste poging)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "PIN-code invoeren", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Kaart AUB"
+        ], 
+        "ProcessingTransaction": [
+            "Betaling wordt verwerkt...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Terugbetaling wordt verwerkt...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Identificatie vereist", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Handtekening vereist", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Handtekening vereist"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Verbind met ", 
+            "kaartlezer"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Verbind met ", 
+            "kaartlezer"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Disconnecting from", 
+            "card reader"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Update wordt ", 
+            "uitgevoerd"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Kaartlezer zoeken", 
+            "Kaartlezer inschakelen"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Verbind met", 
+            "printer"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Printer zoeken", 
+            "Printer inschakelen"
+        ], 
+        "ProviderAborted": [
+            "Betaling afgebroken", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Terugbetaling afgebroken", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Betaling geslaagd", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Terugbetaling geslaagd", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Betaling Geaccepteerd", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Terugbetaling Geaccepteerd", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Betaling geweigerd", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Terugbetaling geweigerd", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Betaling mislukt", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Terugbetaling mislukt", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Betalingsstatus onbekend ", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Terugbetaling onbekend ", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Voltooid", 
+            ""
+        ], 
+        "Aborted": [
+            "Afgebroken", 
+            ""
+        ], 
+        "Failed": [
+            "Mislukt", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Terugbetaling", 
+            "niet mogelijk"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Controleer", 
+            "betaling"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Registreer", 
+            "betaling"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Configuratie van", 
+            "de kaartlezer..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Afdrukken...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Afdrukken...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Afdrukken afgebroken", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Afdrukken mislukt", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Kaart wordt gelezen...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Kaart terugnemen"
+        ], 
+        "RemoveCard": [
+            "", 
+            "Kaart terugnemen"
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Kaart doorschuiven"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Kaart doorschuiven"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Kaart doorschuiven", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Betaling wordt afgebroken...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Terugbetaling wordt afgebroken...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Update...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Config-update", 
+            "Een ogenblikje a.u.b. ..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Firmware-update", 
+            "Dit kan even duren..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Software-update", 
+            "Dit kan even duren..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Aanmaak sleutel", 
+            "Dit kan even duren..."
+        ], 
+        "CardNotSupported": [
+            "Kaart niet ondersteund!", 
+            "Andere kaart of afbreken"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "FOOI toevoegen?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Vraagt om FOOI...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Present one card only", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Handtekening vereist", 
+            "Kaart terugnemen"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Identificatie vereist", 
+            "Kaart terugnemen"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Betaling wordt verwerkt...", 
+            "Kaart terugnemen"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Terugbetaling wordt verwerkt...", 
+            "Kaart terugnemen"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Welkom", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Waiting for approval...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Bevestig bedrag"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

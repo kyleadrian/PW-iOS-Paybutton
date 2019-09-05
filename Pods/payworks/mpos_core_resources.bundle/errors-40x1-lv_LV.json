@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "lv_LV", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Trūkst parametra"
+        ], 
+        "ParameterInvalid": [
+            "Nederīgs parametrs"
+        ], 
+        "AccessoryNotFound": [
+            "Palīgierīce nav atrasta"
+        ], 
+        "AccessoryNotConnected": [
+            "Palīgierīce nav pievienota"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Palīgierīce jau pievienota"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Palīgierīce jau atvienota"
+        ], 
+        "AccessoryBusy": [
+            "Palīgierīce ir aizņemta"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Palīgierīce nav baltajā sarakstā"
+        ], 
+        "AccessoryDeactivated": [
+            "Palīgierīce ir deaktivizēta"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Palīgierīci nepieciešams atjaunināt"
+        ], 
+        "AccessoryBatteryLow": [
+            "Zems akumulatora līmenis"
+        ], 
+        "AccessoryTampered": [
+            "Palīgierīce pārveidota"
+        ], 
+        "AccessoryError": [
+            "Palīgierīces kļūda"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Palīgierīces komponents nav atrasts"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "Printeris aizņemts"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Printerī maz vai nav papīra"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Printera vāks atvērts"
+        ], 
+        "TransactionSessionNotFound": [
+            "Darījuma sesija nav atrasta"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Darījuma atsauce nav atrasta"
+        ], 
+        "TransactionInvalid": [
+            "Darījums nederīgs"
+        ], 
+        "TransactionBusy": [
+            "Darījums ir aizņemts"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "Darījumu vairs nevar pārtraukt"
+        ], 
+        "TransactionDeclined": [
+            "Darījums noraidīts"
+        ], 
+        "TransactionAborted": [
+            "Darījums pārtraukts"
+        ], 
+        "TransactionError": [
+            "Darījuma kļūda"
+        ], 
+        "TransactionActionError": [
+            "Darījuma darbības kļūda"
+        ], 
+        "ServerTimeout": [
+            "Servera noildze"
+        ], 
+        "ServerUnavailable": [
+            "Pārbaudiet interneta savienojumu"
+        ], 
+        "ServerGatewayUnavailable": [
+            "Acquirer or issuer bank not reachable"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Vārtejas autentifikācija neizdevās"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Vārtejas pārbaude neizdevās"
+        ], 
+        "ServerInvalidResponse": [
+            "Nederīga atbilde no servera"
+        ], 
+        "ServerError": [
+            "Servera kļūda"
+        ], 
+        "SDKResourcesNotFound": [
+            "Resursi nav atrasti"
+        ], 
+        "SDKResourcesModified": [
+            "Resursi modificēti"
+        ], 
+        "SDKConfigurationMissing": [
+            "Trūkst konfigurācijas"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Līdzeklis nav iespējots"
+        ], 
+        "InternalInconsistency": [
+            "Iekšēja kļūda"
+        ], 
+        "ServerUnknownUsername": [
+            "Konts nav atrasts"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Nep. veid. pak. Gaida manuālu pārskat."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Pašlaik nav darījumu"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+framework module MPAFNetworking {
+  umbrella header "MPAFNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

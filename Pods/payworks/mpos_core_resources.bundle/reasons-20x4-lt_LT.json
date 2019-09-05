@@ -1,0 +1,523 @@
+{
+    "info": {
+        "columns": 20, 
+        "locale": "en_US", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ABORTED": [
+            "", 
+            "Mokėjimas nutraukt."
+        ], 
+        "ABORTED.REFUND": [
+            "", 
+            "Grąžinimas nutrauk."
+        ], 
+        "ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED": [
+            "", 
+            "Mokėjimas nutraukt."
+        ], 
+        "ABORTED_MERCHANT_ABORTED.REFUND": [
+            "", 
+            "Grąžinimas nutrauk."
+        ], 
+        "ABORTED_MERCHANT_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED": [
+            "", 
+            "Mokėjimas nutraukt."
+        ], 
+        "ABORTED_SHOPPER_ABORTED.REFUND": [
+            "", 
+            "Grąžinimas nutrauk."
+        ], 
+        "ABORTED_SHOPPER_ABORTED.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD": [
+            "", 
+            "Mokėjimas nutraukt."
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.REFUND": [
+            "", 
+            "Grąžinimas nutrauk."
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT": [
+            "", 
+            "Mokėjimas nutrauktas"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.REFUND": [
+            "Grąžinimas", 
+            "nutrauktas"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.VERIFICATION": [
+            "", 
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.ACTIVATION": [
+            "", 
+            "Activation aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.BALANCE_INQUIRY": [
+            "", 
+            "Balance aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.CASHOUT": [
+            "", 
+            "Cashout aborted"
+        ], 
+        "ACCEPTED": [
+            "", 
+            "Mokėjimas priimtas"
+        ], 
+        "ACCEPTED.REFUND": [
+            "", 
+            "Grąžinimas priimtas"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION": [
+            "", 
+            "Mokėjimas priimtas"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION.REFUND": [
+            "", 
+            "Grąžinimas priimtas"
+        ], 
+        "APPROVED": [
+            "", 
+            "Mokėjimas patvirt."
+        ], 
+        "APPROVED_PARTIALLY": [
+            "Partially Approved", 
+            "$amount$"
+        ], 
+        "APPROVED#GIFT_CARD": [
+            "Payment Approved", 
+            "Remaining Balance", 
+            "$balance$", 
+            ""
+        ], 
+        "APPROVED.REFUND": [
+            "Grąžinimas", 
+            "patvirt."
+        ], 
+        "APPROVED.REFUND#GIFT_CARD": [
+            "", 
+            "Void approved"
+        ], 
+        "APPROVED.VERIFICATION": [
+            "Verification", 
+            "successful"
+        ], 
+        "APPROVED.ACTIVATION": [
+            "", 
+            "Activation approved"
+        ], 
+        "APPROVED.BALANCE_INQUIRY": [
+            "", 
+            "Balance"
+        ], 
+        "APPROVED.CASHOUT": [
+            "", 
+            "Cashout approved"
+        ], 
+        "DECLINED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED.VERIFICATION": [
+            "", 
+            "Cannot validate"
+        ], 
+        "DECLINED.ACTIVATION": [
+            "", 
+            "Activation Declined"
+        ], 
+        "DECLINED.BALANCE_INQUIRY": [
+            "Balance Inquiry", 
+            "Declined"
+        ], 
+        "DECLINED_CARD_EXPIRED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_INVALID_PAN": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_INVALID_SCHEME": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_OR_TERMINAL_DECLINED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_STOLEN": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_USE_ORIGINAL": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_TERMINAL": [
+            "Mokėjimas ne", 
+            "galimas"
+        ], 
+        "DECLINED_INVALID_TERMINAL_CONFIG": [
+            "Mokėjimas ne", 
+            "galimas"
+        ], 
+        "DECLINED_INVALID_TERMINAL_SOFTWARE": [
+            "Mokėjimas ne", 
+            "galimas"
+        ], 
+        "DECLINED_PIN_WRONG": [
+            "Neteis. PIN", 
+            "Atmesta"
+        ], 
+        "DECLINED_PIN_WRONG_TOO_OFTEN": [
+            "Neteis. PIN per", 
+            "dažnai Atmesta"
+        ], 
+        "DECLINED_INVALID_CVN": [
+            "Neteis. PIN", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR_EXCEEDS_WITHDRAWAL_COUNT_LIMIT": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR_UNCAPTURED_CHARGES_NOT_SUPPORTED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_SESSION_EXPIRED": [
+            "Mokėjimas ne", 
+            "galimas"
+        ], 
+        "DECLINED_PROCESSOR_INCONSISTENT_STATE": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_MALFORMED_REQUEST": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_MANIPULATION_SUSPECTED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_BLOCKED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INSUFFICIENT_FUNDS": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_TRANSACTION_FREQUENCY_EXCEEDED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_LOST": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_SCHEME": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_AMOUNT": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_CONFIGURATION": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_DUPLICATE_TRANSACTION": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_WORKFLOW": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR_CARD_EXPIRED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR_REFUND_NOT_POSSIBLE": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_PROCESSOR_TEMPORARILY_BLACKLISTED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_AMOUNT_EXCEEDS_LIMIT": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_MERCHANT_REJECTED": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_VERIFICATION_FAILED": [
+            "Declined", 
+            "$reason$"
+        ], 
+        "DECLINED_FRAUD.ACTIVATION": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_FRAUD": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_CARD_ALREADY_ACTIVE": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_INVALID_CLERK": [
+            "", 
+            "Atmesta"
+        ], 
+        "DECLINED_RELOAD_LIMIT_EXCEEDED": [
+            "", 
+            "Atmesta"
+        ], 
+        "ERROR": [
+            "", 
+            "Apdorojimo klaida"
+        ], 
+        "ERROR_TRANSACTION_UNABLE_TO_PERSIST": [
+            "Klaida", 
+            "(Storage)"
+        ], 
+        "ERROR_TRANSACTION_PENDING_MANUAL_REVIEW": [
+            "Klaida", 
+            "(Review manually)"
+        ], 
+        "ERROR_APPROVED_OFFLINE": [
+            "Klaida", 
+            "(Terminal approval)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_TYPE": [
+            "Klaida", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_STATUS": [
+            "Klaida", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION": [
+            "Klaida", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_REFUND_AMOUNT": [
+            "Klaida", 
+            "(Invalid transaction)"
+        ], 
+        "ERROR_SERVER_MALFORMED_REQUEST": [
+            "Klaida", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_MALFORMED_REQUEST": [
+            "Klaida", 
+            "(Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_FORMAT": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_NONCE": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_SESSION": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_STATUS": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_MISSING_SESSION": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_ERROR": [
+            "Klaida", 
+            "(Connection error)"
+        ], 
+        "ERROR_SESSION_TIMEOUT": [
+            "Klaida", 
+            "(Session timeout)"
+        ], 
+        "ERROR_TERMINAL_ERROR": [
+            "Klaida", 
+            "(Terminal error)"
+        ], 
+        "ERROR_TERMINAL_BATTERY_LOW": [
+            "Klaida (prašome", 
+            "įkrauti bateriją)"
+        ], 
+        "ERROR_SERVER_INVALID_RESPONSE": [
+            "Klaida", 
+            "(Invalid response)"
+        ], 
+        "ERROR_SERVER_UNAVAILABLE": [
+            "Klaida", 
+            "(Server unavailable)"
+        ], 
+        "ERROR_SERVER_TIMEOUT": [
+            "Klaida", 
+            "(Server timeout)"
+        ], 
+        "ERROR_SERVER_AUTHENTICATION_FAILED": [
+            "Klaida", 
+            "(Auth failed)"
+        ], 
+        "ERROR_SERVER_PINNING_FAILED": [
+            "Klaida", 
+            "(Pinning failed)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_DEACTIVATED": [
+            "Klaida", 
+            "(Term. deactivated)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_NOT_ASSIGNED_TO_MERCHANT": [
+            "Klaida", 
+            "(Term. not assigned)"
+        ], 
+        "ERROR_TERMINAL_TIMEOUT": [
+            "Klaida", 
+            "(Terminal timeout)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_UNRESOLVED": [
+            "Klaida", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_RESOLVED": [
+            "Klaida", 
+            "(Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_PAYMENT_DETAILS_EXTRACTION_FAILED": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_PAYMENT_DETAILS": [
+            "Klaida", 
+            "(Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_CONFIGURATION": [
+            "Klaida", 
+            "(Invalid config)"
+        ], 
+        "ERROR_PROCESSOR_TRANSACTION_ALREADY_IN_PROGRESS": [
+            "Klaida", 
+            "(Transaction)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_NO_RESPONSE": [
+            "Klaida", 
+            "(No response)"
+        ], 
+        "ERROR_SDK_INTERNAL_ERROR": [
+            "Error", 
+            "(Internal)"
+        ], 
+        "NONE": [
+            "", 
+            ""
+        ], 
+        "PENDING": [
+            "Apdor.", 
+            "mokėjimas..."
+        ], 
+        "PENDING.REFUND": [
+            "Apdor.", 
+            "grąžinimas"
+        ], 
+        "PENDING.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION": [
+            "Apdor.", 
+            "mokėjimas..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.REFUND": [
+            "Apdor.", 
+            "grąžinimas"
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION": [
+            "Apdor.", 
+            "mokėjimas..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.REFUND": [
+            "Apdor.", 
+            "grąžinimas"
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.VERIFICATION": [
+            "Processing", 
+            "verification..."
+        ]
+    }
+}

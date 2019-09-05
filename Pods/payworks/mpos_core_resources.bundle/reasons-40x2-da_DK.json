@@ -1,0 +1,394 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "da_DK", 
+        "rows": 1
+    }, 
+    "localization": {
+        "ABORTED": [
+            "Betaling afbrudt"
+        ], 
+        "ABORTED.REFUND": [
+            "Tilbagebetaling afbrudt"
+        ], 
+        "ABORTED.VERIFICATION": [
+            "Verification aborted"
+        ], 
+        "ABORTED.ACTIVATION": [
+            "Activation aborted"
+        ], 
+        "ABORTED.BALANCE_INQUIRY": [
+            "Inquiry aborted"
+        ], 
+        "ABORTED.CASHOUT": [
+            "Cashout aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED": [
+            "Betaling afbrudt"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.REFUND": [
+            "Tilbagebetaling afbrudt"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.VERIFICATION": [
+            "Verification aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.ACTIVATION": [
+            "Activation aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.BALANCE_INQUIRY": [
+            "Inquiry aborted"
+        ], 
+        "ABORTED_MERCHANT_ABORTED.CASHOUT": [
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED": [
+            "Betaling afbrudt"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.REFUND": [
+            "Tilbagebetaling afbrudt"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.VERIFICATION": [
+            "Verification aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.ACTIVATION": [
+            "Activation aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.BALANCE_INQUIRY": [
+            "Inquiry aborted"
+        ], 
+        "ABORTED_SHOPPER_ABORTED.CASHOUT": [
+            "Cashout aborted"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD": [
+            "Betaling afbrudt"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.REFUND": [
+            "Tilbagebetaling afbrudt"
+        ], 
+        "ABORTED_SHOPPER_REMOVED_CARD.VERIFICATION": [
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT": [
+            "Betaling afbrudt"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.REFUND": [
+            "Tilbagebetaling afbrudt"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.VERIFICATION": [
+            "Verification aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.ACTIVATION": [
+            "Activation aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.BALANCE_INQUIRY": [
+            "Inquiry aborted"
+        ], 
+        "ABORTED_PRESENT_CARD_TIMED_OUT.CASHOUT": [
+            "Cashout aborted"
+        ], 
+        "ACCEPTED": [
+            "Betaling accepteret"
+        ], 
+        "ACCEPTED.REFUND": [
+            "Tilbagebetaling accepteret"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION": [
+            "Betaling accepteret"
+        ], 
+        "ACCEPTED_WAITING_FOR_SUBMISSION.REFUND": [
+            "Tilbagebetaling accepteret"
+        ], 
+        "APPROVED": [
+            "Betaling godkendt"
+        ], 
+        "APPROVED_PARTIALLY": [
+            "Payment partially approved $amount$"
+        ], 
+        "APPROVED#GIFT_CARD": [
+            "Payment approved. Balance $balance$"
+        ], 
+        "APPROVED.REFUND": [
+            "Tilbagebetaling godkendt"
+        ], 
+        "APPROVED.REFUND#GIFT_CARD": [
+            "Void approved"
+        ], 
+        "APPROVED.VERIFICATION": [
+            "Verification successful"
+        ], 
+        "APPROVED.ACTIVATION": [
+            "Activation approved"
+        ], 
+        "APPROVED.BALANCE_INQUIRY": [
+            "Balance inquiry approved"
+        ], 
+        "APPROVED.CASHOUT": [
+            "Cashout approved"
+        ], 
+        "DECLINED": [
+            "Afvist"
+        ], 
+        "DECLINED.VERIFICATION": [
+            "Cannot validate"
+        ], 
+        "DECLINED.ACTIVATION": [
+            "Activation Declined"
+        ], 
+        "DECLINED.BALANCE_INQUIRY": [
+            "Balance Inquiry Declined"
+        ], 
+        "DECLINED_CARD_EXPIRED": [
+            "Afvist - kort udløbet"
+        ], 
+        "DECLINED_CARD_INVALID_PAN": [
+            "Afvist - ugyldigt kort"
+        ], 
+        "DECLINED_CARD_INVALID_SCHEME": [
+            "Afvist - kort ikke tilladt"
+        ], 
+        "DECLINED_CARD_OR_TERMINAL_DECLINED": [
+            "Afvist"
+        ], 
+        "DECLINED_CARD_STOLEN": [
+            "Afvist - stjålet kort"
+        ], 
+        "DECLINED_CARD_USE_ORIGINAL": [
+            "Afvist - brug originalt kort"
+        ], 
+        "DECLINED_INVALID_TERMINAL": [
+            "Betaling ikke mulig"
+        ], 
+        "DECLINED_INVALID_TERMINAL_CONFIG": [
+            "Betaling ikke mulig"
+        ], 
+        "DECLINED_INVALID_TERMINAL_SOFTWARE": [
+            "Betaling ikke mulig"
+        ], 
+        "DECLINED_PIN_WRONG": [
+            "Afvist - forkert PIN"
+        ], 
+        "DECLINED_PIN_WRONG_TOO_OFTEN": [
+            "Afvist - forkert PIN indtastet for ofte"
+        ], 
+        "DECLINED_INVALID_CVN": [
+            "Declined - Wrong code"
+        ], 
+        "DECLINED_FRAUD": [
+            "Declined - No card activity permitted"
+        ], 
+        "DECLINED_FRAUD.ACTIVATION": [
+            "Afvist"
+        ], 
+        "DECLINED_CARD_ALREADY_ACTIVE": [
+            "Declined - Card already active"
+        ], 
+        "DECLINED_INVALID_CLERK": [
+            "Declined - Invalid clerk"
+        ], 
+        "DECLINED_RELOAD_LIMIT_EXCEEDED": [
+            "Declined - Exceeded account reloads"
+        ], 
+        "DECLINED_PROCESSOR": [
+            "Afvist"
+        ], 
+        "DECLINED_PROCESSOR_EXCEEDS_WITHDRAWAL_COUNT_LIMIT": [
+            "Afvist"
+        ], 
+        "DECLINED_PROCESSOR_UNCAPTURED_CHARGES_NOT_SUPPORTED": [
+            "Afvist"
+        ], 
+        "DECLINED_SESSION_EXPIRED": [
+            "Betaling ikke mulig"
+        ], 
+        "DECLINED_PROCESSOR_INCONSISTENT_STATE": [
+            "Afvist"
+        ], 
+        "DECLINED_MALFORMED_REQUEST": [
+            "Afvist"
+        ], 
+        "DECLINED_MANIPULATION_SUSPECTED": [
+            "Afvist - evt. manipuleret"
+        ], 
+        "DECLINED_CARD_BLOCKED": [
+            "Afvist - kort ikke tilladt"
+        ], 
+        "DECLINED_INSUFFICIENT_FUNDS": [
+            "Afvist - ikke nok dækning på kortet"
+        ], 
+        "DECLINED_TRANSACTION_FREQUENCY_EXCEEDED": [
+            "Afvist - for mange betalinger"
+        ], 
+        "DECLINED_CARD_LOST": [
+            "Afvist - mistet kort"
+        ], 
+        "DECLINED_INVALID_SCHEME": [
+            "Afvist - kort ikke tilladt"
+        ], 
+        "DECLINED_INVALID_AMOUNT": [
+            "Afvist - beløb ikke tilladt"
+        ], 
+        "DECLINED_INVALID_CONFIGURATION": [
+            "Afvist - forkert konfiguration"
+        ], 
+        "DECLINED_DUPLICATE_TRANSACTION": [
+            "Afvist - transaktion foregår"
+        ], 
+        "DECLINED_INVALID_WORKFLOW": [
+            "Afvist"
+        ], 
+        "DECLINED_PROCESSOR_CARD_EXPIRED": [
+            "Afvist - kort udløbet"
+        ], 
+        "DECLINED_PROCESSOR_REFUND_NOT_POSSIBLE": [
+            "Afvist - tilbagebetaling ikke mulig"
+        ], 
+        "DECLINED_PROCESSOR_TEMPORARILY_BLACKLISTED": [
+            "Afvist - for mange forsøg"
+        ], 
+        "DECLINED_AMOUNT_EXCEEDS_LIMIT": [
+            "Afvist - beløb overstiger grænse"
+        ], 
+        "DECLINED_MERCHANT_REJECTED": [
+            "Declined - Merchant rejected"
+        ], 
+        "DECLINED_VERIFICATION_FAILED": [
+            "Declined", 
+            "$reason$"
+        ], 
+        "ERROR": [
+            "Bearbejdningsfejl"
+        ], 
+        "ERROR_APPROVED_OFFLINE": [
+            "Fejl (Terminal approval)"
+        ], 
+        "ERROR_TRANSACTION_UNABLE_TO_PERSIST": [
+            "Fejl (Storage)"
+        ], 
+        "ERROR_TRANSACTION_PENDING_MANUAL_REVIEW": [
+            "Fejl (Review manually)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_TYPE": [
+            "Fejl (Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION_STATUS": [
+            "Fejl (Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_TRANSACTION": [
+            "Fejl (Invalid transaction)"
+        ], 
+        "ERROR_SERVER_INVALID_REFUND_AMOUNT": [
+            "Fejl (Invalid transaction)"
+        ], 
+        "ERROR_SERVER_MALFORMED_REQUEST": [
+            "Fejl (Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_MALFORMED_REQUEST": [
+            "Fejl (Malformed request)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_FORMAT": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_NONCE": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_SESSION": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_STATUS": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_MISSING_SESSION": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_ERROR": [
+            "Fejl (Connection error)"
+        ], 
+        "ERROR_SESSION_TIMEOUT": [
+            "Fejl (Session timeout)"
+        ], 
+        "ERROR_TERMINAL_ERROR": [
+            "Fejl (Terminal error)"
+        ], 
+        "ERROR_TERMINAL_BATTERY_LOW": [
+            "Fejl (Oplad venligst batteriet)"
+        ], 
+        "ERROR_SERVER_INVALID_RESPONSE": [
+            "Fejl (Invalid response)"
+        ], 
+        "ERROR_SERVER_UNAVAILABLE": [
+            "Fejl (Server unavailable)"
+        ], 
+        "ERROR_SERVER_TIMEOUT": [
+            "Fejl (Server timeout)"
+        ], 
+        "ERROR_SERVER_AUTHENTICATION_FAILED": [
+            "Fejl (Authenticaton failed)"
+        ], 
+        "ERROR_SERVER_PINNING_FAILED": [
+            "Fejl (Pinning failed)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_DEACTIVATED": [
+            "Fejl (Terminal deactivated)"
+        ], 
+        "ERROR_SERVER_ACCESSORY_NOT_ASSIGNED_TO_MERCHANT": [
+            "Fejl (Terminal not assigned)"
+        ], 
+        "ERROR_TERMINAL_TIMEOUT": [
+            "Fejl (Terminal timeout)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_UNRESOLVED": [
+            "Fejl (Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_RESOLVED": [
+            "Fejl (Inconsistent state)"
+        ], 
+        "ERROR_PROCESSOR_PAYMENT_DETAILS_EXTRACTION_FAILED": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_PAYMENT_DETAILS": [
+            "Fejl (Invalid data)"
+        ], 
+        "ERROR_PROCESSOR_INVALID_CONFIGURATION": [
+            "Fejl (Invalid configuration)"
+        ], 
+        "ERROR_PROCESSOR_TRANSACTION_ALREADY_IN_PROGRESS": [
+            "Fejl (Transaction ongoing)"
+        ], 
+        "ERROR_PROCESSOR_CONNECTION_NO_RESPONSE": [
+            "Fejl (No response)"
+        ], 
+        "ERROR_SDK_INTERNAL_ERROR": [
+            "Error (Internal)"
+        ], 
+        "NONE": [
+            ""
+        ], 
+        "PENDING": [
+            "Bearbejder betaling..."
+        ], 
+        "PENDING.REFUND": [
+            "Bearbejder tilbagebetaling..."
+        ], 
+        "PENDING.VERIFICATION": [
+            "Processing verification..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION": [
+            "Bearbejder betaling..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.REFUND": [
+            "Bearbejder tilbagebetaling..."
+        ], 
+        "PENDING_WAITING_FOR_FINALIZATION.VERIFICATION": [
+            "Processing verification..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION": [
+            "Bearbejder betaling..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.REFUND": [
+            "Bearbejder tilbagebetaling..."
+        ], 
+        "PENDING_WAITING_FOR_EXECUTION.VERIFICATION": [
+            "Processing verification..."
+        ]
+    }
+}

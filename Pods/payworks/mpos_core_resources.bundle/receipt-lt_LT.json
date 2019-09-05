@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "lt_LT"
+    }, 
+    "labels": {
+        "Date": "Data", 
+        "Time": "Laikas", 
+        "Status": "Būsena", 
+        "AmountAndCurrency": "Suma", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Informacija", 
+        "Subject": "Aprašymas", 
+        "TransactionType": "Tipas", 
+        "ReceiptType": "Kvito tipas", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Įvedimo režimas", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Kortelė", 
+        "PaymentDetailsMaskedAccount": "Sąskaita", 
+        "PaymentDetailsCustomerVerification": "Patvirtinimas", 
+        "PaymentDetailsAccountSequenceNumber": "Kortelės numeris", 
+        "ClearingDetailsTransactionIdentifier": "Operacija", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Orig. operacija", 
+        "ClearingDetailsAuthorizationCode": "Autorizacija", 
+        "ClearingDetailsMerchantId": "Pardavėjo ID", 
+        "ClearingDetailsTerminalId": "Terminalo ID", 
+        "MerchantDetailsPublicName": "Pavadinimas", 
+        "MerchantDetailsAddress": "Adresas", 
+        "MerchantDetailsZip": "Pašto kodas", 
+        "MerchantDetailsCity": "Miestas", 
+        "MerchantDetailsCountry": "Šalis", 
+        "MerchantDetailsContact": "Kontaktinė informacija", 
+        "MerchantDetailsAdditionalInformation": "Papildoma informacija", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Pardavėjo kvitas", 
+            "CUSTOMER": "Savininko kvitas"
+        }, 
+        "StatusText": {
+            "APPROVED": "Saugokite kvitą!", 
+            "ACCEPTED": "Saugokite kvitą!", 
+            "DECLINED": "Autor. atmesta.", 
+            "ABORTED": "Atšaukta oper.", 
+            "ERROR": "Netinkama oper.", 
+            "ALL_MATCH": "Viskas sutampa.", 
+            "CVV_ONLY": "Sutampa tik CVV", 
+            "ADDRESS_ONLY": "Sutampa tik adr.", 
+            "NO_MATCHES": "Nesutampa duom.", 
+            "NOT_CHECKED": "Duom. netikrinti", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Lustas", 
+            "MAGSTRIPE": "Magnet. juostelė", 
+            "CONTACTLESS": "Bekontaktė", 
+            "MAGSTRIPE_AS_FALLBACK": "Magnet. juostelė", 
+            "MANUAL": "Su raktu", 
+            "MANUAL_AS_FALLBACK": "Su raktu", 
+            "NFC_ICC": "Bekontaktė", 
+            "NFC_MAGSTRIPE": "Bekontaktė", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Mokėjimas", 
+            "REFUND": "Grąžinimas", 
+            "CHARGE_UNCAPTURED": "Išankstinė autorizacija", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Nėra", 
+            "PIN": "PIN kodas", 
+            "SIGNATURE": "Parašas", 
+            "PIN_AND_SIGNATURE": "PIN ir parašas", 
+            "SHOPPER_DEVICE": "Kliento įrengin.", 
+            "CARD_SECURITY_CODE": "Saugumo kodas patv.", 
+            "UNKNOWN": "Nežinoma", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN kodas", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN kodas ir parašas", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN kodas", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN kodas ir parašas", 
+            "PIN_ONLINE": "PIN kodas", 
+            "CUSTOMER_DEVICE": "Kliento įrenginys"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Saugokite kvitą!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "NURAŠYTI VISĄ SUMĄ NUO SĄSKAITOS", 
+            "CHARGE": "PERVESTI VISĄ SUMĄ Į SĄSKAITĄ"
+        }
+    }
+}

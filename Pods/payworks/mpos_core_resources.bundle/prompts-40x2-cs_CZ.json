@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "cs_CZ", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Zvolte svůj účet", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Platba se zpracovává...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Vrácení peněz se zpracovává...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Čtečka čárových kódů", 
+            "aktivní"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Zkuste jinou kartu", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Zkuste jinou kartu", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Vložte, přiložte nebo", 
+            "zkuste jinou kartu"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Platba se zpracovává...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Vrácení peněz se zpracovává...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Chyba", 
+            ""
+        ], 
+        "Idle": [
+            "Počkejte prosím...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Vložte kartu"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Vložte nebo přiložte kartu"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Vložte nebo přiložte kartu", 
+            "[OK] pro NFC"
+        ], 
+        "PINIncorrect": [
+            "Zadejte PIN (nesprávné)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Zadejte PIN (poslední pokus)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "Zadejte PIN", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Předložte kartu"
+        ], 
+        "ProcessingTransaction": [
+            "Platba se zpracovává...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Vrácení peněz se zpracovává...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Požaduje se určení totožnosti", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Vyžaduje se podpis", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Vyžaduje se podpis"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Spojování se", 
+            "čtečkou karet"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Spojování se", 
+            "čtečkou karet"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Odpojování od", 
+            "čtečky karet"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Provádění", 
+            "aktualizací"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Hledání čtečky", 
+            "Zapněte čtečku"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Spojování s", 
+            "tiskárnou"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Hledání tiskárny", 
+            "Zapněte tiskárnu"
+        ], 
+        "ProviderAborted": [
+            "Platba přerušena", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Vrácení peněz", 
+            "přerušeno"
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Platba schválena", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Vrácení peněz", 
+            "schváleno"
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Platba přijata", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Vrácení peněz", 
+            "přijato"
+        ], 
+        "ProviderDeclined": [
+            "Platba zamítnuta", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Vrácení peněz zamítnuto", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Platba selhala", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Vrácení peněz selhalo", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Platba bezvýsledná", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Vrácení peněz bezvýsledné", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Dokončeno", 
+            ""
+        ], 
+        "Aborted": [
+            "Přerušeno", 
+            ""
+        ], 
+        "Failed": [
+            "Selhalo", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Platbu", 
+            "nelze vrátit"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Dotaz na", 
+            "transakci"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Registruji", 
+            "transakci"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Konfiguruje se připojení", 
+            "Počkejte prosím..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Tisk...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Tisk...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Tisk přerušen", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Tisk selhal", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Načítá se karta...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Odstranit kartu"
+        ], 
+        "RemoveCard": [
+            "Odstranit kartu", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Přiložte kartu"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Přiložte kartu"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Přiložte kartu", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Přerušuje se platba...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Přerušuje se vrácení peněz...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Aktualizuje se...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Aktualizuje se konfigurace", 
+            "Počkejte prosím..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Aktualizuje se firmware", 
+            "Počkejte prosím..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Aktualizuje se software", 
+            "Počkejte prosím..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Generují se klíče", 
+            "Počkejte prosím..."
+        ], 
+        "CardNotSupported": [
+            "Karta není podporována!", 
+            "Zkuste jinou nebo proces zrušte"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Přidat spropitné?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Žádost o spropitné...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Předložte jen jednu kartu", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Vyžaduje se podpis", 
+            "Odstranit kartu"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Požaduje se určení totožnosti", 
+            "Odstranit kartu"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Platba se zpracovává...", 
+            "Odstranit kartu"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Vrácení peněz se zpracovává...", 
+            "Odstranit kartu"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Vítejte", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Čeká se na schválení", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Potvrďte částku"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

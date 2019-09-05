@@ -1,0 +1,64 @@
+PODS:
+  - CocoaLumberjack (3.5.1):
+    - CocoaLumberjack/Core (= 3.5.1)
+  - CocoaLumberjack/Core (3.5.1)
+  - Lockbox (2.1.0)
+  - MPAFNetworking (2.5.4):
+    - MPAFNetworking/NSURLConnection (= 2.5.4)
+    - MPAFNetworking/NSURLSession (= 2.5.4)
+    - MPAFNetworking/Reachability (= 2.5.4)
+    - MPAFNetworking/Security (= 2.5.4)
+    - MPAFNetworking/Serialization (= 2.5.4)
+    - MPAFNetworking/UIKit (= 2.5.4)
+  - MPAFNetworking/NSURLConnection (2.5.4):
+    - MPAFNetworking/Reachability
+    - MPAFNetworking/Security
+    - MPAFNetworking/Serialization
+  - MPAFNetworking/NSURLSession (2.5.4):
+    - MPAFNetworking/Reachability
+    - MPAFNetworking/Security
+    - MPAFNetworking/Serialization
+  - MPAFNetworking/Reachability (2.5.4)
+  - MPAFNetworking/Security (2.5.4)
+  - MPAFNetworking/Serialization (2.5.4)
+  - MPAFNetworking/UIKit (2.5.4):
+    - MPAFNetworking/NSURLConnection
+    - MPAFNetworking/NSURLSession
+  - payworks.paybutton (2.33.0):
+    - Lockbox (~> 2.1.0)
+    - payworks/mpos/core (= 2.33.0)
+  - payworks/mpos/accessories/miura (2.33.0):
+    - payworks/mpos/comlinks/externalaccessory
+    - payworks/mpos/comlinks/tcp
+    - payworks/mpos/core
+  - payworks/mpos/comlinks/externalaccessory (2.33.0):
+    - payworks/mpos/core
+  - payworks/mpos/comlinks/tcp (2.33.0):
+    - payworks/mpos/core
+  - payworks/mpos/core (2.33.0):
+    - CocoaLumberjack (~> 3.2)
+    - MPAFNetworking (~> 2.5.4)
+
+DEPENDENCIES:
+  - payworks.paybutton
+  - payworks/mpos/accessories/miura
+
+SPEC REPOS:
+  https://bitbucket.org/mpymnt/io.mpymnt.repo.pods.git:
+    - MPAFNetworking
+    - payworks
+    - payworks.paybutton
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - Lockbox
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  Lockbox: 16442da35d9d4286966936763be728a931d589c3
+  MPAFNetworking: 7a85f28e8af049ff2de164b1f54724e8eebe0aac
+  payworks: 448a82a93c13a8448583fcb591249ab1022c327c
+  payworks.paybutton: cd4b34d03340fd7cae7262fad5ebd1a46b6af255
+
+PODFILE CHECKSUM: 256a9790e5b7cbb567d4544d4bec78fde5c3f528
+
+COCOAPODS: 1.5.3

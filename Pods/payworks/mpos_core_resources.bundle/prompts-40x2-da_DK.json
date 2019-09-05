@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "da_DK", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Vælg din konto", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Bearbejder betaling...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Bearbejder tilbagebetaling...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "Stregkodescanner", 
+            "aktiv"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Prøv et andet kort", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Prøv et andet kort", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Indsæt, swipe eller", 
+            "prøv et andet kort"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Bearbejder betaling...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Bearbejder tilbagebetaling...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Fejl", 
+            ""
+        ], 
+        "Idle": [
+            "Vent...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Indsæt kort"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Indsæt eller swipe kort"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Indsæt eller swipe kort", 
+            "[OK] for NFC"
+        ], 
+        "PINIncorrect": [
+            "Indtast PIN (forkert)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Indtast PIN (sidste forsøg)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "Indtast PIN", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Vis kort"
+        ], 
+        "ProcessingTransaction": [
+            "Bearbejder betaling...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Bearbejder tilbagebetaling...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Identifikation krævet", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Underskrift krævet", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Underskrift krævet"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Forbinder med", 
+            "kortlæser"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Forbinder med", 
+            "kortlæser"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Afbryder forbindelse til", 
+            "kortlæser"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Gennemfører", 
+            "opdateringer"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Søger efter læser", 
+            "Tænd for læseren"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Forbinder med", 
+            "printer"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Søger efter printer", 
+            "Tænd for printeren"
+        ], 
+        "ProviderAborted": [
+            "Betaling afbrudt", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "Tilbagebetaling afbrudt", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Betaling godkendt", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Tilbagebetaling godkendt", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Betaling accepteret", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Tilbagebetaling accepteret", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Betaling afvist", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Tilbagebetaling afvist", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Betaling mislykkedes", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Tilbagebetaling mislykkedes", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Betaling ikke entydig", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Tilbagebetaling ikke entydig", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Gennemført", 
+            ""
+        ], 
+        "Aborted": [
+            "Afbrudt", 
+            ""
+        ], 
+        "Failed": [
+            "Mislykkedes", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "Betaling", 
+            "kan ikke tilbagebetales"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Forespørg om", 
+            "transaktion"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Registrer", 
+            "transaktion"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "Konfigurer forbindelse", 
+            "Vent..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Udskrivning...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Udskrivning...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "Udskrivning afbrudt", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Udskrivning mislykkedes", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Læser kort...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Tag kort"
+        ], 
+        "RemoveCard": [
+            "Tag kort", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Swipe kort"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Swipe kort"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Swipe kort", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Afbryder betaling...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Afbryder tilbagebetaling...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Opdaterer...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Opdaterer konfig", 
+            "Vent..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Opdaterer firmware", 
+            "Vent..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Opdaterer software", 
+            "Vent..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Genererer nøgler", 
+            "Vent..."
+        ], 
+        "CardNotSupported": [
+            "Kort understøttes ikke!", 
+            "Prøv et andet, eller tryk på annuller"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Tilføj drikkepenge?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Spørger om drikkepenge...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Vis kun ét kort", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Underskrift krævet", 
+            "Tag kort"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Identifikation krævet", 
+            "Tag kort"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Bearbejder betaling...", 
+            "Tag kort"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Bearbejder tilbagebetaling...", 
+            "Tag kort"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Velkommen", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Venter på godkendelse...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Bekræft beløb"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

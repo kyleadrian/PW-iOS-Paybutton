@@ -1,0 +1,617 @@
+{
+    "info": {
+        "columns": 20, 
+        "locale": "de_DE", 
+        "rows": 4
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "", 
+            "Bitte Karte", 
+            "auswählen", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "", 
+            "Zahlung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "", 
+            "Rückerstattung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "", 
+            "Barcode scanner", 
+            "active", 
+            ""
+        ], 
+        "ScanCode": [
+            "", 
+            "$amount$", 
+            "Scan code", 
+            ""
+        ], 
+        "DccCurrencySelectionTitle": [
+            "", 
+            "Select", 
+            "currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "", 
+            "Card balance", 
+            "$balance$", 
+            ""
+        ], 
+        "CardNotSupportedMagstripe": [
+            "", 
+            "Andere Karte", 
+            "benutzen", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "", 
+            "Andere Karte", 
+            "benutzen", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Einstecken,", 
+            "durchziehen oder", 
+            "andere Karte", 
+            "benutzen"
+        ], 
+        "CompletedWithStatus": [
+            "", 
+            "$reason1$", 
+            "$reason2$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "", 
+            "Zahlung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "", 
+            "Rückerstattung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "", 
+            "", 
+            "Fehler", 
+            ""
+        ], 
+        "Idle": [
+            "", 
+            "", 
+            "Bitte warten...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "", 
+            "Karte einstecken", 
+            ""
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "", 
+            "Karte einstecken", 
+            "oder durchziehen"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$", 
+            "Karte einstecken", 
+            "oder durchziehen", 
+            "[OK] für NFC"
+        ], 
+        "PINIncorrect": [
+            "", 
+            "Enter PIN", 
+            "$digits$", 
+            "(PIN falsch)"
+        ], 
+        "PINLastTry": [
+            "", 
+            "PIN eingeben", 
+            "$digits$", 
+            "(letzter Versuch)"
+        ], 
+        "PINOk": [
+            "", 
+            "", 
+            "PIN OK", 
+            ""
+        ], 
+        "PINStatus": [
+            "", 
+            "PIN eingeben", 
+            "$digits$", 
+            ""
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "", 
+            "Bitte Karte", 
+            ""
+        ], 
+        "ProcessingTransaction": [
+            "", 
+            "Zahlung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "", 
+            "Rückerstattung wird", 
+            "verarbeitet...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "", 
+            "Processing", 
+            "void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "", 
+            "Processing", 
+            "verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "", 
+            "Processing", 
+            "activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "", 
+            "Processing", 
+            "inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "", 
+            "Processing", 
+            "cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "", 
+            "Identifikation", 
+            "benötigt", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "", 
+            "Unterschrift", 
+            "benötigt", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "$reason2$", 
+            "Unterschrift", 
+            "benötigt"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            ""
+        ], 
+        "ProviderAccessoryConnecting": [
+            ""
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            ""
+        ], 
+        "ProviderAccessoryUpdating": [
+            ""
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            ""
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            ""
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            ""
+        ], 
+        "ProviderAborted": [
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            ""
+        ], 
+        "ProviderApproved": [
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            ""
+        ], 
+        "ProviderApproved.REFUND": [
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            ""
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderApproved.CASHOUT": [
+            ""
+        ], 
+        "ProviderAccepted": [
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            ""
+        ], 
+        "ProviderDeclined": [
+            ""
+        ], 
+        "ProviderDeclined.REFUND": [
+            ""
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            ""
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            ""
+        ], 
+        "ProviderFailed": [
+            ""
+        ], 
+        "ProviderFailed.REFUND": [
+            ""
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            ""
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            ""
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderFailed.CASHOUT": [
+            ""
+        ], 
+        "ProviderInconclusive": [
+            ""
+        ], 
+        "ProviderInconclusive.REFUND": [
+            ""
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            ""
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            ""
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            ""
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            ""
+        ], 
+        "Completed": [
+            ""
+        ], 
+        "Aborted": [
+            ""
+        ], 
+        "Failed": [
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            ""
+        ], 
+        "ProviderTransactionQuerying": [
+            ""
+        ], 
+        "ProviderTransactionRegistering": [
+            ""
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            ""
+        ], 
+        "ProviderComponentPrinterSending": [
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            ""
+        ], 
+        "ReadingEmvCard": [
+            "", 
+            "Karte wird", 
+            "gelesen...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "$reason2$", 
+            "", 
+            "Karte entnehmen"
+        ], 
+        "RemoveCard": [
+            "", 
+            "", 
+            "Karte entnehmen", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "", 
+            "Karte durchziehen", 
+            ""
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check Balance", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "", 
+            "Swipe or key in", 
+            "card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "", 
+            "", 
+            "Karte durchziehen", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "", 
+            "Zahlung wird", 
+            "abgebrochen...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "", 
+            "Rückerstattung wird", 
+            "abgebrochen...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "", 
+            "Aborting", 
+            "verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "", 
+            "Aborting", 
+            "activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "", 
+            "Aborting", 
+            "inquiry...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "", 
+            "Aborting", 
+            "cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "", 
+            "Gerät wird", 
+            "aktualisiert...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Aktualisiere", 
+            "Konfiguration", 
+            "", 
+            "Bitte warten..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Aktualisiere", 
+            "Firmware", 
+            "", 
+            "Bitte warten..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Schlüsselerzeugung", 
+            "", 
+            "", 
+            "Bitte warten..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Aktualisiere", 
+            "Software", 
+            "", 
+            "Bitte warten..."
+        ], 
+        "CardNotSupported": [
+            "Karte nicht", 
+            "unterstützt!", 
+            "Andere Karte", 
+            "oder abbrechen"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$ ", 
+            "Trinkgeld ", 
+            "hinzufügen?", 
+            " [X] Nein    [OK] Ja"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "", 
+            "Bitte nur", 
+            "eine Karte", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Unterschrift", 
+            "benötigt", 
+            "", 
+            "Karte entnehmen"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Identifikation", 
+            "benötigt", 
+            "", 
+            "Karte entnehmen"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Zahlung wird", 
+            "verarbeitet...", 
+            "", 
+            "Karte entnehmen"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Rückerstattung wird", 
+            "verarbeitet...", 
+            "", 
+            "Karte entnehmen"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing", 
+            "verification...", 
+            "", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "", 
+            "", 
+            "Willkommen", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "Alle Daten stimmen", 
+            "Akzeptieren?", 
+            "", 
+            "[X] Nein     [OK] Ja"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "Nur CVV stimmt", 
+            "Akzeptieren?", 
+            "", 
+            "[X] Nein     [OK] Ja"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Nur Adresse stimmt", 
+            "Akzeptieren?", 
+            "", 
+            "[X] Nein     [OK] Ja"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Keine Daten geprüft", 
+            "Akzeptieren?", 
+            "", 
+            "[X] Nein     [OK] Ja"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "Keine Daten stimmen", 
+            "Akzeptieren?", 
+            "", 
+            "[X] Nein     [OK] Ja"
+        ], 
+        "AskingForCardDataInput": [
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Betrag bestätigen", 
+            "", 
+            "[X] Nein    [OK] Ja"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$", 
+            "unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$", 
+            "not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

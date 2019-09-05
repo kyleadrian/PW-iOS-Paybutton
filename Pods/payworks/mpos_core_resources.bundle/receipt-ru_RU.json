@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "ru_RU"
+    }, 
+    "labels": {
+        "Date": "Дата", 
+        "Time": "Время", 
+        "Status": "Статус", 
+        "AmountAndCurrency": "Сумма", 
+        "IncludedTipAmountAndCurrency": "Сумма чаевых", 
+        "StatusText": "Информация", 
+        "Subject": "Описание", 
+        "TransactionType": "Тип", 
+        "ReceiptType": "Тип квитанции", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Режим ввода", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Карта", 
+        "PaymentDetailsMaskedAccount": "Счет", 
+        "PaymentDetailsCustomerVerification": "Проверка", 
+        "PaymentDetailsAccountSequenceNumber": "Номер карты", 
+        "ClearingDetailsTransactionIdentifier": "Транзакция", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Ориг. транзакция", 
+        "ClearingDetailsAuthorizationCode": "Авторзация", 
+        "ClearingDetailsMerchantId": "Идент. продавца", 
+        "ClearingDetailsTerminalId": "Идент. терминала", 
+        "MerchantDetailsPublicName": "Имя", 
+        "MerchantDetailsAddress": "Адрес", 
+        "MerchantDetailsZip": "Индекс", 
+        "MerchantDetailsCity": "Город", 
+        "MerchantDetailsCountry": "Страна", 
+        "MerchantDetailsContact": "Контакт", 
+        "MerchantDetailsAdditionalInformation": "Дополнительная информация", 
+        "OfflineEmvData": "Оффлайн EMV данные", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Квитанция продавца", 
+            "CUSTOMER": "Квитанция покупателя"
+        }, 
+        "StatusText": {
+            "APPROVED": "Сохраните чек!", 
+            "ACCEPTED": "Сохраните чек!", 
+            "DECLINED": "Отказано в авторизации.", 
+            "ABORTED": "Транзакция отменена.", 
+            "ERROR": "Неудачная транзакция.", 
+            "ALL_MATCH": "Полное совпадение.", 
+            "CVV_ONLY": "Совпадение CVV.", 
+            "ADDRESS_ONLY": "Совп. Адреса.", 
+            "NO_MATCHES": "Нет совпадений.", 
+            "NOT_CHECKED": "Не проверено.", 
+            "APPROVED.VERIFICATION": "Счет не выставлен", 
+            "DECLINED.VERIFICATION": "Невозможно проверить"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Чип", 
+            "MAGSTRIPE": "Магнитная полоса", 
+            "CONTACTLESS": "Бесконтактный", 
+            "MAGSTRIPE_AS_FALLBACK": "Магнитная полоса", 
+            "MANUAL": "Ручной", 
+            "MANUAL_AS_FALLBACK": "Ручной", 
+            "NFC_ICC": "Бесконтактный", 
+            "NFC_MAGSTRIPE": "Бесконтактный", 
+            "QR_CODE": "QR код", 
+            "BARCODE": "Штрихкод", 
+            "SOUNDWAVE": "Звуковой код"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Платеж", 
+            "REFUND": "Возврат", 
+            "CHARGE_UNCAPTURED": "Зафиксированный платеж", 
+            "VERIFICATION": "Проверка"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Нет", 
+            "PIN": "ПИН", 
+            "SIGNATURE": "Подпись", 
+            "PIN_AND_SIGNATURE": "ПИН и подпись", 
+            "SHOPPER_DEVICE": "Устройст. покуп.", 
+            "CARD_SECURITY_CODE": "Проверенный код безопасности карты.", 
+            "UNKNOWN": "Неизвестно", 
+            "PIN_OFFLINE_PLAINTEXT": "ПИН", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "ПИН и подпись", 
+            "PIN_OFFLINE_ENCIPHERED": "ПИН", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "ПИН и подпись", 
+            "PIN_ONLINE": "ПИН", 
+            "CUSTOMER_DEVICE": "Устройство клиента"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Сохраните чек!"
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "ПОЖАЛУЙСТА ВЕРНИТЕ НА МОЙ СЧЕТ", 
+            "CHARGE": "ПОЖАЛУЙСТА СПИШИТЕ С МОЕГО СЧЕТА"
+        }
+    }
+}

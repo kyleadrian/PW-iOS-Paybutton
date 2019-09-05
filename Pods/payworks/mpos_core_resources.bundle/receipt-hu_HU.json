@@ -1,0 +1,105 @@
+{
+    "info": {
+        "locale": "hu_HU"
+    }, 
+    "labels": {
+        "Date": "Dátum", 
+        "Time": "Idő", 
+        "Status": "Állapot", 
+        "AmountAndCurrency": "Összeg", 
+        "IncludedTipAmountAndCurrency": "Tip Amount", 
+        "StatusText": "Információ", 
+        "Subject": "Leírás", 
+        "TransactionType": "Típus", 
+        "ReceiptType": "Nyugta típusa", 
+        "Identifier": "PWID", 
+        "PaymentDetailsSource": "Beviteli mód", 
+        "PaymentDetailsEMVApplicationID": "AID", 
+        "PaymentDetailsSchemeOrLabel": "Kártya", 
+        "PaymentDetailsMaskedAccount": "Számla", 
+        "PaymentDetailsCustomerVerification": "Ellenőrzés", 
+        "PaymentDetailsAccountSequenceNumber": "Kártya száma", 
+        "ClearingDetailsTransactionIdentifier": "Tranzakció", 
+        "ClearingDetailsOriginalTransactionIdentifier": "Eredeti szöveg", 
+        "ClearingDetailsAuthorizationCode": "Engedélyezés", 
+        "ClearingDetailsMerchantId": "Kereskedői azon.", 
+        "ClearingDetailsTerminalId": "Terminál-azon.", 
+        "MerchantDetailsPublicName": "Név", 
+        "MerchantDetailsAddress": "Cím", 
+        "MerchantDetailsZip": "Irányítószám", 
+        "MerchantDetailsCity": "Város", 
+        "MerchantDetailsCountry": "Ország", 
+        "MerchantDetailsContact": "Kapcsolat", 
+        "MerchantDetailsAdditionalInformation": "További információk", 
+        "OfflineEmvData": "Offline EMV Data", 
+        "DccConversionRate": "Conversion Rate", 
+        "DccConvertedAmountAndCurrency": "DCC Converted Amount", 
+        "DccDisclaimer": "DCC Disclaimer"
+    }, 
+    "values": {
+        "DccDisclaimer": {
+            "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.", 
+            "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+        }, 
+        "ReceiptType": {
+            "MERCHANT": "Keresk. nyug.", 
+            "CUSTOMER": "Kártyatul. nyug."
+        }, 
+        "StatusText": {
+            "APPROVED": "Nyugta: őriz. m.", 
+            "ACCEPTED": "Nyugta: őriz. m.", 
+            "DECLINED": "Enged. elut.-va.", 
+            "ABORTED": "Megszak. tranza.", 
+            "ERROR": "Érv.-telen tranz", 
+            "ALL_MATCH": "Minden egyezik.", 
+            "CVV_ONLY": "Csak CVV-kód ua", 
+            "ADDRESS_ONLY": "Csak a cím ua.", 
+            "NO_MATCHES": "Nincs ua. adat.", 
+            "NOT_CHECKED": "Elle.-len adatok", 
+            "APPROVED.VERIFICATION": "Account not debited", 
+            "DECLINED.VERIFICATION": "Cannot validate"
+        }, 
+        "PaymentDetailsSource": {
+            "ICC": "Chip", 
+            "MAGSTRIPE": "Mágnescsík", 
+            "CONTACTLESS": "Érintés nélküli", 
+            "MAGSTRIPE_AS_FALLBACK": "Mágnescsík", 
+            "MANUAL": "Kódolt", 
+            "MANUAL_AS_FALLBACK": "Kódolt", 
+            "NFC_ICC": "Érintés nélküli", 
+            "NFC_MAGSTRIPE": "Érintés nélküli", 
+            "QR_CODE": "QR Code", 
+            "BARCODE": "Barcode", 
+            "SOUNDWAVE": "Soundwave"
+        }, 
+        "TransactionType": {
+            "CHARGE": "Fizetés", 
+            "REFUND": "Visszatérítés", 
+            "CHARGE_UNCAPTURED": "Előzetes engedélyezés", 
+            "VERIFICATION": "Account Verification"
+        }, 
+        "PaymentDetailsCustomerVerification": {
+            "NONE": "Nincs", 
+            "PIN": "PIN-kód", 
+            "SIGNATURE": "Aláírás", 
+            "PIN_AND_SIGNATURE": "PIN-kód, aláírás", 
+            "SHOPPER_DEVICE": "Ügyfél eszköze", 
+            "CARD_SECURITY_CODE": "Kár. bi. kód ell.-ve", 
+            "UNKNOWN": "Ismeretlen", 
+            "PIN_OFFLINE_PLAINTEXT": "PIN-kód", 
+            "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN-kód és aláírás", 
+            "PIN_OFFLINE_ENCIPHERED": "PIN-kód", 
+            "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN-kód és aláírás", 
+            "PIN_ONLINE": "PIN-kód", 
+            "CUSTOMER_DEVICE": "Ügyfél eszköze"
+        }, 
+        "MessagesRetentionReminder": {
+            "MessagesRetentionReminder": "Nyugta: őriz. m."
+        }, 
+        "MessagesMerchantDeclaration": {
+            "REFUND": "SZÁMLA JÓVÁÍR. ADOTT ÖSSZEGGEL", 
+            "CHARGE": "SZÁMLA MEGTERH. ADOTT ÖSSZEGGEL"
+        }
+    }
+}

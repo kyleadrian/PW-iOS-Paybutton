@@ -1,0 +1,533 @@
+{
+    "info": {
+        "columns": 40, 
+        "locale": "hu_HU", 
+        "rows": 2
+    }, 
+    "localization": {
+        "ApplicationSelection": [
+            "Kérjük, válassza ki a számláját", 
+            ""
+        ], 
+        "AuthorizingTransaction": [
+            "Fizetés feldolgozása...", 
+            ""
+        ], 
+        "AuthorizingTransaction.REFUND": [
+            "Visszatérítés feldolgozása...", 
+            ""
+        ], 
+        "AuthorizingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "BarcodeScannerActive": [
+            "A vonalkód olvasó", 
+            "aktív"
+        ], 
+        "ScanCode": [
+            "$amount$", 
+            "Scan code"
+        ], 
+        "DccCurrencySelectionTitle": [
+            "Select currency", 
+            ""
+        ], 
+        "CardBalanceInquiry": [
+            "Card balance", 
+            "$balance$"
+        ], 
+        "CardNotSupportedMagstripe": [
+            "Próbálkozzon másik kártyával", 
+            ""
+        ], 
+        "CardNotSupportedIccMagstripe": [
+            "Próbálkozzon másik kártyával", 
+            ""
+        ], 
+        "CardNotSupportedNfc": [
+            "Helyezze be, húzza végig, vagy", 
+            "próbálkozzon másik kártyával"
+        ], 
+        "CompletedWithStatus": [
+            "$reason1$", 
+            ""
+        ], 
+        "CompletingTransaction": [
+            "Fizetés feldolgozása...", 
+            ""
+        ], 
+        "CompletingTransaction.REFUND": [
+            "Visszatérítés feldolgozása...", 
+            ""
+        ], 
+        "CompletingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "GenericError": [
+            "Hiba", 
+            ""
+        ], 
+        "Idle": [
+            "Kérjük, várjon...", 
+            ""
+        ], 
+        "InsertCard": [
+            "$amount$", 
+            "Helyezze be a kártyát"
+        ], 
+        "InsertOrSwipeCard": [
+            "$amount$", 
+            "Helyezze be vagy húzza végig a kártyát"
+        ], 
+        "InsertOrSwipeCardActivateNfc": [
+            "$amount$ Helyezze be vagy húzza ", 
+            "végig a kártyát NFC [OK]"
+        ], 
+        "PINIncorrect": [
+            "Adja meg a PIN-kódot (helytelen)", 
+            "$digits$"
+        ], 
+        "PINLastTry": [
+            "Adja meg a PIN-kódot (utolsó kísérlet)", 
+            "$digits$"
+        ], 
+        "PINOk": [
+            "PIN-kód rendben", 
+            ""
+        ], 
+        "PINStatus": [
+            "Adja meg a PIN-kódot", 
+            "$digits$"
+        ], 
+        "PresentCard": [
+            "$amount$", 
+            "Készítse elő a kártyát"
+        ], 
+        "ProcessingTransaction": [
+            "Fizetés feldolgozása...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND": [
+            "Visszatérítés feldolgozása...", 
+            ""
+        ], 
+        "ProcessingTransaction.REFUND#GIFT_CARD": [
+            "Processing void...", 
+            ""
+        ], 
+        "ProcessingTransaction.VERIFICATION": [
+            "Processing verification...", 
+            ""
+        ], 
+        "ProcessingTransaction.ACTIVATION": [
+            "Processing activation...", 
+            ""
+        ], 
+        "ProcessingTransaction.BALANCE_INQUIRY": [
+            "Processing inquiry...", 
+            ""
+        ], 
+        "ProcessingTransaction.CASHOUT": [
+            "Processing cashout...", 
+            ""
+        ], 
+        "ProvideIdentification": [
+            "Azonosítás szükséges", 
+            ""
+        ], 
+        "ProvideSignature": [
+            "Aláírás szükséges", 
+            ""
+        ], 
+        "ProvideSignatureWithStatus": [
+            "$reason1$", 
+            "Aláírás szükséges"
+        ], 
+        "ProviderAccessoryCheckingForUpdate": [
+            "Csatlakozás a", 
+            "kártyaolvasóhoz"
+        ], 
+        "ProviderAccessoryConnecting": [
+            "Csatlakozás a", 
+            "kártyaolvasóhoz"
+        ], 
+        "ProviderAccessoryDisconnecting": [
+            "Leválasztás a", 
+            "kártyaolvasóról"
+        ], 
+        "ProviderAccessoryUpdating": [
+            "Frissítések", 
+            "alkalmazása"
+        ], 
+        "ProviderAccessoryWaitingForReader": [
+            "Kártyaolvasó keresése", 
+            "Kérjük, kapcsolja be a kártyaolvasót"
+        ], 
+        "ProviderAccessoryConnectingPrinter": [
+            "Csatlakozás a", 
+            "nyomtatóhoz"
+        ], 
+        "ProviderAccessoryWaitingForPrinter": [
+            "Nyomtató keresése", 
+            "Kérjük, kapcsolja be a nyomtatót"
+        ], 
+        "ProviderAborted": [
+            "A fizetés megszakadt", 
+            ""
+        ], 
+        "ProviderAborted.REFUND": [
+            "A visszatérítés megszakadt", 
+            ""
+        ], 
+        "ProviderAborted.VERIFICATION": [
+            "Verification aborted", 
+            ""
+        ], 
+        "ProviderAborted.ACTIVATION": [
+            "Activation aborted", 
+            ""
+        ], 
+        "ProviderAborted.BALANCE_INQUIRY": [
+            "Balance aborted", 
+            ""
+        ], 
+        "ProviderAborted.CASHOUT": [
+            "Cashout aborted", 
+            ""
+        ], 
+        "ProviderApproved": [
+            "Fizetés jóváhagyva", 
+            ""
+        ], 
+        "ProviderApprovedPartially": [
+            "Payment partially approved", 
+            " $amount$"
+        ], 
+        "ProviderApproved.REFUND": [
+            "Visszatérítés jóváhagyva", 
+            ""
+        ], 
+        "ProviderApproved.REFUND#GIFT_CARD": [
+            "Void approved", 
+            ""
+        ], 
+        "ProviderApproved.VERIFICATION": [
+            "Verification successful", 
+            ""
+        ], 
+        "ProviderApproved.ACTIVATION": [
+            "Activation approved", 
+            "$balance$"
+        ], 
+        "ProviderApproved.BALANCE_INQUIRY": [
+            "Balance", 
+            "$balance$"
+        ], 
+        "ProviderApproved.CASHOUT": [
+            "Cashout approved", 
+            "$balance$"
+        ], 
+        "ProviderAccepted": [
+            "Fizetés elfogadva", 
+            ""
+        ], 
+        "ProviderAccepted.REFUND": [
+            "Visszatérítés elfogadva", 
+            ""
+        ], 
+        "ProviderDeclined": [
+            "Fizetés elutasítva", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.REFUND": [
+            "Visszatérítés elutasítva", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.VERIFICATION": [
+            "Cannot validate", 
+            ""
+        ], 
+        "ProviderDeclined.ACTIVATION": [
+            "Activation declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.BALANCE_INQUIRY": [
+            "Balance declined", 
+            "$reason1$"
+        ], 
+        "ProviderDeclined.CASHOUT": [
+            "Cashout declined", 
+            "$reason1$"
+        ], 
+        "ProviderFailed": [
+            "Sikertelen fizetés", 
+            "$error$"
+        ], 
+        "ProviderFailed.REFUND": [
+            "Sikertelen visszatérítés", 
+            "$error$"
+        ], 
+        "ProviderFailed.VERIFICATION": [
+            "Verification failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.ACTIVATION": [
+            "Activation failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.BALANCE_INQUIRY": [
+            "Balance failed", 
+            "$error$"
+        ], 
+        "ProviderFailed.CASHOUT": [
+            "Cashout failed", 
+            "$error$"
+        ], 
+        "ProviderInconclusive": [
+            "Befejezetlen fizetés", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.REFUND": [
+            "Befejezetlen visszatérítés", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.VERIFICATION": [
+            "Verification inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.ACTIVATION": [
+            "Activation inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.BALANCE_INQUIRY": [
+            "Balance inconclusive", 
+            "$error$"
+        ], 
+        "ProviderInconclusive.CASHOUT": [
+            "Cashout inconclusive", 
+            "$error$"
+        ], 
+        "Completed": [
+            "Befejezve", 
+            ""
+        ], 
+        "Aborted": [
+            "Megszakítva", 
+            ""
+        ], 
+        "Failed": [
+            "Sikertelen", 
+            ""
+        ], 
+        "ProviderNotRefundable": [
+            "A fizetés", 
+            "nem visszatéríthető"
+        ], 
+        "ProviderTransactionQuerying": [
+            "Tranzakció", 
+            "lekérdezése"
+        ], 
+        "ProviderTransactionRegistering": [
+            "Tranzakció", 
+            "regisztrálása"
+        ], 
+        "ProviderAccessoryConfiguringConnectionLink": [
+            "A kapcsolat létrehozása", 
+            "Kérjük, várjon..."
+        ], 
+        "ProviderComponentPrinterSending": [
+            "Nyomtatás...", 
+            ""
+        ], 
+        "ProviderComponentPrinterSent": [
+            "Nyomtatás...", 
+            ""
+        ], 
+        "ProviderComponentPrinterAborted": [
+            "A nyomtatás megszakadt", 
+            ""
+        ], 
+        "ProviderComponentPrinterFailed": [
+            "Sikertelen nyomtatás", 
+            "$error$"
+        ], 
+        "ReadingEmvCard": [
+            "Kártya beolvasása...", 
+            ""
+        ], 
+        "RemoveCardWithStatus": [
+            "$reason1$", 
+            "Vegye el a kártyát"
+        ], 
+        "RemoveCard": [
+            "Vegye el a kártyát", 
+            ""
+        ], 
+        "SwipeCard": [
+            "$amount$", 
+            "Húzza végig a kártyát"
+        ], 
+        "SwipeCard#GIFT_CARD": [
+            "$amount$", 
+            "Húzza végig a kártyát"
+        ], 
+        "SwipeCard.BALANCE_INQUIRY": [
+            "Check balance", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCard.CASHOUT": [
+            "Cashout", 
+            "Swipe or key in card on terminal"
+        ], 
+        "SwipeCardWithoutAmount": [
+            "Húzza végig a kártyát", 
+            ""
+        ], 
+        "TransactionAborting": [
+            "Fizetés megszakítása...", 
+            ""
+        ], 
+        "TransactionAborting.REFUND": [
+            "Visszatérítés megszakítása...", 
+            ""
+        ], 
+        "TransactionAborting.VERIFICATION": [
+            "Aborting verification...", 
+            ""
+        ], 
+        "TransactionAborting.ACTIVATION": [
+            "Aborting activation...", 
+            ""
+        ], 
+        "TransactionAborting.BALANCE_INQUIRY": [
+            "Aborting balance...", 
+            ""
+        ], 
+        "TransactionAborting.CASHOUT": [
+            "Aborting cashout...", 
+            ""
+        ], 
+        "UpdatingDevice": [
+            "Frissítés...", 
+            ""
+        ], 
+        "UpdatingDeviceConfigurationUpdate": [
+            "Beállítások frissítése folyamatban", 
+            "Kérjük, várjon..."
+        ], 
+        "UpdatingDeviceFirmwareUpdate": [
+            "Firmware frissítése folyamatban", 
+            "Kérjük, várjon..."
+        ], 
+        "UpdatingDeviceSoftwareUpdate": [
+            "Szoftver frissítése folyamatban", 
+            "Kérjük, várjon..."
+        ], 
+        "UpdatingDeviceKeyInjection": [
+            "Kulcsok létrehozása", 
+            "Kérjük, várjon..."
+        ], 
+        "CardNotSupported": [
+            "A kártya nem támogatott! Próbáljon egy", 
+            "másikat, vagy nyomja meg a Mégse gombot"
+        ], 
+        "AskingForTipConfirmation": [
+            "$amount$", 
+            "Borravaló hozzáadása?"
+        ], 
+        "ProviderComponentTippingAskingForTip": [
+            "Borravaló kérése...", 
+            ""
+        ], 
+        "PresentOneCardOnly": [
+            "Csak egy kártyát készítsen elő", 
+            ""
+        ], 
+        "RemoveCardWithSignature": [
+            "Aláírás szükséges", 
+            "Vegye el a kártyát"
+        ], 
+        "RemoveCardWithIdentification": [
+            "Azonosítás szükséges", 
+            "Vegye el a kártyát"
+        ], 
+        "RemoveCardWithProcessing": [
+            "Fizetés feldolgozása...", 
+            "Vegye el a kártyát"
+        ], 
+        "RemoveCardWithProcessing.REFUND": [
+            "Visszatérítés feldolgozása...", 
+            "Vegye el a kártyát"
+        ], 
+        "RemoveCardWithProcessing.VERIFICATION": [
+            "Processing verification...", 
+            "Remove card"
+        ], 
+        "IdleKeepAlive": [
+            "Üdvözöljük!", 
+            ""
+        ], 
+        "WaitingForProcessorApproval": [
+            "Várakozás a jóváhagyásra...", 
+            ""
+        ], 
+        "AskForMotoResultConfirmationAllMatch": [
+            "All match", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationCvvMatchOnly": [
+            "CVV match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationAddressMatchOnly": [
+            "Address match only", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationDataNotChecked": [
+            "Data not checked", 
+            "Approve?"
+        ], 
+        "AskForMotoResultConfirmationNoDataMatches": [
+            "No data matches", 
+            "Approve?"
+        ], 
+        "AskingForCardDataInput": [
+            "Entering card details...", 
+            ""
+        ], 
+        "AskingForTotalAmountConfirmation": [
+            "$amount$", 
+            "Összeg megerősítése"
+        ], 
+        "CreditDebitSelectionTitle": [
+            ""
+        ], 
+        "CreditDebitSelectionCredit": [
+            ""
+        ], 
+        "CreditDebitSelectionDebit": [
+            ""
+        ], 
+        "WaitingForCreditDebitSelection": [
+            "Waiting for Credit/Debit selection", 
+            ""
+        ], 
+        "VerificationResultNotChecked": [
+            "$reason$ unchecked"
+        ], 
+        "VerificationResultNotPassed": [
+            "$reason$ not passed"
+        ], 
+        "VerificationResultCvv": [
+            "CVV"
+        ], 
+        "VerificationResultAddress": [
+            "Street"
+        ], 
+        "VerificationResultPostalCode": [
+            "ZIP"
+        ]
+    }
+}

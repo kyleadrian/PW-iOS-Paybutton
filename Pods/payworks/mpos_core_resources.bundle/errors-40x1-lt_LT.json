@@ -1,0 +1,132 @@
+{
+    "info": {
+        "locale": "lt_LT", 
+        "rows": 1, 
+        "columns": 40
+    }, 
+    "localization": {
+        "ParameterMissing": [
+            "Trūksta parametro"
+        ], 
+        "ParameterInvalid": [
+            "Parametras netinkamas"
+        ], 
+        "AccessoryNotFound": [
+            "Priedas nerastas"
+        ], 
+        "AccessoryNotConnected": [
+            "Priedas neprijungtas"
+        ], 
+        "AccessoryAlreadyConnected": [
+            "Priedas jau prijungtas"
+        ], 
+        "AccessoryAlreadyDisconnected": [
+            "Priedas jau atjungtas"
+        ], 
+        "AccessoryBusy": [
+            "Priedas užimtas"
+        ], 
+        "AccessoryNotWhitelisted": [
+            "Priedas nėra pageidaujamas"
+        ], 
+        "AccessoryDeactivated": [
+            "Priedas išjungtas"
+        ], 
+        "AccessoryRequiresUpdate": [
+            "Reikia atnaujinti priedą"
+        ], 
+        "AccessoryBatteryLow": [
+            "Akumuliatorius išsikrauna"
+        ], 
+        "AccessoryTampered": [
+            "Priedas pažeistas"
+        ], 
+        "AccessoryError": [
+            "Priedo klaida"
+        ], 
+        "AccessoryComponentNotFound": [
+            "Priedo komponentas nerastas"
+        ], 
+        "AccessoryComponentPrinterBusy": [
+            "Spausdintuvas užimtas"
+        ], 
+        "AccessoryComponentPrinterPaperLowOrOut": [
+            "Spausd. baigiasi popierius arba nėra"
+        ], 
+        "AccessoryComponentPrinterCoverOpen": [
+            "Spausdintuvo dangtis atidarytas"
+        ], 
+        "TransactionSessionNotFound": [
+            "Operacijos seansas nerastas"
+        ], 
+        "TransactionReferenceNotFound": [
+            "Operacijos nuoroda nerasta"
+        ], 
+        "TransactionInvalid": [
+            "Operacija netinkama"
+        ], 
+        "TransactionBusy": [
+            "Operacija užimta"
+        ], 
+        "TransactionNoLongerAbortable": [
+            "Operacijos nebegalima atšaukti"
+        ], 
+        "TransactionDeclined": [
+            "Operacija atmesta"
+        ], 
+        "TransactionAborted": [
+            "Operacija nutraukta"
+        ], 
+        "TransactionError": [
+            "Operacijos klaida"
+        ], 
+        "TransactionActionError": [
+            "Operacijos veiksmo klaida"
+        ], 
+        "ServerTimeout": [
+            "Serverio laikas baigėsi"
+        ], 
+        "ServerUnavailable": [
+            "Patikrinkite savo interneto jungtį"
+        ], 
+        "ServerGatewayUnavailable": [
+            "Acquirer or issuer bank not reachable"
+        ], 
+        "ServerAuthenticationFailed": [
+            "Tinklų sietuvo prisijungimas nepavyko"
+        ], 
+        "ServerPinningWithRemoteFailed": [
+            "Tinklų sietuvo patvirtinimas nepavyko"
+        ], 
+        "ServerInvalidResponse": [
+            "Netinkamas atsakymas iš serverio"
+        ], 
+        "ServerError": [
+            "Serverio klaida"
+        ], 
+        "SDKResourcesNotFound": [
+            "Ištekliai nerasti"
+        ], 
+        "SDKResourcesModified": [
+            "Ištekliai pakeisti"
+        ], 
+        "SDKConfigurationMissing": [
+            "Nėra konfigūracijos"
+        ], 
+        "SDKFeatureNotEnabled": [
+            "Savybė neįjungta"
+        ], 
+        "InternalInconsistency": [
+            "Vidinė klaida"
+        ], 
+        "ServerUnknownUsername": [
+            "Nerasta sąskaita"
+        ], 
+        "ServerOfflineBatchMalformed": [
+            "Part. neteis. suform. Laukia rank. perž."
+        ], 
+        "SDKNoTransactionsPresent": [
+            "Nėra jokių operacijų"
+        ]
+    }
+}
